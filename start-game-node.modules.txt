@@ -1,0 +1,11 @@
+#!/bin/bash
+# Este script instala las dependencias (si es necesario) y ejecuta la aplicación de React.
+
+# Comprueba si la carpeta node_modules existe
+if [ ! -d "node_modules" ]; then
+  echo "Carpeta node_modules no encontrada. Ejecutando npm install..."
+  npm install
+fi
+
+echo "Iniciando la aplicación..."
+npm start
