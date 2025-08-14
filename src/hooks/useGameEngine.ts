@@ -29,7 +29,7 @@ export const useGameEngine = () => {
       setHighScore(JSON.parse(savedHighScore));
     }
 
-    fetch('/questions.json')
+    fetch('./questions.json')
       .then(response => response.json())
       .then((data: Question[]) => {
         const activeQuestions = data.filter(q => q.activa === 'SI');
