@@ -30,7 +30,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({ question }) => {
         <p
           className="lead"
           style={{
-            fontSize: 'clamp(2rem, 5vw, 3rem)', // Cambia el tamaño aquí
+            fontSize: 'clamp(1rem, 3vw, 2rem)', // Cambia el tamaño aquí
             color: '.categoria', // Cambia el color aquí (por ejemplo, un rojo anaranjado)
             backgroundColor: '#d9d9dfef', // Fondo
             margin: '0 0px', // Margen horizontal

@@ -3,12 +3,12 @@ import { Player, Question } from '../types';
 
 interface SetupScreenProps {
   onGameStart: (players: Player[], rounds: number, category: string) => void;
-  highScore: number;
+  highScore: { score: number; name: string } | null;
 }
 
 const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => {
   const [players, setPlayers] = useState<Player[]>([
-    { name: '', avatar: '', score: 0, exactHits: 0, correctHits: 0, wrongHits: 0 },
+    { name: '', avatar: '', score: 100, exactHits: 0, correctHits: 0, wrongHits: 0 },
   ]);
   const [rounds, setRounds] = useState(5);
   const [categories, setCategories] = useState<string[]>([]);
@@ -31,7 +31,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
 
   const addPlayer = () => {
     if (players.length < 4) {
-      setPlayers([...players, { name: '', avatar: '', score: 0, exactHits: 0, correctHits: 0, wrongHits: 0 }]);
+      setPlayers([...players, { name: '', avatar: '', score: 100, exactHits: 0, correctHits: 0, wrongHits: 0 }]);
     }
   };
 
@@ -45,16 +45,12 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
   const canStart = players.every(p => p.name.trim() !== '');
 
   return (
-    <div className="setup-container text-center">
-      <div className="mb-0">
-        <h3>Puntaje Más Alto: {highScore}</h3>
-      </div>
-
-      <div className="row justify-content-center">
-        <div className="col-lg-4">
-          <h4>Jugadores</h4>
+    <div className="setup-container">
+      <div className="two-column-layout">
+        <div className="column">
+          <h4 style={{ color: '#1144d1ff' }}>¿Quiénes van a jugar?</h4>
           {players.map((player, index) => (
-            <div className="player-card" key={index}>
+            <div className="player-card d-flex align-items-center mb-2" key={index}>
               <input
                 type="text"
                 className="form-control"
@@ -63,7 +59,11 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
                 onChange={(e) => handlePlayerNameChange(index, e.target.value)}
               />
               {players.length > 1 && (
-                <button className="btn btn-danger ms-2" onClick={() => removePlayer(index)}>
+                <button 
+                  className="btn btn-danger ms-2" 
+                  onClick={() => removePlayer(index)} 
+                  style={{ fontSize: '0.8rem', padding: '0.25rem 0.5rem' }}
+                >
                   &times;
                 </button>
               )}
@@ -75,11 +75,8 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
             </button>
           )}
         </div>
-      </div>
-
-      <div className="row justify-content-center mt-1">
-        <div className="col-lg-8">
-          <h4>Opciones de Juego</h4>
+        <div className="column">
+          <p style={{ color: '#031031ff', textAlign: 'left'}}>Opciones de Juego</p>
           <div className="card" style={{ backgroundColor: '#e9f1f9ff' }}>
             <div className="card-body">
               <div className="mb-4">
@@ -115,8 +112,10 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
           </div>
         </div>
       </div>
-
-      <div className="mt-2">
+      <div className="HS-container text-center mt-4">
+        {highScore && <h4 style={{ color: '#1144d1ff' }}>Highscore: {highScore.score} por {highScore.name}</h4>}
+      </div>
+      <div className="text-center mt-4">
         <button 
           className={`btn btn-success btn-lg ${canStart ? 'start-button-glow' : ''}`}
           onClick={() => onGameStart(players, rounds, selectedCategory)}

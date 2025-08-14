@@ -17,7 +17,7 @@ export const useGameEngine = () => {
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
   const [round, setRound] = useState(0);
   const [lastRoundScore, setLastRoundScore] = useState<number | null>(null);
-  const [highScore, setHighScore] = useState(0);
+  const [highScore, setHighScore] = useState<{ score: number; name: string } | null>(null);
 
   const gameScreenRef = useRef(gameScreen);
   gameScreenRef.current = gameScreen;
@@ -26,7 +26,7 @@ export const useGameEngine = () => {
   useEffect(() => {
     const savedHighScore = localStorage.getItem('casiCasiHighScore');
     if (savedHighScore) {
-      setHighScore(parseInt(savedHighScore, 10));
+      setHighScore(JSON.parse(savedHighScore));
     }
 
     fetch('/questions.json')
@@ -61,9 +61,13 @@ export const useGameEngine = () => {
     if (round + 1 >= numberOfRounds) {
       if (currentPlayerIndex + 1 >= players.length) {
         const maxScore = Math.max(...players.map(p => p.score));
-        if (maxScore > highScore) {
-          setHighScore(maxScore);
-          localStorage.setItem('casiCasiHighScore', maxScore.toString());
+        if (!highScore || maxScore > highScore.score) {
+          const topPlayer = players.find(p => p.score === maxScore);
+          if (topPlayer) {
+            const newHighScore = { score: maxScore, name: topPlayer.name };
+            setHighScore(newHighScore);
+            localStorage.setItem('casiCasiHighScore', JSON.stringify(newHighScore));
+          }
         }
         setGameScreen('gameover');
       } else {
@@ -87,36 +91,45 @@ export const useGameEngine = () => {
 
     let points = 0;
     let resultType: keyof Player = 'wrongHits';
+    let timeBonus = 0;
 
     if (isTimeout) {
-      points = -50;
+      points = -20;
     } else {
-      const answerNum = parseInt(currentAnswer, 10);
+      const answerNum = parseInt(currentAnswer.replace(/\./g, ''), 10);
       if (isNaN(answerNum)) {
         points = -50;
       } else {
         const { respuesta, rango_min, rango_max } = currentQuestion;
         const twentyPercent = Math.abs(respuesta * 0.2);
-        points = -10;
+        
+        // User request: incorrect answers (far) get a time bonus.
+        points = -5;
+        timeBonus = timer;
 
         if (answerNum === respuesta) {
           points = 100;
+          timeBonus = timer;
           resultType = 'exactHits';
         } else if (answerNum >= rango_min && answerNum <= rango_max) {
           points = 50;
+          timeBonus = timer;
           resultType = 'correctHits';
         } else if (Math.abs(answerNum - respuesta) <= twentyPercent) {
-          points = -5;
+          points = 0;
+          timeBonus = timer;
         }
       }
     }
 
+    const totalPoints = points + timeBonus;
+
     setGameScreen('showing_answer');
-    setLastRoundScore(points);
+    setLastRoundScore(totalPoints);
     setPlayers(prevPlayers => {
       const newPlayers = [...prevPlayers];
       const player = { ...newPlayers[currentPlayerIndex] };
-      player.score = Math.max(0, player.score + points);
+      player.score = Math.max(0, player.score + totalPoints);
       player[resultType]++;
       newPlayers[currentPlayerIndex] = player;
       return newPlayers;
@@ -127,7 +140,7 @@ export const useGameEngine = () => {
       advanceGame();
     }, 5000);
 
-  }, [currentAnswer, currentQuestion, currentPlayerIndex, advanceGame, players]);
+  }, [currentAnswer, currentQuestion, currentPlayerIndex, advanceGame, players, timer]);
 
   useEffect(() => {
     if (gameScreen === 'playing') {
@@ -162,7 +175,10 @@ export const useGameEngine = () => {
     setCurrentPlayerIndex(0);
     setRound(0);
     setPlayedQuestions([]);
-    nextQuestion();
+    setGameScreen('turn_switching');
+    setTimeout(() => {
+      nextQuestion();
+    }, 3000);
   };
 
   const handleReset = () => {

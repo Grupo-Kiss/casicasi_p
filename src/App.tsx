@@ -30,20 +30,31 @@ function App() {
   } = useGameEngine();
 
   const renderGameScreen = () => {
-    if (!currentQuestion) return null;
     const currentPlayer = players[currentPlayerIndex];
 
     if (gameScreen === 'turn_switching') {
+      if (!currentPlayer) return null;
       return (
         <div className="d-flex flex-column justify-content-center align-items-center h-100 text-center">
           <h3>Turno de</h3>
-          <h1> <img src={currentPlayer.avatar} alt={currentPlayer.name} className="player-avatar ms-2" /> {currentPlayer.name}</h1>
+          <h1>
+        <img
+          src={currentPlayer.avatar}
+          alt={currentPlayer.name}
+          style={{ width: '250px', height: '250px' }} // Estilo en línea para el tamaño
+          className="player-avatar ms-2"
+        />
+        <br>
+          </br><h1>{currentPlayer.name}</h1>
+      </h1>
           <br>
           </br>
           <p className="lead">¡Preparate!</p>
         </div>
       );
     }
+
+    if (!currentQuestion) return null;
 
     if (isShowingAnswer && lastRoundScore !== null) {
       return (
@@ -68,22 +79,22 @@ function App() {
   </div>
       
         
-
-        <div className="game-content-main">
-          <QuestionCard question={currentQuestion} />
+        <div className="two-column-layout">
+          <div className="column">
+            <QuestionCard question={currentQuestion} />
+          </div>
+          <div className="column">
+            <PlayerInput
+              value={currentAnswer}
+              onChange={setCurrentAnswer}
+              onSubmit={() => {
+                console.log("Submit button clicked, calling handleAnswer(false)");
+                handleAnswer(false);
+              }}
+            />
+          </div>
         </div>
 
-        <div className="game-action-zone">
-          <PlayerInput
-            value={currentAnswer}
-            onChange={setCurrentAnswer}
-            onSubmit={() => {
-              console.log("Submit button clicked, calling handleAnswer(false)");
-              handleAnswer(false);
-            }}
-          />
-
-        </div>
         <div className="game-hud-top" style={{ margin: '30px 0 0 0' }}>
     <Scoreboard players={players} currentPlayerIndex={currentPlayerIndex} />
 </div>

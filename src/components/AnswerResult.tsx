@@ -17,19 +17,23 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
   };
 
   return (
-    <div className="card text-center my-6 fade-in">
-      
+    <div className="card my-6 fade-in">
       <div className="card-body">
-        <p>Tu respuesta: {userAnswer || 'No respondido'}</p>
-        <h1 className="card-title">RESPUESTA CORRECTA: {question.respuesta}</h1>
-        <h3 className={getScoreClass()}>Sumás {scoreAwarded}</h3>
-        <hr />
-        <p className="card-text"><em>{question.informacion}</em></p>
-        <p className="card-fuente">Fuente: <em>{question.fuente}</em></p>
+        <div className="two-column-layout">
+          <div className="column text-center">
+            <p>Tu respuesta: {userAnswer || 'No respondido'}</p>
+            <h1 className="card-title">RESPUESTA CORRECTA: {question.respuesta}</h1>
+            <h3 className={getScoreClass()}>Sumás {scoreAwarded}</h3>
+          </div>
+          <div className="column">
+            <p className="card-text"><em>{question.informacion}</em></p>
+            <p className="card-fuente">Fuente: <em>{question.fuente}</em></p>
+          </div>
+        </div>
       </div>
-      <div className="card-footer text-muted" style={{ backgroundColor: '#c9caccff' }}>
-    Cargando siguiente pregunta...
-</div>
+      <div className="card-footer text-muted text-center" style={{ backgroundColor: '#c9caccff' }}>
+        Cargando siguiente pregunta...
+      </div>
     </div>
   );
 };

@@ -30,8 +30,8 @@ const PlayerInput: React.FC<PlayerInputProps> = ({ value, onChange, onSubmit }) 
   };
 
   const handleDigit = (digit: string) => {
-    if (value.replace(/,/g, '').length < 9) {
-      const newValue = value.replace(/,/g, '') + digit; // Quita el separador antes de agregar
+    if (value.replace(/\./g, '').length < 12) {
+      const newValue = value.replace(/\./g, '') + digit; // Quita el separador antes de agregar
       const formattedValue = formatNumber(newValue);
       onChange(formattedValue);
     }

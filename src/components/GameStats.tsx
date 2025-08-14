@@ -4,13 +4,13 @@ import { Player } from '../types';
 interface GameStatsProps {
   players: Player[];
   onReset: () => void;
-  highScore: number;
+  highScore: { score: number; name: string } | null;
 }
 
 const GameStats: React.FC<GameStatsProps> = ({ players, onReset, highScore }) => {
   const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
   const winner = sortedPlayers[0];
-  const isNewHighScore = winner.score === highScore && players.some(p => p.score > 0);
+  const isNewHighScore = highScore && winner.score === highScore.score && players.some(p => p.score > 0);
 
   return (
     <div className="text-center">
@@ -19,7 +19,8 @@ const GameStats: React.FC<GameStatsProps> = ({ players, onReset, highScore }) =>
       {isNewHighScore && (
         <div className="alert alert-success">
           <h4>¡Nuevo Puntaje Más Alto!</h4>
-          <p className="display-4">{highScore}</p>
+          <p className="display-4">{highScore.score}</p>
+          <p> logrado por {highScore.name}</p>
         </div>
       )}
 
