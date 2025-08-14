@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Player, Question } from '../types';
+import '../styles/SetupScreen.css';
 
 interface SetupScreenProps {
   onGameStart: (players: Player[], rounds: number, category: string) => void;
@@ -8,7 +9,7 @@ interface SetupScreenProps {
 
 const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => {
   const [players, setPlayers] = useState<Player[]>([
-    { name: '', avatar: '', score: 100, exactHits: 0, correctHits: 0, wrongHits: 0 },
+    { name: '', avatar: '', score: 0, exactHits: 0, correctHits: 0, wrongHits: 0 },
   ]);
   const [rounds, setRounds] = useState(5);
   const [categories, setCategories] = useState<string[]>([]);
@@ -31,7 +32,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
 
   const addPlayer = () => {
     if (players.length < 4) {
-      setPlayers([...players, { name: '', avatar: '', score: 100, exactHits: 0, correctHits: 0, wrongHits: 0 }]);
+      setPlayers([...players, { name: '', avatar: '', score: 0, exactHits: 0, correctHits: 0, wrongHits: 0 }]);
     }
   };
 
@@ -45,85 +46,58 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
   const canStart = players.every(p => p.name.trim() !== '');
 
   return (
-    <div className="setup-container">
-      <div className="two-column-layout">
-        <div className="column">
-          <h4 style={{ color: '#1144d1ff' }}>¿Quiénes van a jugar?</h4>
-          {players.map((player, index) => (
-            <div className="player-card d-flex align-items-center mb-2" key={index}>
-              <input
-                type="text"
-                className="form-control"
-                placeholder={`Nombre del Jugador ${index + 1}`}
-                value={player.name}
-                onChange={(e) => handlePlayerNameChange(index, e.target.value)}
-              />
-              {players.length > 1 && (
-                <button 
-                  className="btn btn-danger ms-2" 
-                  onClick={() => removePlayer(index)} 
-                  style={{ fontSize: '0.8rem', padding: '0.25rem 0.5rem' }}
-                >
-                  &times;
-                </button>
-              )}
-            </div>
-          ))}
-          {players.length < 4 && (
-            <button className="btn btn-primary mt-3" onClick={addPlayer}>
-              Agregar Jugador
-            </button>
-          )}
-        </div>
-        <div className="column">
-          <p style={{ color: '#031031ff', textAlign: 'left'}}>Opciones de Juego</p>
-          <div className="card" style={{ backgroundColor: '#e9f1f9ff' }}>
-            <div className="card-body">
-              <div className="mb-4">
-                <h5>Elegí cuantas preguntas tendrá el juego...</h5>
-                <div className="btn-group w-100 option-group" role="group">
-                  {[5, 10, 15].map(num => (
-                    <button 
-                      key={num} 
-                      type="button" 
-                      className={`btn ${rounds === num ? 'active' : ''}`}
-                      onClick={() => setRounds(num)}
-                    >
-                      {num}
-                    </button>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <h5>Elegí un tema o jugá con todas las categorías...</h5>
-                <select 
-                  className="form-select"
-                  value={selectedCategory}
-                  onChange={(e) => setSelectedCategory(e.target.value)}
-                  style={{ backgroundColor: '#2c3e50', color: '#ecf0f1' }}
-                >
-                  <option value="all">Todas las Categorías</option>
-                  {categories.map(cat => (
-                    <option key={cat} value={cat}>{cat}</option>
-                  ))}
-                </select>
-              </div>
-            </div>
+    <div className="setup-screen">
+      <h1>Configuración del Juego</h1>
+      <div className="player-inputs">
+        <h2>Jugadores</h2>
+        {players.map((player, index) => (
+          <div className="player-input-group" key={index}>
+            <input
+              type="text"
+              placeholder={`Jugador ${index + 1}`}
+              value={player.name}
+              onChange={(e) => handlePlayerNameChange(index, e.target.value)}
+            />
+            {players.length > 1 && (
+              <button className="remove-player-btn" onClick={() => removePlayer(index)}>&times;</button>
+            )}
           </div>
+        ))}
+        {players.length < 4 && (
+          <button className="add-player-btn" onClick={addPlayer}>+ Agregar Jugador</button>
+        )}
+      </div>
+      <div className="options-group">
+        <h2>Rondas</h2>
+        <div className="segmented-control">
+          {[5, 10, 15].map(num => (
+            <button 
+              key={num} 
+              className={rounds === num ? 'active' : ''}
+              onClick={() => setRounds(num)}
+            >
+              {num}
+            </button>
+          ))}
         </div>
       </div>
-      <div className="HS-container text-center mt-4">
-        {highScore && <h4 style={{ color: '#1144d1ff' }}>Highscore: {highScore.score} por {highScore.name}</h4>}
+      <div className="options-group">
+        <h2>Categoría</h2>
+        <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
+          <option value="all">Todas</option>
+          {categories.map(cat => (
+            <option key={cat} value={cat}>{cat}</option>
+          ))}
+        </select>
       </div>
-      <div className="text-center mt-4">
-        <button 
-          className={`btn btn-success btn-lg ${canStart ? 'start-button-glow' : ''}`}
-          onClick={() => onGameStart(players, rounds, selectedCategory)}
-          disabled={!canStart}
-        >
-          Iniciar
-        </button>
-      </div>
+      {highScore && <p>Highscore: {highScore.score} por {highScore.name}</p>}
+      <button 
+        className="start-game-btn"
+        onClick={() => onGameStart(players, rounds, selectedCategory)}
+        disabled={!canStart}
+      >
+        Empezar a Jugar
+      </button>
     </div>
   );
 };

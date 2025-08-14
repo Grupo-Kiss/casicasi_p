@@ -1,47 +1,35 @@
 
 import React from 'react';
+import '../styles/Numpad.css';
 
 interface NumpadProps {
   onDigit: (digit: string) => void;
   onDelete: () => void;
   onSubmit: () => void;
+  timer: number;
 }
 
-const Numpad: React.FC<NumpadProps> = ({ onDigit, onDelete, onSubmit }) => {
-  const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+const Numpad: React.FC<NumpadProps> = ({ onDigit, onDelete, onSubmit, timer }) => {
+  const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
+  const timerPercentage = (timer / 30) * 100;
 
   return (
-    <div className="numpad mt-3 mx-auto" style={{ maxWidth: '200px' }}>
-      <div className="row g-2">
-        {digits.map((digit) => (
-          <div className="col-4" key={digit}>
-            <button
-              className="btn btn-outline-secondary w-100"
-              onClick={() => onDigit(digit)}
-            >
-              {digit}
-            </button>
-          </div>
-        ))}
-        <div className="col-4">
-          <button className="btn btn-outline-danger w-100" onClick={onDelete}>
-            &larr;
-          </button>
-        </div>
-        <div className="col-4">
-          <button
-            className="btn btn-outline-secondary w-100"
-            onClick={() => onDigit('0')}
-          >
-            0
-          </button>
-        </div>
-        <div className="col-4">
-          <button className="btn btn-success w-100" onClick={onSubmit}>
-            OK
-          </button>
-        </div>
-      </div>
+    <div className="numpad">
+      {digits.map((digit) => (
+        <button key={digit} onClick={() => onDigit(digit)}>
+          {digit}
+        </button>
+      ))}
+      <button className="delete-btn" onClick={onDelete}>&larr;</button>
+      <button 
+        className="ok-btn"
+        onClick={onSubmit}
+        style={{ 
+          background: `linear-gradient(to top, var(--primary-color) ${timerPercentage}%, #e0e2e5 ${timerPercentage}%)`
+        }}
+      >
+        OK
+      </button>
     </div>
   );
 };

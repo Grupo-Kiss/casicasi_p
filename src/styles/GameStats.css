@@ -1,0 +1,84 @@
+.game-stats-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.game-stats-screen h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.winner-section {
+  margin-bottom: 2rem;
+}
+
+.winner-section .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 5px solid var(--primary-color);
+}
+
+.winner-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.stats-table th, .stats-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.stats-table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.new-highscore {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+}
+
+.play-again-btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.play-again-btn:hover {
+  background: var(--secondary-color);
+}
+
+@media (max-width: 600px) {
+  .game-stats-screen h1 {
+    font-size: 2rem;
+  }
+
+  .winner-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .stats-table {
+    font-size: 0.9rem;
+  }
+}

@@ -108,7 +108,7 @@ export const useGameEngine = () => {
         timeBonus = timer;
 
         if (answerNum === respuesta) {
-          points = 100;
+          points = 150;
           timeBonus = timer;
           resultType = 'exactHits';
         } else if (answerNum >= rango_min && answerNum <= rango_max) {
@@ -116,7 +116,7 @@ export const useGameEngine = () => {
           timeBonus = timer;
           resultType = 'correctHits';
         } else if (Math.abs(answerNum - respuesta) <= twentyPercent) {
-          points = 0;
+          points = 5;
           timeBonus = timer;
         }
       }
