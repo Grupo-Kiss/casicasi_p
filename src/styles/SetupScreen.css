@@ -2,23 +2,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  min-height: 100vh;
+  padding: 1rem;
 }
 
-.setup-screen h1 {
+.setup-container {
+  width: 100%;
+  max-width: 420px; /* A bit wider for the row layout */
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+.setup-container h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .player-inputs {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .player-input-group {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .player-input-group input {
@@ -45,17 +58,52 @@
   padding: 0.5rem 1rem;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.options-row {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .options-group {
-  margin-bottom: 2rem;
+  flex: 1;
+  margin-bottom: 0;
 }
 
 .options-group h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem; /* Slightly smaller to fit */
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+.instructions-icon {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  flex-shrink: 0; /* Prevents icon from shrinking */
+}
+
+.instructions-icon:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .segmented-control {
@@ -67,10 +115,10 @@
 
 .segmented-control button {
   flex-grow: 1;
-  padding: 0.75rem;
+  padding: 0.75rem 0.5rem; /* Adjusted padding */
   background: none;
   border: none;
-  font-size: 1rem;
+  font-size: 0.9rem; /* Adjusted font size */
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -90,6 +138,8 @@
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .start-game-btn:disabled {
@@ -102,12 +152,13 @@
 }
 
 @media (max-width: 600px) {
-  .setup-screen h1 {
+  .setup-container {
+    padding: 1.5rem;
+  }
+  .setup-container h1 {
     font-size: 2rem;
   }
-
-  .player-inputs,
-  .options-group {
-    width: 100%;
+  .options-row {
+    flex-direction: column;
   }
 }

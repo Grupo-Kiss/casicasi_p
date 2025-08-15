@@ -5,7 +5,7 @@ export const useGameEngine = () => {
   // Setup State
   const [players, setPlayers] = useState<Player[]>([]);
   const [numberOfRounds, setNumberOfRounds] = useState(5);
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [gameMode, setGameMode] = useState<'classic' | 'plusminus'>('classic');
 
   // Game State
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -13,11 +13,17 @@ export const useGameEngine = () => {
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [currentAnswer, setCurrentAnswer] = useState('');
   const [timer, setTimer] = useState(30);
-  const [gameScreen, setGameScreen] = useState<'setup' | 'playing' | 'showing_answer' | 'turn_switching' | 'gameover'>('setup');
+  const [gameScreen, setGameScreen] = useState<'setup' | 'playing' | 'showing_answer' | 'turn_switching' | 'gameover' | 'plusminus_round'>('setup');
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
   const [round, setRound] = useState(0);
   const [lastRoundScore, setLastRoundScore] = useState<number | null>(null);
   const [highScore, setHighScore] = useState<{ score: number; name: string } | null>(null);
+  const [wildcardPlayed, setWildcardPlayed] = useState(false);
+
+  // Plusminus State
+  const [plusminusGuessesLeft, setPlusminusGuessesLeft] = useState(0);
+  const [plusminusHint, setPlusminusHint] = useState<'+' | '-' | null>(null);
+  const [plusminusTimer, setPlusminusTimer] = useState(10);
 
   const gameScreenRef = useRef(gameScreen);
   gameScreenRef.current = gameScreen;
@@ -38,31 +44,64 @@ export const useGameEngine = () => {
       .catch(error => console.error('Error loading questions:', error));
   }, []);
 
-  const nextQuestion = useCallback(() => {
-    const categoryQuestions = selectedCategory === 'all' 
-      ? allQuestions 
-      : allQuestions.filter(q => q.categoria === selectedCategory);
+  // --- Function Declarations in Dependency Order ---
 
-    if (categoryQuestions.length > 0) {
-      const availableQuestions = categoryQuestions.filter(q => !playedQuestions.includes(q.pregunta));
-      const questionPool = availableQuestions.length > 0 ? availableQuestions : categoryQuestions;
-      const randomIndex = Math.floor(Math.random() * questionPool.length);
-      const newQuestion = questionPool[randomIndex];
-      
-      setCurrentQuestion(newQuestion);
-      setPlayedQuestions(prev => [...prev, newQuestion.pregunta]);
-      setCurrentAnswer('');
-      setTimer(30);
+  const selectNewQuestion = useCallback(() => {
+    if (allQuestions.length === 0) return null;
+    const availableQuestions = allQuestions.filter(q => !playedQuestions.includes(q.pregunta));
+    const questionPool = availableQuestions.length > 0 ? availableQuestions : allQuestions;
+    const randomIndex = Math.floor(Math.random() * questionPool.length);
+    const newQuestion = questionPool[randomIndex];
+    
+    setCurrentQuestion(newQuestion);
+    setPlayedQuestions(prev => [...prev, newQuestion.pregunta]);
+    return newQuestion;
+  }, [allQuestions, playedQuestions]);
+
+  const startPlusminusRound = useCallback(() => {
+    const newQuestion = selectNewQuestion();
+    if (!newQuestion) return; // No questions available
+
+    const dice1 = Math.floor(Math.random() * 6) + 1;
+    const dice2 = Math.floor(Math.random() * 6) + 1;
+    setPlusminusGuessesLeft(dice1 + dice2);
+    setPlusminusHint(null);
+    setCurrentAnswer('');
+    setPlusminusTimer(10);
+    setWildcardPlayed(true); // Mark as played for this turn
+    setGameScreen('plusminus_round');
+  }, [selectNewQuestion]);
+
+  const nextQuestion = useCallback(() => {
+    const newQuestion = selectNewQuestion();
+    if (!newQuestion) return; // No questions available
+
+    setCurrentAnswer('');
+    setTimer(30);
+
+    if (gameMode === 'plusminus') {
+      startPlusminusRound();
+    } else {
       setGameScreen('playing');
     }
-  }, [allQuestions, playedQuestions, selectedCategory]);
+  }, [gameMode, startPlusminusRound, selectNewQuestion]);
 
   const advanceGame = useCallback(() => {
-    if (round + 1 >= numberOfRounds) {
+    if (gameMode === 'classic' && !wildcardPlayed && round + 1 === numberOfRounds) {
+        startPlusminusRound();
+        return;
+    }
+
+    if ((gameMode === 'classic' && round + 1 >= numberOfRounds) || (gameMode === 'plusminus' && round + 1 >= numberOfRounds)) {
       if (currentPlayerIndex + 1 >= players.length) {
-        const maxScore = Math.max(...players.map(p => p.score));
+        // --- Final Score Bonus --- 
+        const finalPlayers = players.map(p => ({ ...p, score: p.score + 100 }));
+        setPlayers(finalPlayers);
+        // --- End of Final Score Bonus ---
+
+        const maxScore = Math.max(...finalPlayers.map(p => p.score));
         if (!highScore || maxScore > highScore.score) {
-          const topPlayer = players.find(p => p.score === maxScore);
+          const topPlayer = finalPlayers.find(p => p.score === maxScore);
           if (topPlayer) {
             const newHighScore = { score: maxScore, name: topPlayer.name };
             setHighScore(newHighScore);
@@ -76,6 +115,7 @@ export const useGameEngine = () => {
           setCurrentPlayerIndex(prev => prev + 1);
           setRound(0);
           setPlayedQuestions([]);
+          setWildcardPlayed(false); // Reset for next player
           nextQuestion();
         }, 3000);
       }
@@ -83,29 +123,26 @@ export const useGameEngine = () => {
       setRound(prev => prev + 1);
       nextQuestion();
     }
-  }, [round, currentPlayerIndex, players, numberOfRounds, nextQuestion, highScore]);
+  }, [round, currentPlayerIndex, players, numberOfRounds, nextQuestion, highScore, gameMode, startPlusminusRound, wildcardPlayed]);
 
   const handleAnswer = useCallback((isTimeout = false) => {
     if (gameScreenRef.current !== 'playing') return;
     if (!currentQuestion) return;
 
     let points = 0;
-    let resultType: keyof Player = 'wrongHits';
     let timeBonus = 0;
+    let resultType: keyof Player = 'wrongHits';
+    const timeUsed = 30 - timer;
 
     if (isTimeout) {
       points = -20;
     } else {
       const answerNum = parseInt(currentAnswer.replace(/\./g, ''), 10);
       if (isNaN(answerNum)) {
-        points = -50;
+        points = -25;
       } else {
         const { respuesta, rango_min, rango_max } = currentQuestion;
-        const twentyPercent = Math.abs(respuesta * 0.2);
-        
-        // User request: incorrect answers (far) get a time bonus.
-        points = -5;
-        timeBonus = timer;
+        const diff = Math.abs(answerNum - respuesta);
 
         if (answerNum === respuesta) {
           points = 150;
@@ -115,9 +152,17 @@ export const useGameEngine = () => {
           points = 50;
           timeBonus = timer;
           resultType = 'correctHits';
-        } else if (Math.abs(answerNum - respuesta) <= twentyPercent) {
+        } else if (diff <= respuesta * 0.10) {
+          points = 15;
+          timeBonus = timer;
+        } else if (diff <= respuesta * 0.20) {
+          points = 10;
+          timeBonus = timer;
+        } else if (diff <= respuesta * 0.30) {
           points = 5;
           timeBonus = timer;
+        } else {
+          points = 0;
         }
       }
     }
@@ -130,6 +175,7 @@ export const useGameEngine = () => {
       const newPlayers = [...prevPlayers];
       const player = { ...newPlayers[currentPlayerIndex] };
       player.score = Math.max(0, player.score + totalPoints);
+      player.totalTimeUsed += timeUsed;
       player[resultType]++;
       newPlayers[currentPlayerIndex] = player;
       return newPlayers;
@@ -142,19 +188,123 @@ export const useGameEngine = () => {
 
   }, [currentAnswer, currentQuestion, currentPlayerIndex, advanceGame, players, timer]);
 
+  const losePlusminus = useCallback(() => {
+    const scoreChange = gameMode === 'classic' ? -50 : -10;
+    const timeUsed = 10 - plusminusTimer;
+    setLastRoundScore(scoreChange);
+    setPlayers(prev => {
+        const newPlayers = [...prev];
+        const player = { ...newPlayers[currentPlayerIndex] };
+        player.score = Math.max(0, player.score + scoreChange);
+        player.totalTimeUsed += timeUsed;
+        newPlayers[currentPlayerIndex] = player;
+        return newPlayers;
+    });
+
+    setGameScreen('showing_answer');
+    setTimeout(() => {
+        setLastRoundScore(null);
+        advanceGame();
+    }, 5000);
+  }, [advanceGame, currentPlayerIndex, plusminusTimer, gameMode]);
+
+  const handlePlusminusGuess = useCallback(() => {
+    if (!currentQuestion) return;
+
+    const guessNum = parseInt(currentAnswer.replace(/\./g, ''), 10);
+    const timeUsed = 10 - plusminusTimer;
+
+    if (isNaN(guessNum)) { // Handle invalid number guess
+        if (plusminusGuessesLeft - 1 <= 0) {
+            losePlusminus();
+        } else {
+            setPlusminusGuessesLeft(prev => prev - 1);
+            setCurrentAnswer('');
+            setPlusminusTimer(10);
+        }
+        return;
+    }
+
+    const correctAnswer = currentQuestion.respuesta;
+
+    if (guessNum === correctAnswer) {
+      // WIN
+      let scoreChange = 0;
+      if (gameMode === 'classic') {
+        scoreChange = 250; // Big bonus for wildcard
+      } else {
+        const guessesBonus = plusminusGuessesLeft * 5; // Bonus for remaining attempts
+        scoreChange = 75 + guessesBonus;
+      }
+
+      setLastRoundScore(scoreChange);
+
+      setPlayers(prev => {
+        const newPlayers = [...prev];
+        const player = { ...newPlayers[currentPlayerIndex] };
+        player.score += scoreChange;
+        player.totalTimeUsed += timeUsed;
+        newPlayers[currentPlayerIndex] = player;
+        return newPlayers;
+      });
+
+      setGameScreen('showing_answer');
+      setTimeout(() => {
+        setLastRoundScore(null);
+        advanceGame();
+      }, 5000);
+
+    } else {
+      // HINT & CONTINUE
+      if (plusminusGuessesLeft - 1 <= 0) {
+        losePlusminus();
+      } else {
+        setPlusminusHint(guessNum < correctAnswer ? '+' : '-');
+        setPlusminusGuessesLeft(prev => prev - 1);
+        setCurrentAnswer('');
+        setPlusminusTimer(10);
+      }
+    }
+  }, [currentAnswer, currentQuestion, players, currentPlayerIndex, plusminusGuessesLeft, advanceGame, losePlusminus, plusminusTimer]);
+
+  const handlePlusminusTimeout = useCallback(() => {
+    if (gameScreenRef.current !== 'plusminus_round') return;
+    if (plusminusGuessesLeft - 1 <= 0) {
+      losePlusminus();
+    } else {
+      setPlusminusGuessesLeft(prev => prev - 1);
+      setPlusminusTimer(10);
+      setPlusminusHint(null); // No hint on timeout
+    }
+  }, [plusminusGuessesLeft, losePlusminus]);
+
+  // --- Timers and Effects ---
+
+  // Classic Timer
   useEffect(() => {
     if (gameScreen === 'playing') {
       if (timer > 0) {
         const interval = setInterval(() => setTimer(t => t - 1), 1000);
         return () => clearInterval(interval);
       } else {
-        console.log("Timer reached 0, calling handleAnswer(true)");
         handleAnswer(true);
       }
     }
   }, [timer, gameScreen, handleAnswer]);
 
-  const initializeGame = (newPlayers: Player[], rounds: number, category: string) => {
+  // Plusminus Timer
+  useEffect(() => {
+    if (gameScreen === 'plusminus_round') {
+      if (plusminusTimer > 0) {
+        const interval = setInterval(() => setPlusminusTimer(t => t - 1), 1000);
+        return () => clearInterval(interval);
+      } else {
+        handlePlusminusTimeout();
+      }
+    }
+  }, [gameScreen, plusminusTimer, handlePlusminusTimeout]);
+
+  const initializeGame = (newPlayers: Player[], rounds: number, mode: 'classic' | 'plusminus') => {
     const AVATARS = [
       'https://moroarte.com/wp-content/uploads/2025/08/3d_chibi_anime_sty_image.jpeg',
       'https://moroarte.com/wp-content/uploads/2025/08/61d93795518eba9635e84f473f435d2b7e2a6a169a79acd33a5c21f6f17ba991.png',
@@ -166,15 +316,17 @@ export const useGameEngine = () => {
 
     const playersWithAvatars = newPlayers.map((player, index) => ({
       ...player,
+      score: 100, // Start all players with 100 points
       avatar: shuffledAvatars[index % AVATARS.length],
     }));
 
     setPlayers(playersWithAvatars);
     setNumberOfRounds(rounds);
-    setSelectedCategory(category);
+    setGameMode(mode);
     setCurrentPlayerIndex(0);
     setRound(0);
     setPlayedQuestions([]);
+    setWildcardPlayed(false); // Reset for new game
     setGameScreen('turn_switching');
     setTimeout(() => {
       nextQuestion();
@@ -186,6 +338,7 @@ export const useGameEngine = () => {
     setPlayers([]);
     setCurrentPlayerIndex(0);
     setRound(0);
+    setWildcardPlayed(false); // Reset for new game
   };
 
   return {
@@ -204,5 +357,10 @@ export const useGameEngine = () => {
     handleAnswer,
     handleReset,
     highScore,
+    // Plusminus props
+    plusminusGuessesLeft,
+    plusminusHint,
+    handlePlusminusGuess,
+    plusminusTimer
   };
 };

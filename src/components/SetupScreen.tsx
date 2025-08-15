@@ -1,28 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import { Player, Question } from '../types';
+import React, { useState } from 'react';
+import { Player } from '../types';
 import '../styles/SetupScreen.css';
+import Modal from './Modal';
 
 interface SetupScreenProps {
-  onGameStart: (players: Player[], rounds: number, category: string) => void;
-  highScore: { score: number; name: string } | null;
+  onGameStart: (players: Player[], rounds: number, gameMode: 'classic' | 'plusminus') => void;
 }
 
-const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => {
+const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart }) => {
   const [players, setPlayers] = useState<Player[]>([
-    { name: '', avatar: '', score: 0, exactHits: 0, correctHits: 0, wrongHits: 0 },
+    { name: '', avatar: '', score: 100, exactHits: 0, correctHits: 0, wrongHits: 0, totalTimeUsed: 0 },
   ]);
   const [rounds, setRounds] = useState(5);
-  const [categories, setCategories] = useState<string[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState('all');
-
-  useEffect(() => {
-    fetch('/questions.json')
-      .then(res => res.json())
-      .then((questions: Question[]) => {
-        const uniqueCategories = Array.from(new Set(questions.map(q => q.categoria)));
-        setCategories(uniqueCategories);
-      });
-  }, []);
+  const [gameMode, setGameMode] = useState<'classic' | 'plusminus'>('classic');
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handlePlayerNameChange = (index: number, name: string) => {
     const newPlayers = [...players];
@@ -32,7 +23,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
 
   const addPlayer = () => {
     if (players.length < 4) {
-      setPlayers([...players, { name: '', avatar: '', score: 0, exactHits: 0, correctHits: 0, wrongHits: 0 }]);
+      setPlayers([...players, { name: '', avatar: '', score: 100, exactHits: 0, correctHits: 0, wrongHits: 0, totalTimeUsed: 0 }]);
     }
   };
 
@@ -45,60 +36,102 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart, highScore }) => 
 
   const canStart = players.every(p => p.name.trim() !== '');
 
+  const classicInstructions = (
+    <div>
+      <h2>Modo Clásico</h2>
+      <ul>
+        <li>Juega la cantidad de rondas seleccionada.</li>
+        <li>Suma puntos por acertar o acercarte a la respuesta.</li>
+        <li>¡La última ronda es un comodín 'Más o Menos' con un gran premio de <strong>+250 puntos</strong>!</li>
+      </ul>
+    </div>
+  );
+
+  const plusminusInstructions = (
+    <div>
+      <h2>Modo Más o Menos</h2>
+      <ul>
+        <li>Todas las rondas son en este modo.</li>
+        <li>Adivina el número exacto usando las pistas (+/-).</li>
+        <li>Ganas <strong>75 puntos</strong> al acertar, más un <strong>bonus</strong> por los intentos que te sobren.</li>
+        <li>Si fallas, pierdes 10 puntos.</li>
+      </ul>
+    </div>
+  );
+
   return (
-    <div className="setup-screen">
-      <h1>Configuración del Juego</h1>
-      <div className="player-inputs">
-        <h2>Jugadores</h2>
-        {players.map((player, index) => (
-          <div className="player-input-group" key={index}>
-            <input
-              type="text"
-              placeholder={`Jugador ${index + 1}`}
-              value={player.name}
-              onChange={(e) => handlePlayerNameChange(index, e.target.value)}
-            />
-            {players.length > 1 && (
-              <button className="remove-player-btn" onClick={() => removePlayer(index)}>&times;</button>
+    <>
+      <div className="setup-screen">
+        <div className="setup-container">
+          <h1>Casi Casi</h1>
+          <div className="player-inputs">
+            <h2>Jugadores</h2>
+            {players.map((player, index) => (
+              <div className="player-input-group" key={index}>
+                <input
+                  type="text"
+                  placeholder={`Jugador ${index + 1}`}
+                  value={player.name}
+                  onChange={(e) => handlePlayerNameChange(index, e.target.value)}
+                />
+                {players.length > 1 && (
+                  <button className="remove-player-btn" onClick={() => removePlayer(index)}>&times;</button>
+                )}
+              </div>
+            ))}
+            {players.length < 4 && (
+              <button className="add-player-btn" onClick={addPlayer}>+ Agregar Jugador</button>
             )}
           </div>
-        ))}
-        {players.length < 4 && (
-          <button className="add-player-btn" onClick={addPlayer}>+ Agregar Jugador</button>
-        )}
-      </div>
-      <div className="options-group">
-        <h2>Rondas</h2>
-        <div className="segmented-control">
-          {[5, 10, 15].map(num => (
-            <button 
-              key={num} 
-              className={rounds === num ? 'active' : ''}
-              onClick={() => setRounds(num)}
-            >
-              {num}
-            </button>
-          ))}
+          <div className="options-row">
+            <div className="options-group">
+              <h2>Rondas</h2>
+              <div className="segmented-control">
+                {[5, 10, 15].map(num => (
+                  <button 
+                    key={num} 
+                    className={rounds === num ? 'active' : ''}
+                    onClick={() => setRounds(num)}
+                  >
+                    {num}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="options-group">
+              <h2>
+                Modo de Juego
+                <span className="instructions-icon" onClick={() => setIsModalOpen(true)}>(?)</span>
+              </h2>
+              <div className="segmented-control">
+                <button 
+                  className={gameMode === 'classic' ? 'active' : ''}
+                  onClick={() => setGameMode('classic')}
+                >
+                  Clásico
+                </button>
+                <button 
+                  className={gameMode === 'plusminus' ? 'active' : ''}
+                  onClick={() => setGameMode('plusminus')}
+                >
+                  Más o Menos
+                </button>
+              </div>
+            </div>
+          </div>
+          <button 
+            className="start-game-btn"
+            onClick={() => onGameStart(players, rounds, gameMode)}
+            disabled={!canStart}
+          >
+            Empezar a Jugar
+          </button>
         </div>
       </div>
-      <div className="options-group">
-        <h2>Categoría</h2>
-        <select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
-          <option value="all">Todas</option>
-          {categories.map(cat => (
-            <option key={cat} value={cat}>{cat}</option>
-          ))}
-        </select>
-      </div>
-      {highScore && <p>Highscore: {highScore.score} por {highScore.name}</p>}
-      <button 
-        className="start-game-btn"
-        onClick={() => onGameStart(players, rounds, selectedCategory)}
-        disabled={!canStart}
-      >
-        Empezar a Jugar
-      </button>
-    </div>
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+        {gameMode === 'classic' ? classicInstructions : plusminusInstructions}
+      </Modal>
+    </>
   );
 };
 

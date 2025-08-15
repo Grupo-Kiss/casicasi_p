@@ -6,6 +6,7 @@ import SetupScreen from './components/SetupScreen';
 import GameStats from './components/GameStats';
 import TurnSwitcher from './components/TurnSwitcher';
 import GameScreen from './components/GameScreen';
+import PlusminusScreen from './components/PlusminusScreen';
 
 function App() {
   const {
@@ -24,6 +25,11 @@ function App() {
     handleAnswer,
     handleReset,
     highScore,
+    // Plusminus props
+    plusminusGuessesLeft,
+    plusminusHint,
+    handlePlusminusGuess,
+    plusminusTimer,
   } = useGameEngine();
 
   const renderGameScreen = () => {
@@ -34,6 +40,21 @@ function App() {
     }
 
     if (!currentQuestion) return null;
+
+    if (gameScreen === 'plusminus_round') {
+      return (
+        <PlusminusScreen
+          question={currentQuestion}
+          player={currentPlayer}
+          guessesLeft={plusminusGuessesLeft}
+          hint={plusminusHint}
+          currentAnswer={currentAnswer}
+          onAnswerChange={setCurrentAnswer}
+          onGuessSubmit={handlePlusminusGuess}
+          timer={plusminusTimer}
+        />
+      );
+    }
 
     if (isShowingAnswer && lastRoundScore !== null) {
       return (
@@ -63,7 +84,7 @@ function App() {
 
   return (
     <div className="app-container">
-      {gameScreen === 'setup' && <SetupScreen onGameStart={initializeGame} highScore={highScore} />}
+      {gameScreen === 'setup' && <SetupScreen onGameStart={initializeGame} />}
       {gameScreen !== 'setup' && gameScreen !== 'gameover' && renderGameScreen()}
       {gameScreen === 'gameover' && <GameStats players={players} onReset={handleReset} highScore={highScore} />}
     </div>

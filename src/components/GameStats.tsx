@@ -33,7 +33,7 @@ const GameStats: React.FC<GameStatsProps> = ({ players, onReset, highScore }) =>
             <th>Puntaje</th>
             <th>Exactas</th>
             <th>Correctas</th>
-            <th>Incorrectas</th>
+            <th>Tiempo Total</th>
           </tr>
         </thead>
         <tbody>
@@ -43,7 +43,7 @@ const GameStats: React.FC<GameStatsProps> = ({ players, onReset, highScore }) =>
               <td>{player.score}</td>
               <td>{player.exactHits}</td>
               <td>{player.correctHits}</td>
-              <td>{player.wrongHits}</td>
+              <td>{player.totalTimeUsed}s</td>
             </tr>
           ))}
         </tbody>

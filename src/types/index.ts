@@ -16,4 +16,5 @@ export interface Player {
   exactHits: number;
   correctHits: number;
   wrongHits: number;
+  totalTimeUsed: number;
 }
