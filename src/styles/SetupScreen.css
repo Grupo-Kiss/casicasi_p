@@ -4,24 +4,58 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh;
-  padding: 1rem;
 }
 
 .setup-container {
-  width: 100%;
-  max-width: 420px; /* A bit wider for the row layout */
-  padding: 1.5rem;
+  width: 90vw;
+  max-width: 800px;
+  padding: 2rem;
   border: 1px solid #e0e0e0;
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
 }
 
-.setup-container h1 {
+.casi-casi-logo {
+  width: 200px; /* Ajustar según sea necesario */
+  height: auto;
+  margin-bottom: 2rem; /* Para que coincida con el margen anterior del h2 */
+}
+
+.setup-container h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.setup-main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.player-setup, .options-setup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-setup h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+  text-align: left; /* Alineado a la izquierda */
+  width: 100%; /* Asegura que ocupe todo el ancho para alinear */
+}
+
+.options-setup {
+  border-left: 1px solid #eeeeee;
+  padding-left: 2rem;
+  margin-left: 2rem;
 }
 
 .player-inputs {
@@ -31,7 +65,61 @@
 .player-input-group {
   display: flex;
   align-items: center;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.avatar-selector {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Keep original margin */
+  gap: 4px; /* Smaller gap */
+}
+
+.avatar-selector button {
+  background: none; /* No background */
+  border: none; /* No border */
+  border-radius: 50%;
+  width: 20px; /* Smaller size */
+  height: 20px;
+  cursor: pointer;
+  font-size: 0.8rem; /* Smaller font/icon size */
+  color: #888; /* Subtle color for arrows/indicators */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  /* Remove box-shadow for minimalist look */
+}
+
+.avatar-selector button:hover {
+  color: var(--primary-color); /* Highlight color on hover */
+  transform: scale(1.2); /* Slight scale for feedback */
+}
+
+.avatar-selector button:active {
+  transform: scale(0.9); /* Subtle press effect */
+}
+
+.avatar-selector button.selected {
+  /* This class might be less relevant for navigation buttons, but useful if they represent the avatars themselves */
+  /* If these buttons are just navigation, this class might not be used.
+     If they are small representations of the avatars, then a subtle border or background could work.
+     For now, I'll assume they are just navigation arrows. */
+}
+
+/* If the button contains an image (avatar), style the image */
+.avatar-selector button img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover; /* Ensure image covers the circle */
+}
+
+.avatar-preview {
+  width: 25px; /* Reducido a la mitad */
+  height: 25px; /* Reducido a la mitad */
+  margin: 0 5px; /* Ajustado el margen */
+  border: 1px solid var(--primary-color-light); /* Ajustado el borde */
 }
 
 .player-input-group input {
@@ -55,7 +143,7 @@
   background: none;
   border: 2px dashed #ddd;
   color: #999;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
   border-radius: 10px;
   cursor: pointer;
   margin-top: 0.5rem;
@@ -64,24 +152,24 @@
 
 .options-row {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 1.5rem;
   width: 100%;
-  margin-bottom: 1.5rem;
 }
 
 .options-group {
   flex: 1;
-  margin-bottom: 0;
 }
 
-.options-group h2 {
-  font-size: 1.1rem; /* Slightly smaller to fit */
+.options-group h3 {
+  font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  white-space: nowrap; /* Prevents wrapping */
+  justify-content: flex-start; /* Alineado a la izquierda */
+  white-space: nowrap;
+  color: #333;
 }
 
 .instructions-icon {
@@ -98,7 +186,7 @@
   margin-left: 8px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  flex-shrink: 0; /* Prevents icon from shrinking */
+  flex-shrink: 0;
 }
 
 .instructions-icon:hover {
@@ -115,10 +203,10 @@
 
 .segmented-control button {
   flex-grow: 1;
-  padding: 0.75rem 0.5rem; /* Adjusted padding */
+  padding: 0.75rem 0.5rem;
   background: none;
   border: none;
-  font-size: 0.9rem; /* Adjusted font size */
+  font-size: 0.9rem;
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -139,7 +227,6 @@
   cursor: pointer;
   transition: background 0.3s ease;
   width: 100%;
-  margin-top: 1rem;
 }
 
 .start-game-btn:disabled {
@@ -151,14 +238,16 @@
   background: var(--secondary-color);
 }
 
-@media (max-width: 600px) {
-  .setup-container {
-    padding: 1.5rem;
-  }
-  .setup-container h1 {
-    font-size: 2rem;
-  }
-  .options-row {
+.setup-footer {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .setup-main-content {
     flex-direction: column;
+    align-items: center;
   }
+  /* Removed obsolete media query rules for winner-col and table-col */
 }

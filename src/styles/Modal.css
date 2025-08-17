@@ -13,23 +13,31 @@
 }
 
 .modal-content {
-  background: white;
-  padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  /* Dimensiones y posición */
   width: 90%;
-  max-width: 500px;
+  max-width: 600px; /* Preferible usar valor fijo para control preciso */
+  max-height: 90vh;
   position: relative;
-  animation: slideIn 0.4s ease-out;
+  
+  /* Estilos visuales */
+  background: white;
+  border-radius: 15px;
+  padding: 2.5vh 20px; /* Combina unidades relativas y fijas */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+  
+  /* Comportamiento */
+  overflow: auto;
+  margin: 20px;
+  animation: slideIn 0.4s ease-out; /* Animación unificada */
 }
 
 .modal-close-btn {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 1vh; /* Ajustado a vh */
+  right: 1.5vh; /* Ajustado a vh */
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 3vh; /* Ajustado a vh */
   color: #aaa;
   cursor: pointer;
   line-height: 1;

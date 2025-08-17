@@ -1,6 +1,7 @@
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Question, Player } from '../types';
+import Confetti from 'react-confetti';
+import { useEnterToContinue } from '../hooks/useEnterToContinue'; // Import useEnterToContinue
 import '../styles/AnswerResult.css';
 
 interface AnswerResultProps {
@@ -8,23 +9,77 @@ interface AnswerResultProps {
   userAnswer: string;
   scoreAwarded: number;
   player: Player;
+  resultType: keyof Player | null;
+  timeUsed: number | null;
+  timeBonus: number | null;
+  onContinue: () => void; // Nueva prop para continuar el juego
 }
 
-const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, scoreAwarded, player }) => {
+const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, scoreAwarded, player, resultType, timeUsed, timeBonus, onContinue }) => {
+  const [showConfetti, setShowConfetti] = useState(false);
   const scoreClass = scoreAwarded >= 0 ? 'positive' : 'negative';
+
+  useEffect(() => {
+    if (resultType === 'exactHits') {
+      setShowConfetti(true);
+      const timer = setTimeout(() => {
+        setShowConfetti(false);
+      }, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [resultType]);
+
+  useEnterToContinue(onContinue); // Usar el hook para manejar Enter para continuar
 
   return (
     <div className="answer-result-modal">
+      {showConfetti && <Confetti
+        numberOfPieces={1000} // Mucho más confeti
+        recycle={false} // No reciclar, para un flujo continuo
+        gravity={0.1} // Caída más lenta
+        initialVelocityY={-5} // Impulso inicial hacia arriba
+        confettiSource={{
+          x: 0,
+          y: 0,
+          w: window.innerWidth,
+          h: window.innerHeight,
+        }}
+        colors={['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722', '#795548', '#9E9E9E', '#607D8B']}
+      />} 
       <div className="answer-result-card">
-        <img src={player.avatar} alt={player.name} className="avatar" />
-        <h2>{player.name}</h2>
-        <p className={`score-awarded ${scoreClass}`}>{scoreAwarded > 0 ? `+${scoreAwarded}` : scoreAwarded}</p>
-        <div className="correct-answer-info">
-          <p>Tu respuesta: <strong>{userAnswer || 'No respondido'}</strong></p>
-          <p>Respuesta correcta: <strong>{question.respuesta}</strong></p>
+        <div className="result-main-content">
+          {/* Columna Izquierda: Info del Jugador */}
+          <div className="result-player-col">
+            <img src={player.avatar} alt={player.name} className="player-avatar" />
+            <h2>{player.name}</h2>
+            <p className={`score-awarded ${scoreClass}`}>{scoreAwarded > 0 ? `+${scoreAwarded}` : scoreAwarded}</p>
+          <button className="continue-btn" onClick={onContinue}>Continuar</button>
+          </div>
+
+          {/* Columna Derecha: Info de la Pregunta y Respuesta */}
+          <div className="result-info-col">
+            {resultType === 'exactHits' && <h3 className="result-message exact">¡EXACTA!</h3>}
+            {resultType === 'correctHits' && <h3 className="result-message correct">¡CORRECTA!</h3>}
+            {resultType === 'wrongHits' && <h3 className="result-message wrong">INCORRECTA</h3>}
+
+            <div className="correct-answer-info">
+              <p>Tu respuesta: <strong>{userAnswer || 'No respondido'}</strong></p>
+              <p>Bono por respuesta correcta: <strong>{question.respuesta}</strong></p>
+              {timeUsed !== null && timeUsed !== undefined && (
+                <p>Tiempo utilizado: <strong>{timeUsed} segundos</strong></p>
+              )}
+              {timeBonus !== null && timeBonus !== undefined && timeBonus > 0 && (
+                <p>Bonus: <strong>+{timeBonus} puntos</strong></p>
+              )}
+            </div>
+
+            <div className="question-details-info">
+              <p><em>{question.informacion}</em></p>
+              <p><small>Fuente: {question.fuente}</small></p>
+            </div>
+          </div>
         </div>
-        <p><em>{question.informacion}</em></p>
-        <p><small>Fuente: {question.fuente}</small></p>
+        
       </div>
     </div>
   );

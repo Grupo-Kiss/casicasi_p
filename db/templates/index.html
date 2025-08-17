@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasiCasi DB Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CasiCasi DB Manager</h1>
+
+        <button id="exportJsonBtn">Export to JSON</button>
+        <button id="addNewRecordBtn">Add New Record</button>
+
+        <div id="add-record-form" style="display:none; margin-top: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9;">
+            <h2>Add New Record</h2>
+            <div id="form-fields-container">
+                <!-- Form fields will be dynamically generated here by JavaScript -->
+            </div>
+            <button id="submitNewRecordBtn" style="margin-top: 10px;">Submit</button>
+            <button id="cancelNewRecordBtn" style="margin-top: 10px; background-color: #dc3545;">Cancel</button>
+        </div>
+
+        <div id="data-table-container">
+            <!-- Data will be loaded here by JavaScript -->
+        </div>
+
+        <div id="pagination-controls" style="margin-top: 20px; text-align: center;">
+            <!-- Pagination buttons will be loaded here by JavaScript -->
+        </div>
+
+    </div>
+
+    <footer>
+        <!-- No statistics -->
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v={{ range(1, 1000000) | random }}"></script>
+</body>
+</html>

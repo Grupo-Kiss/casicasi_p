@@ -1,43 +1,93 @@
+
 .game-stats-screen {
+  width: 90vw;
+  max-width: 800px; /* Ancho igualado a las otras pantallas */
+  margin: auto; /* Centrado horizontal */
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  /* Centrado absoluto */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .game-stats-screen h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.new-highscore {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  width: 100%; /* Asegura que ocupe el ancho disponible */
+}
+
+.stats-main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  align-items: flex-start; /* Alinea las columnas en la parte superior */
+}
+
+.winner-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem; /* Espacio antes de la línea divisoria */
+}
+
+.table-col {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid #eee; /* Línea divisoria */
+  padding-left: 2rem; /* Espacio después de la línea divisoria */
 }
 
 .winner-section {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.winner-section .avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+.winner-section .player-avatar {
+  width: 100px;
+  height: 100px;
+  border: 4px solid var(--primary-color);
   margin-bottom: 1rem;
-  border: 5px solid var(--primary-color);
 }
 
 .winner-section h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
 .stats-table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .stats-table th, .stats-table td {
-  padding: 0.75rem;
+  padding: 0.8rem;
   border-bottom: 1px solid #ddd;
+  font-size: 0.9rem;
 }
 
 .stats-table th {
@@ -45,12 +95,12 @@
   font-weight: 600;
 }
 
-.new-highscore {
-  background: var(--primary-color);
-  color: white;
-  padding: 1rem;
-  border-radius: var(--border-radius);
-  margin-bottom: 2rem;
+/* Alineación de encabezados de tabla para que coincidan con los datos */
+.stats-table th:nth-child(2),
+.stats-table th:nth-child(3),
+.stats-table th:nth-child(4),
+.stats-table th:nth-child(5) {
+  text-align: center;
 }
 
 .play-again-btn {
@@ -69,16 +119,20 @@
   background: var(--secondary-color);
 }
 
-@media (max-width: 600px) {
-  .game-stats-screen h1 {
-    font-size: 2rem;
+@media (max-width: 768px) {
+  .stats-main-content {
+    flex-direction: column;
+    align-items: center;
   }
-
-  .winner-section h2 {
-    font-size: 1.5rem;
+  .winner-col, .table-col {
+    width: 100%;
   }
-
-  .stats-table {
-    font-size: 0.9rem;
+  .winner-col {
+    padding-right: 0;
+  }
+  .table-col {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 1.5rem;
   }
 }

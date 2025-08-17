@@ -1,0 +1,900 @@
+id,categoria,pregunta,respuesta,rango_min,rango_max,informacion,fuente,activa
+25_00001,Mix,¿Cuántos litros de agua tiene una piscina olímpica?,2500000,2400000,2600000,Una piscina olímpica tiene aproximadamente 2.5 millones de litros de agua.,Arquitectura Deportiva,SI
+25_00002,Mix,¿Cuántos metros de largo tiene una cancha de futbol profesional?,100,90,120,Una cancha de fútbol profesional mide entre 90 y 120 metros de largo y entre 45 y 90 metros de ancho. Estas son las medidas establecidas por la FIFA. ,Reglamento FIFA,SI
+25_00003,Mix,¿Cuántas ventanas tiene el Empire State Building?,6514,6000,7000,"El Empire State Building tiene 6,514 ventanas.",Arquitectura,SI
+25_00004,Mix,¿Cuántos baños hay en la Casa Blanca?,35,30,40,La Casa Blanca tiene 35 baños.,Arquitectura,SI
+25_00005,Mix,¿Cuántos metros mide de largo la Quinta Avenida de Nueva York?,10000,9000,12000,La Quinta Avenida mide aproximadamente 10 kilómetros de largo.,Urbanismo,SI
+25_00006,Mix,¿Cuántos metros mide de ancho la Avenida 9 de Julio en Buenos Aires?,140,110,150,La Avenida 9 de Julio mide 140 metros de ancho.,Urbanismo,SI
+25_00007,Mix,¿Cuál es la altura de la Torre Eiffel?,330,300,350,La Torre Eiffel mide 330 metros de altura (incluyendo antenas).,Arquitectura,SI
+25_00008,Mix,¿Cuántos metros mide el edificio más alto del mundo (Burj Khalifa)?,828,800,900,El Burj Khalifa en Dubái mide 828 metros de altura.,Arquitectura,SI
+25_00009,Mix,¿A cuántos metros se considera que comienza el espacio exterior?,100000,90,110,"La línea de Kármán, que marca el inicio del espacio exterior, está a 100 km de altura.",Astronomía,SI
+25_00010,Mix,¿Cuántos huevos puede poner una abeja reina en su vida?,1500000,1000000,2000000,Una abeja reina puede poner hasta 1.5 millones de huevos en su vida.,Entomología,SI
+25_00011,Mix,¿Cuántos modelos de autos tiene Ford (hasta 2023)?,50,40,60,Ford tiene alrededor de 50 modelos de autos en su catálogo hasta 2023.,Industria Automotriz,SI
+25_00012,Mix,¿Cuántos metros mide el puente Golden Gate?,2737,2500,3000,"El puente Golden Gate mide 2,737 metros de largo.",Ingeniería Civil,SI
+25_00013,Mix,¿Cuántos escalones tiene la Torre Eiffel?,1665,1500,2000,"La Torre Eiffel tiene 1,665 escalones hasta la cima.",Arquitectura,SI
+25_00014,Mix,¿Cuántos metros mide el Canal de Panamá?,80000,70000,90000,El Canal de Panamá mide aproximadamente 80 kilómetros de largo.,Ingeniería Civil,SI
+25_00015,Mix,¿Cuántos metros mide el río Amazonas?,6400,6000,7000,"El río Amazonas mide aproximadamente 6,400 kilómetros de largo.",Geografía,SI
+25_00016,Mix,¿Cuántos metros mide el Gran Cañón del Colorado?,446,400,500,El Gran Cañón del Colorado mide aproximadamente 446 kilómetros de largo.,Geografía,SI
+25_00017,Mix,¿Cuántos metros mide el Monte Everest?,8848,8500,8900,"El Monte Everest mide 8,848 metros de altura.",Geografía,SI
+25_00018,Mix,¿Cuántos metros mide la Gran Muralla China?,21196,20000,25000,"La Gran Muralla China mide aproximadamente 21,196 kilómetros de largo.",Geografía,SI
+25_00019,Mix,¿Cuántos metros mide el edificio Empire State?,443,400,500,El Empire State Building mide 443 metros de altura (incluyendo la antena).,Arquitectura,SI
+25_00020,Mix,¿Cuántos metros mide el puente más largo del mundo (Danyang-Kunshan)?,164800,100000,200000,El puente Danyang-Kunshan en China mide 164.8 kilómetros de largo.,Ingeniería Civil,SI
+25_00021,Mix,¿Cuántos kilometros mide el túnel más largo del mundo (Túnel de San Gotardo)?,57,45,60,El Túnel de San Gotardo en Suiza mide 57 kilómetros de largo.,Ingeniería Civil,SI
+25_00022,Mix,¿Cuántos metros mide el edificio más alto de América Latina (Torre Obispado)?,305,250,340,"La Torre Obispado en Monterrey, México, mide 305 metros de altura.",Arquitectura,SI
+25_00023,Mix,¿Cuántos kilómetros mide el río Nilo?,6650,6000,7000,"El río Nilo mide aproximadamente 6,650 kilómetros de largo.",Geografía,SI
+25_00024,Mix,¿Cuántos metros mide el edificio más alto de Europa (Lakhta Center)?,462,400,500,"El Lakhta Center en San Petersburgo, Rusia, mide 462 metros de altura.",Arquitectura,SI
+25_00025,Mix,¿Cuántos metros mide el edificio más alto de África (Torre Mohammed VI)?,250,200,300,"La Torre Mohammed VI en Rabat, Marruecos, mide 250 metros de altura.",Arquitectura,SI
+25_00026,Mix,¿Cuántos metros mide el edificio más alto de Australia (Q1 Tower)?,323,300,400,"El Q1 Tower en Gold Coast, Australia, mide 323 metros de altura.",Arquitectura,SI
+25_00027,Mix,¿Cuántos metros mide el edificio más alto de Asia (Burj Khalifa)?,828,800,900,El Burj Khalifa en Dubái mide 828 metros de altura.,Arquitectura,SI
+25_00028,Mix,¿Cuántos metros mide el edificio más alto de América del Norte (One World Trade Center)?,541,500,600,El One World Trade Center en Nueva York mide 541 metros de altura.,Arquitectura,SI
+25_00029,Mix,¿Cuántos metros mide el edificio más alto de Sudamérica (Gran Torre Santiago)?,300,250,350,La Gran Torre Santiago en Chile mide 300 metros de altura.,Arquitectura,SI
+25_00030,Mix,¿Cuántos metros mide el edificio más alto de Oceanía (Q1 Tower)?,323,300,400,"El Q1 Tower en Gold Coast, Australia, mide 323 metros de altura.",Arquitectura,SI
+25_00031,Mix,¿Cuántos años puede tardar en digerirse un chicle?,7,5,10,"Aunque no se digiere completamente, un chicle puede permanecer en el sistema digestivo hasta 7 años.",Medicina,SI
+25_00032,Mix,¿Cuántos corazones tiene una lombriz de tierra?,5,5,10,Una lombriz de tierra tiene 5 pares de corazones (10 en total).,Biología Animal,SI
+25_00033,Mix,¿Cuántos ojos tiene una estrella de mar?,0,0,0,"Las estrellas de mar no tienen ojos, pero tienen manchas sensibles a la luz en los extremos de sus brazos.",Biología Marina,SI
+25_00034,Mix,¿Cuántos kilogramos de comida puede comer un hipopótamo en un día?,36,30,40,Un hipopótamo puede comer hasta 36 kg de comida en un solo día.,Biología Animal,SI
+25_00035,Mix,¿Cuántos litros de saliva produce un humano en su vida?,37800,30000,40000,"Un humano produce aproximadamente 37,800 litros de saliva en su vida.",Fisiología Humana,SI
+25_00036,Mix,¿Cuántos años puede vivir una almeja de la especie Ming?,507,400,600,"La almeja Ming, encontrada en 2006, tenía 507 años, siendo el animal más longevo conocido.",Biología Marina,SI
+25_00037,Mix,¿Cuántos kilómetros puede correr un avestruz en una hora?,70,60,80,"Un avestruz puede correr hasta 70 km/h, siendo la ave más rápida en tierra.",Biología Animal,SI
+25_00038,Mix,¿Cuántos años puede vivir un árbol de pino bristlecone?,5000,4000,6000,"Los pinos bristlecone pueden vivir más de 5,000 años, siendo los árboles más longevos del mundo.",Botánica,SI
+25_00039,Mix,¿Cuántos gramos de seda puede producir un gusano de seda en su vida?,500,200,800,Un gusano de seda puede producir aproximadamente 0.5 kg de seda en su vida.,Entomología,SI
+25_00040,Mix,¿Cuántos años puede vivir una tortuga gigante de Galápagos?,150,120,180,Las tortugas gigantes de Galápagos pueden vivir más de 150 años.,Biología Animal,SI
+25_00041,Mix,¿Cuántos kilómetros puede volar una abeja en su vida?,800,500,900,"Una abeja obrera puede volar hasta 800 km en su vida, recolectando néctar y polen.",Entomología,SI
+25_00042,Mix,¿Cuántos años puede vivir un tiburón de Groenlandia?,400,300,500,"Los tiburones de Groenlandia pueden vivir más de 400 años, siendo los vertebrados más longevos.",Biología Marina,SI
+25_00043,Mix,¿Cuántos kilogramos de miel puede producir una colmena en un año?,30,20,40,Una colmena puede producir hasta 30 kg de miel en un año.,Entomología,SI
+25_00044,Mix,¿Cuántos años puede vivir un loro?,80,60,90,"Algunas especies de loros, como los guacamayos, pueden vivir hasta 80 años en cautiverio.",Biología Animal,SI
+25_00045,Mix,¿Cuántos kilogramos de comida puede comer un elefante en un día?,150,100,200,Un elefante puede comer hasta 150 kg de comida en un solo día.,Biología Animal,SI
+25_00046,Mix,¿Cuántos años puede vivir una ballena boreal?,200,150,250,"Las ballenas boreales pueden vivir más de 200 años, siendo los mamíferos más longevos.",Biología Marina,SI
+25_00047,Mix,¿Cuántos kilómetros puede migrar una mariposa monarca?,4000,3000,5000,"Las mariposas monarca pueden migrar hasta 4,000 km desde Canadá hasta México.",Entomología,SI
+25_00048,Mix,¿Cuántos años puede vivir un erizo de mar rojo?,200,150,250,El erizo de mar rojo puede vivir más de 200 años.,Biología Marina,SI
+25_00049,Mix,¿Cuántos kilogramos de hojas puede comer un koala en un día?,1,1,1,Un koala puede comer hasta 1 kg de hojas de eucalipto en un día.,Biología Animal,SI
+25_00050,Mix,¿Cuántos años puede vivir un molusco de la especie Arctica islandica?,500,400,600,"El molusco Arctica islandica puede vivir más de 500 años, siendo uno de los animales más longevos.",Biología Marina,SI
+25_00051,Mix,¿Cuántos kilómetros puede recorrer un albatros en un solo vuelo?,16000,10000,20000,"Un albatros puede recorrer hasta 16,000 km en un solo vuelo sin aterrizar.",Ornitología,SI
+25_00052,Mix,¿Cuántos latidos casi casi realiza el corazon de un colibri en reposo?,550,500,600,El corazón de un colibrí late entre 500 y 600 veces por minuto en reposo,Ornitología,SI
+25_00053,Mix,¿Cuántos centimetros de altura puede alcanzar un hongo?,1000,700,1400,El hongo Phallus indusiatus puede crecer hasta 1 metro de altura.,Micología,SI
+25_00054,Mix,¿Cuántos años puede vivir un elefante africano?,70,60,80,Los elefantes africanos pueden vivir entre 60 y 70 años en estado salvaje.,Biología Animal,SI
+25_00055,Mix,¿Cuántos litros de agua puede beber un camello en 10 minutos?,100,80,120,Un camello puede beber hasta 100 litros de agua en 10 minutos.,Biología Animal,SI
+25_00056,Mix,¿Cuántos años puede vivir un pingüino emperador?,20,15,25,Los pingüinos emperadores viven entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00057,Mix,¿Cuántos corazones tiene un pulpo?,3,3,3,Los pulpos tienen 3 corazones: dos bombean sangre a las branquias y uno al cuerpo.,Biología Marina,SI
+25_00058,Mix,¿Cuántos años puede vivir un lobo gris?,8,6,10,Los lobos grises viven entre 6 y 8 años en estado salvaje.,Biología Animal,SI
+25_00059,Mix,¿Cuántas letras tiene la palabra más larga en español?,23,20,25,"La palabra más larga en español es electroencefalografista, con 23 letras.",RAE (Real Academia Española),SI
+25_00060,Mix,¿En qué año se publicó la primera edición de Don Quijote de la Mancha?,1605,1600,1610,La primera edición de Don Quijote de la Mancha fue publicada en 1605.,Enciclopedia Británica,SI
+25_00061,Mix,¿Cuántas Biblias tiene el mayor coleccionista del mundo?,1000,800,1200,"El mayor coleccionista de Biblias tiene más de 1,000 ejemplares en su colección.",Récords Guinness,SI
+25_00062,Mix,¿Cuántos años tiene el libro más antiguo del mundo?,2300,2000,2500,"El libro más antiguo del mundo es el Libro de los Muertos egipcio, con más de 2,300 años.",Enciclopedia Británica,SI
+25_00063,Mix,¿Cuántos idiomas se hablan en el mundo?,7000,6000,8000,"Se estima que hay alrededor de 7,000 idiomas en el mundo.",Enciclopedia Británica,SI
+25_00064,Mix,¿En que año se fundo la RAE?,1713,1700,1750,La RAE fue fundada en 1713,RAE (Real Academia Española),SI
+25_00065,Mix,¿Cuántos volúmenes tiene la Enciclopedia Británica?,32,28,35,La Enciclopedia Británica tiene 32 volúmenes en su edición más reciente.,Enciclopedia Británica,SI
+25_00066,Mix,¿Cuántos años tiene el libro impreso más antiguo?,1150,1000,1200,"El libro impreso más antiguo es el Sutra del Diamante, impreso en el año 868.",Enciclopedia Británica,SI
+25_00067,Mix,¿Cuántos años tiene el manuscrito más antiguo de la Biblia?,1700,1500,2000,"El Codex Sinaiticus, uno de los manuscritos más antiguos de la Biblia, tiene más de 1,700 años.",Enciclopedia Británica,SI
+25_00068,Mix,¿Cuántos años tiene el diccionario más antiguo?,4000,3500,4500,"El diccionario más antiguo es una tablilla cuneiforme de Mesopotamia, con más de 4,000 años.",Enciclopedia Británica,SI
+25_00069,Mix,¿Cuántos años tiene el libro más pequeño del mundo?,200,150,250,"El libro más pequeño del mundo, Old King Cole, mide 1 mm x 1 mm y tiene más de 200 años.",Récords Guinness,SI
+25_00070,Mix,¿Cuántos años tiene el libro más grande del mundo?,20,10,30,"El libro más grande del mundo, This the Prophet Mohamed, mide 5 m x 8.06 m y fue creado en 2012.",Récords Guinness,SI
+25_00071,Mix,¿Cuántos años tiene la colección de libros más antigua del mundo?,2700,2500,3000,"La Biblioteca de Asurbanipal en Nínive es la colección de libros más antigua, con más de 2,700 años.",Enciclopedia Británica,SI
+25_00072,Mix,¿Cuántos años tiene el libro más vendido del mundo?,2000,1900,2100,"La Biblia es el libro más vendido del mundo, con más de 2,000 años de antigüedad.",Enciclopedia Británica,SI
+25_00073,Mix,¿Cuántos años tiene el libro más robado del mundo?,1200,1000,1500,"El Evangelio de Lindisfarne, uno de los libros más robados, tiene más de 1,200 años.",Enciclopedia Británica,SI
+25_00074,Mix,¿Cuántos años tiene el libro más caro del mundo?,550,400,700,"El Codex Leicester de Leonardo da Vinci, vendido por $30.8 millones, tiene más de 550 años.",Récords Guinness,SI
+25_00075,Mix,¿Cuántos años tiene el libro más traducido del mundo?,2000,1900,2100,"La Biblia es el libro más traducido del mundo, con más de 2,000 años de antigüedad.",Enciclopedia Británica,SI
+25_00076,Mix,¿Cuántos años tiene el libro más antiguo de América?,1000,900,1100,"El Códice Dresden, un libro maya, tiene más de 1,000 años.",Enciclopedia Británica,NO
+25_00077,Mix,¿Cuántos años tiene el libro más antiguo de Europa?,1200,1100,1300,"El Libro de Kells, un manuscrito irlandés, tiene más de 1,200 años.",Enciclopedia Británica,NO
+25_00078,Mix,¿Cuántos años tiene el libro más antiguo de Asia?,2300,2200,2400,"El Sutra del Diamante, impreso en China, tiene más de 2,300 años.",Enciclopedia Británica,NO
+25_00079,Mix,¿Cuántos años tiene el libro más antiguo de África?,1500,1400,1600,"El Papiro de Ebers, un texto médico egipcio, tiene más de 1,500 años.",Enciclopedia Británica,NO
+25_00080,Mix,¿Cuántos años tiene el libro más antiguo de Oceanía?,200,190,210,Los primeros libros impresos en Oceanía tienen más de 200 años.,Enciclopedia Británica,NO
+25_00081,Mix,¿Cuántos años tiene el libro más antiguo de la Antártida?,100,90,110,Los primeros libros llevados a la Antártida tienen más de 100 años.,Enciclopedia Británica,NO
+25_00082,Mix,¿Cuántos años tiene el libro más antiguo del espacio?,50,40,60,Los primeros libros llevados al espacio tienen más de 50 años.,Enciclopedia Británica,NO
+25_00083,Mix,¿Cuántos años tiene el libro más antiguo de la Luna?,50,40,60,Los primeros libros llevados a la Luna tienen más de 50 años.,Enciclopedia Británica,NO
+25_00084,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido The Beatles en total?,600,500,700,The Beatles ha vendido más de 600 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00085,Mix,¿Cuántos años tenía Elvis Presley cuando murió?,42,40,45,Elvis Presley murió en 1977 a los 42 años.,Enciclopedia Británica,SI
+25_00086,Mix,¿Cuántos Óscares ha ganado Walt Disney?,22,20,25,Walt Disney ganó 22 premios Óscar a lo largo de su carrera.,Academia de Artes y Ciencias Cinematográficas,SI
+25_00087,Mix,¿Cuándo se pintó la Mona Lisa?,1503,1500,1510,La Mona Lisa fue pintada por Leonardo da Vinci alrededor de 1503-1506.,Museo del Louvre,SI
+25_00088,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido Michael Jackson en total?,400,350,450,Michael Jackson ha vendido más de 400 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00089,Mix,¿Cuántos años tenía Freddie Mercury cuando murió?,45,40,50,Freddie Mercury murió en 1991 a los 45 años.,Enciclopedia Británica,SI
+25_00090,Mix,¿Cuántos episodios tiene la serie Friends?,236,230,240,La serie Friends tiene 236 episodios en total.,IMDb,SI
+25_00091,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido Madonna en total?,300,250,350,Madonna ha vendido más de 300 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00092,Mix,¿Cuántos años tenía Marilyn Monroe cuando murió?,36,32,40,Marilyn Monroe murió en 1962 a los 36 años.,Enciclopedia Británica,SI
+25_00093,Mix,¿Cuántos Óscares ha ganado Meryl Streep?,3,3,3,Meryl Streep ha ganado 3 premios Óscar a lo largo de su carrera.,Academia de Artes y Ciencias Cinematográficas,SI
+25_00094,Mix,¿Cuándo se pintó el cuadro La noche estrellada de Van Gogh?,1889,1880,1900,"La noche estrellada fue pintada por Van Gogh en 1889, por lo que en 2024 cumple 135 años.",Museo de Arte Moderno,SI
+25_00095,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido Queen en total?,300,250,350,Queen ha vendido más de 300 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00096,Mix,¿Cuántos años tenía John Lennon cuando murió?,40,35,45,John Lennon murió en 1980 a los 40 años.,Enciclopedia Británica,SI
+25_00097,Mix,¿Cuántos episodios tiene la serie The Simpsons? (Hasta 2023),750,700,800,The Simpsons tiene más de 750 episodios en total (hasta 2023).,IMDb,SI
+25_00098,Mix,¿Cuándo se pintó el cuadro El grito de Edvard Munch?,1893,1880,1900,"El grito fue pintado por Edvard Munch en 1893, por lo que en 2024 cumple 130 años.",Museo Munch,SI
+25_00099,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido ABBA en total?,150,120,180,ABBA ha vendido más de 150 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00100,Mix,¿Cuántos años tenía Whitney Houston cuando murió?,48,45,50,Whitney Houston murió en 2012 a los 48 años.,Enciclopedia Británica,SI
+25_00101,Mix,¿Cuántos Óscares ha ganado Steven Spielberg?,3,3,3,Steven Spielberg ha ganado 3 premios Óscar a lo largo de su carrera.,Academia de Artes y Ciencias Cinematográficas,SI
+25_00102,Mix,¿Cuándo se pintó el cuadro Guernica de Pablo Picasso?,1937,1930,1940,"Guernica fue pintado por Pablo Picasso en 1937, por lo que en 2024 cumple 87 años.",Museo Reina Sofía,SI
+25_00103,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido Elvis Presley en total?,600,500,700,Elvis Presley ha vendido más de 600 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00104,Mix,¿Cuántos años tenía Michael Jackson cuando lanzó Thriller?,24,23,25,Michael Jackson lanzó Thriller en 1982 a los 24 años.,Enciclopedia Británica,SI
+25_00105,Mix,¿Cuántos episodios tiene la serie Breaking Bad?,62,55,70,Breaking Bad tiene 62 episodios en total.,IMDb,SI
+25_00106,Mix,¿Cuándo se pintó el cuadro Las meninas de Diego Velázquez?,1656,1630,1680,"Las meninas fue pintado por Diego Velázquez en 1656, por lo que en 2024 cumple 365 años.",Museo del Prado,SI
+25_00107,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido Pink Floyd en total?,250,200,300,Pink Floyd ha vendido más de 250 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00108,Mix,¿Cuántos años tenía Freddie Mercury cuando lanzó Bohemian Rhapsody?,29,26,33,Freddie Mercury lanzó Bohemian Rhapsody en 1975 a los 29 años.,Enciclopedia Británica,SI
+25_00109,Mix,¿Cuántos episodios tiene la serie Game of Thrones?,73,65,80,Game of Thrones tiene 73 episodios en total.,IMDb,SI
+25_00110,Mix,¿Cuándo se pintó el cuadro La última cena de Leonardo da Vinci?,1498,1460,1500,"La última cena fue pintada por Leonardo da Vinci en 1498, por lo que en 2024 cumple 525 años.",Historia del Arte,SI
+25_00111,Mix,RECORD GUINESS ¿Cuántos millones de discos ha vendido Led Zeppelin en total?,300,220,350,Led Zeppelin ha vendido más de 300 millones de discos en todo el mundo.,Récords Guinness,SI
+25_00112,Mix,¿Cuántos años tenía Jimi Hendrix cuando murió?,27,25,30,Jimi Hendrix murió en 1970 a los 27 años.,Enciclopedia Británica,SI
+25_00113,Geografia,¿Población casi-casi de China en millones?,1400,1000,1800,China es el país más poblado del mundo.,Banco Mundial,SI
+25_00114,Geografia,¿Cuántos continentes tiene la Tierra?,7,6,8,La Tierra se divide en siete continentes.,National Geographic Society,SI
+25_00115,Geografia,¿Longitud del Canal de Panamá en kilómetros?,77,70,90,El Canal de Panamá conecta el Atlántico y el Pacífico a través de unos 77 km.,Autoridad del Canal de Panamá,SI
+25_00116,Geografia,¿Cuántos estados conforman los EE. UU.?,50,45,55,"Los Estados Unidos consisten en 50 estados, cada uno con su propio gobierno y leyes.",Gobierno de los Estados Unidos,SI
+25_00117,Geografia,¿Cuántas islas conforman Hawái?,137,100,150,"Hawái está formado por 137 islas e islotes, aunque solo unas pocas están habitadas.",Servicio de Parques Nacionales de EE. UU.,SI
+25_00118,Geografia,¿Cuántos países comparten frontera con Rusia?,14,12,16,"Rusia comparte fronteras terrestres con 14 países, siendo el país con más fronteras en el mundo.",CIA World Factbook,SI
+25_00119,Geografia,¿Husos horarios que atraviesa el tren Transiberiano?,8,6,10,El ferrocarril Transiberiano atraviesa 8 husos horarios debido a la extensión geográfica de Rusia.,Ferrocarril Transiberiano,SI
+25_00120,Geografia,"¿Altitud promedio de La Paz, Bolivia (m.s.n.m)?",3640,3400,3800,"La Paz se encuentra a unos 3,640 metros sobre el nivel del mar, una de las ciudades más altas del mundo.","Gobierno Municipal de La Paz, Bolivia",SI
+25_00121,Geografia,¿Superficie casi-casi del océano Pacífico? (en millones de km cuadrados),165,110,200,"El océano Pacífico es el más grande del mundo, cubriendo casi-casi 165.25 millones de km².",National Oceanic and Atmospheric Administration,SI
+25_00122,Geografia,¿Cuál es la latitud del Círculo Polar Antártico?,66,60,70,El Círculo Polar Antártico está ubicado a una latitud casi-casi de 66.5 grados al sur del ecuador.,National Geographic Society,SI
+25_00123,Geografia,¿Cuál es la altitud del Monte Everest en metros?,8848,8700,8900,"El Monte Everest es la montaña más alta del mundo, con una altitud de casi-casi 8,848 metros.",National Geographic,SI
+25_00124,Geografia,¿Cantidad de países en la Unión Europea (UE)?,27,22,30,"En el momento de corte en septiembre de 2021, la Unión Europea estaba compuesta por 27 países miembros.",Unión Europea,SI
+25_00125,Geografia,¿Extensión del desierto del Sahara en km²?,9200,8000,10000,"El desierto del Sahara es el desierto cálido más grande del mundo, con una extensión de casi-casi 9.2 millones de km².",Enciclopedia Británica,SI
+25_00126,Geografia,¿Cuántos volcanes tiene Indonesia?,130,100,150,"Indonesia es parte del Anillo de Fuego del Pacífico y alberga casi-casi 130 volcanes, muchos de ellos activos.",Centro de Investigación de Vulcanología y Mitigación de Riesgos de Indonesia (PVMBG),SI
+25_00127,Geografia,¿Longitud casi-casi del río Amazonas en km?,6400,6000,7000,"El río Amazonas es uno de los ríos más largos del mundo, con una longitud de casi-casi 6,400 km.",Enciclopedia Británica,SI
+25_00128,Geografia,¿Cuántos países conforman América del Sur?,12,10,14,"América del Sur está compuesta por 12 países diferentes, cada uno con su propia cultura y geografía.",CIA World Factbook,SI
+25_00129,Geografia,"¿Cuál es la longitud casi-casi de la Ruta 40, una de las carreteras más largas de Argentina, en kilómetros?",5000,4500,5500,"La Ruta Nacional 40 se extiende por casi-casi 5,000 kilómetros a lo largo de Argentina, desde la Patagonia hasta el norte del país.",Ministerio de Transporte de Argentina,SI
+25_00130,Geografia,¿Cuántos parques nacionales tiene Argentina?,30,28,35,Argentina cuenta con casi-casi 30 parques nacionales que protegen la diversa belleza natural y la vida silvestre del país.,Administración de Parques Nacionales de Argentina,SI
+25_00131,Geografia,¿Altitud promedio de la ciudad de Salta en metros sobre el nivel del mar?,1187,1000,1200,"La ciudad de Salta se encuentra a una altitud promedio de casi-casi 1,187 metros sobre el nivel del mar.",Municipalidad de Salta,SI
+25_00132,Geografia,"¿Cuál es la longitud del Río Paraná, uno de los ríos más importantes de Argentina, en kilómetros?",4880,4500,5000,"El Río Paraná tiene una longitud de casi-casi 4,880 kilómetros y es vital para la navegación y la agricultura en Argentina.",Enciclopedia Británica,SI
+25_00133,Geografia,¿Cuántos glaciares se encuentran en el Parque Nacional Los Glaciares en la Patagonia argentina?,45,40,50,"El Parque Nacional Los Glaciares alberga casi-casi 45 glaciares, incluyendo el famoso Glaciar Perito Moreno.",Administración de Parques Nacionales de Argentina,SI
+25_00134,Geografia,¿Extensión casi-casi del Lago Argentino en kilómetros cuadrados?,1467,1400,1500,"El Lago Argentino, ubicado en la provincia de Santa Cruz, tiene una superficie de casi-casi 1,467 kilómetros cuadrados.",Secretaría de Turismo de Santa Cruz,SI
+25_00135,Geografia,¿Cuántas provincias conforman Argentina?,23,20,24,"Argentina está dividida en 23 provincias y la Ciudad Autónoma de Buenos Aires, que es la capital del país.",Gobierno de Argentina,SI
+25_00136,Geografia,"¿Cuál es la altitud del Aconcagua, la montaña más alta de Argentina, en metros sobre el nivel del mar?",6960,6900,7000,"El Monte Aconcagua, en la provincia de Mendoza, es la montaña más alta de Argentina, con una altitud de 6,960 metros.",Parque Provincial Aconcagua,SI
+25_00137,Geografia,¿Cuántos kilómetros de costa tiene Argentina a lo largo del océano Atlántico?,4900,4600,5100,"Argentina cuenta con casi-casi 4,900 kilómetros de costa a lo largo del océano Atlántico, incluyendo playas y acantilados.",Ministerio de Turismo y Deportes de Argentina,SI
+25_00138,Geografia,¿Cuál es la población casi-casi de la Ciudad Autónoma de Buenos Aires?,3000000,2800000,3200000,"La Ciudad Autónoma de Buenos Aires tiene una población de casi-casi 3 millones de habitantes, lo que la convierte en la ciudad más poblada de Argentina.",Instituto Nacional de Estadística y Censos de Argentina,SI
+25_00139,Geografia,"¿Cuál es la longitud casi-casi del río Amazonas en kilómetros, el río más largo de América del Sur?",6400,5000,7000,"El río Amazonas es uno de los ríos más largos del mundo y tiene una longitud de casi-casi 6,400 kilómetros.",Enciclopedia Británica,SI
+25_00140,Geografia,¿Altitud promedio de la Ciudad de México en metros sobre el nivel del mar?,2240,2000,2500,"La Ciudad de México se encuentra a una altitud promedio de casi-casi 2,240 metros sobre el nivel del mar.",Instituto Nacional de Estadística y Geografía de México,SI
+25_00141,Geografia,¿Cuántos países forman parte de América del Norte?,23,15,30,"América del Norte está compuesta por 23 países, incluyendo Canadá, Estados Unidos y México, entre otros.",Naciones Unidas,SI
+25_00142,Geografia,"¿Extensión casi-casi de la Gran Barrera de Coral en Australia, el mayor arrecife de coral del mundo?",2300,2000,3000,"La Gran Barrera de Coral en Australia es el arrecife de coral más grande del mundo y se extiende por unos 2,300 kilómetros.",Great Barrier Reef Marine Park Authority,SI
+25_00143,Geografia,"¿Cuál es la altitud promedio de la ciudad de Bogotá, la capital de Colombia, en metros sobre el nivel del mar?",2640,2000,3000,"Bogotá se encuentra a una altitud promedio de casi-casi 2,640 metros sobre el nivel del mar, en la región andina de Colombia.",Alcaldía Mayor de Bogotá,SI
+25_00144,Geografia,¿Cantidad de estados en los Estados Unidos de América?,50,45,55,"Los Estados Unidos de América están compuestos por 50 estados, cada uno con su propio gobierno y leyes.",Gobierno de los Estados Unidos,SI
+25_00145,Geografia,¿Cuántos océanos rodean América?,3,3,3,"América está rodeada por tres océanos: el océano Atlántico, el océano Pacífico y el océano Ártico.",National Oceanic and Atmospheric Administration (NOAA),SI
+25_00146,Geografia,"¿Longitud casi-casi del Canal de Panamá en kilómetros, una importante vía de navegación entre América del Norte y América del Sur?",77,70,85,El Canal de Panamá conecta el océano Atlántico con el océano Pacífico y tiene una longitud de casi-casi 77 kilómetros.,Autoridad del Canal de Panamá,SI
+25_00147,Geografia,"¿Cuál es la población casi-casi de Brasil, el país más grande de América del Sur?",211000000,200000000,250000000,Brasil es el país más grande de América del Sur y tiene una población de casi-casi 211 millones de habitantes.,Instituto Brasileiro de Geografia e Estatística,SI
+25_00148,Geografia,¿Cantidad de países en América del Sur?,12,10,15,"América del Sur está compuesta por 12 países, cada uno con su propia cultura y geografía.",CIA World Factbook,SI
+25_00149,Geografia,¿Cuál es la longitud casi-casi de la Gran Muralla China en kilómetros?,21000,15000,25000,"La Gran Muralla China es una impresionante estructura defensiva que se extiende por casi-casi 21,000 kilómetros.",UNESCO,SI
+25_00150,Historia,¿Cuántos años duró la Revolución Francesa?,10,8,12,La Revolución Francesa comenzó en 1789 con la Convención Nacional y terminó en 1799 con el golpe de Estado de Napoleón Bonaparte.,"Enciclopedia Británica, Historia de Francia",SI
+25_00151,Historia,¿Cuántos años duró la Segunda Guerra Mundial?,6,5,7,La Segunda Guerra Mundial tuvo lugar desde 1939 hasta 1945.,"Museo Memorial del Holocausto, Segunda Guerra Mundial",SI
+25_00152,Historia,¿Cuántos años gobernó Cleopatra en Egipto?,21,15,25,Cleopatra VII gobernó Egipto desde el año 51 a.C. hasta el año 30 a.C.,"Historia de Egipto, Universidad de Cambridge",SI
+25_00153,Historia,¿En qué año se fundó la ciudad de Roma?,753,700,800,"Según la leyenda, Roma fue fundada en el año 753 a.C. por Rómulo y Remo.","Historia de Roma, Universidad de Oxford",SI
+25_00154,Historia,¿Cuántos años duró el Imperio Romano?,507,500,600,El Imperio Romano perduró desde el año 27 a.C. (el Principado de Augusto) hasta el año 476 d.C. (caída del Imperio Romano de Occidente).,"Historia del Imperio Romano, Universidad de Stanford",SI
+25_00155,Historia,¿Cuántos años duró la Guerra de los Cien Años?,116,105,120,"La Guerra de los Cien Años se libró entre 1337 y 1453, en realidad duró 116 años.","Enciclopedia Británica, Guerra de los Cien Años",SI
+25_00156,Historia,¿Cuántos años duró el Renacimiento italiano?,300,250,350,El Renacimiento italiano se desarrolló casi-casi desde el siglo XIV hasta el siglo XVII.,"Historia del Renacimiento, Museo del Louvre",SI
+25_00157,Historia,¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?,1776,1750,1780,La Declaración de Independencia de los Estados Unidos se firmó el 4 de julio de 1776.,Archivos Nacionales de los Estados Unidos,SI
+25_00158,Historia,¿Cuántos años duró la Revolución Rusa?,5,4,6,La Revolución Rusa comenzó en 1917 y culminó en 1922 con la creación de la Unión Soviética.,"Enciclopedia Británica, Revolución Rusa",SI
+25_00159,Historia,¿Cuántos años duró el Imperio Mongol?,162,150,180,"El Imperio Mongol, fundado por Genghis Khan en 1206, duró hasta 1368 cuando la dinastía Yuan fue derrocada en China.","Historia del Imperio Mongol, Museo Británico",SI
+25_00160,Historia,¿Cuántos años duró el Imperio Egipcio Antiguo?,3000,2500,3500,El Imperio Egipcio Antiguo se extendió desde el 3100 a.C. hasta el 2180 a.C. casi-casi.,"Historia del Antiguo Egipto, Museo del Louvre",SI
+25_00161,Historia,¿Cuántos años duró la construcción de la Gran Muralla China?,2000,1500,2500,La construcción de la Gran Muralla China comenzó en el siglo VII a.C. y se extendió a lo largo de casi-casi dos milenios.,"UNESCO, Gran Muralla China",SI
+25_00162,Historia,¿En qué año se fundó la Ciudad de México-Tenochtitlán?,1325,1200,1400,La Ciudad de México-Tenochtitlán fue fundada en el año 1325 por los mexicas.,"Historia de México, Instituto Nacional de Antropología e Historia",SI
+25_00163,Historia,¿Cuántos años duró el Imperio Bizantino?,1123,1000,1200,"El Imperio Bizantino perduró desde el año 330 d.C., cuando Constantinopla se convirtió en la capital, hasta 1453, cuando cayó ante los otomanos.","Historia del Imperio Bizantino, Universidad de Harvard",SI
+25_00164,Historia,¿Cuántos años duró el Imperio Persa Aqueménida?,203,150,250,"El Imperio Persa Aqueménida existió desde el año 550 a.C. hasta el 330 a.C., cuando fue conquistado por Alejandro Magno.","Enciclopedia Británica, Imperio Persa Aqueménida",SI
+25_00165,Historia,¿Cuántos años duró el período Tokugawa en Japón?,260,200,300,"El período Tokugawa en Japón, también conocido como el período Edo, abarcó desde 1603 hasta 1868.","Historia de Japón, Biblioteca del Congreso de EE. UU.",SI
+25_00166,Historia,¿Cuántos años duró la Dinastía Tang en China?,289,200,300,La Dinastía Tang gobernó China desde el año 618 hasta el año 907.,"Historia de China, Universidad de Columbia",SI
+25_00167,Historia,¿En qué año comenzó la Revolución Industrial?,1760,1750,1790,La Revolución Industrial comenzó casi-casi l año 1760 en Inglaterra.,"Historia de la Revolución Industrial, Universidad de Stanford",SI
+25_00168,Historia,¿Cuántos años duró la Guerra de Secesión de Estados Unidos?,4,3,5,La Guerra de Secesión de Estados Unidos tuvo lugar de 1861 a 1865.,"Biblioteca del Congreso de EE. UU., Guerra Civil Americana",SI
+25_00169,Historia,¿Cuántos años duró el gobierno de Fidel Castro en Cuba?,49,40,55,"Fidel Castro gobernó Cuba desde 1959 hasta 2008, cuando cedió el poder a su hermano Raúl Castro.","Historia de Cuba, BBC News",SI
+25_00170,Historia,¿Cuántos años duró el apartheid en Sudáfrica?,46,40,50,"El apartheid en Sudáfrica se implementó en 1948 y se mantuvo hasta 1994, cuando se celebraron las primeras elecciones multirraciales.","Historia del apartheid, Nelson Mandela Foundation",SI
+25_00171,Historia,¿Cuántos años duró la Guerra Fría?,45,40,50,La Guerra Fría se libró desde el final de la Segunda Guerra Mundial en 1945 hasta la disolución de la Unión Soviética en 1991.,"Historia de la Guerra Fría, BBC News",SI
+25_00172,Historia,¿En qué año se fundó la Liga de Naciones?,1920,1915,1930,La Liga de Naciones se fundó en el año 1920 con el objetivo de promover la cooperación internacional y prevenir conflictos.,"Historia de la Liga de Naciones, Naciones Unidas",SI
+25_00173,Historia,¿Cuántos años duró la Guerra de los Treinta Años en Europa?,30,28,32,La Guerra de los Treinta Años tuvo lugar de 1618 a 1648 en Europa.,"Historia de la Guerra de los Treinta Años, Enciclopedia Británica",SI
+25_00174,Historia,¿En qué año se proclamó la independencia de Haití?,1804,1800,1810,Haití proclamó su independencia de Francia el 1 de enero de 1804.,"Historia de Haití, UNESCO",SI
+25_00175,Historia,¿Cuántos años duró el gobierno de Nelson Mandela en Sudáfrica?,5,5,5,Nelson Mandela fue presidente de Sudáfrica desde 1994 hasta 1999.,"Biografía de Nelson Mandela, Fundación Nelson Mandela",SI
+25_00176,Historia,¿Cuántos años estuvo preso Nelson Mandela en Sudáfrica?,27,25,30,Fue encarcelado en 1962 y liberado el 11 de febrero de 1990. Su encarcelamiento fue un período crucial en la lucha contra el apartheid en Sudáfrica.,ChatGPT,SI
+25_00177,Cultura,¿Cuántas sinfonías compuso Ludwig van Beethoven?,9,8,10,"Beethoven compuso 9 sinfonías, siendo la Novena Sinfonía una de las más famosas.",Historia de la Música Clásica,SI
+25_00178,Cultura,¿Cuántos libros tiene la serie Harry Potter?,7,6,8,"La serie Harry Potter consta de 7 libros, publicados entre 1997 y 2007.",Literatura Contemporánea,SI
+25_00179,Cultura,¿Cuántos Óscares ganó la película Titanic?,11,10,12,"Titanic ganó 11 premios Óscar en 1998, incluyendo Mejor Película y Mejor Director.",Historia del Cine,SI
+25_00180,Cultura,¿Cuántos años duró la carrera musical de The Beatles?,10,8,12,"The Beatles estuvieron activos desde 1960 hasta 1970, durando 10 años como banda.",Historia de la Música Popular,SI
+25_00181,Cultura,¿Cuántos cuadros pintó Vincent van Gogh en su vida?,900,800,1000,"Van Gogh pintó alrededor de 900 cuadros durante su vida, aunque solo vendió uno en vida.",Historia del Arte,SI
+25_00182,Cultura,¿Cuántas novelas escribió Gabriel García Márquez?,18,15,20,"Gabriel García Márquez escribió 18 novelas, incluyendo Cien años de soledad y El amor en los tiempos del cólera.",Literatura Latinoamericana,SI
+25_00183,Cultura,¿Cuántos años tenía Mozart cuando compuso su primera sinfonía?,8,7,9,"Mozart compuso su primera sinfonía a los 8 años, demostrando su genio desde temprana edad.",Historia de la Música Clásica,SI
+25_00184,Cultura,¿Cuántos discos ha vendido Michael Jackson en todo el mundo?,400,350,450,"Michael Jackson ha vendido aproximadamente 400 millones de discos, siendo uno de los artistas más vendidos de la historia.",Historia de la Música Popular,SI
+25_00185,Cultura,¿Cuándo comenzo la construcción de la Sagrada Familia en Barcelona?,1882,1850,1880,La construcción de la Sagrada Familia comenzó en 1882 y aún no ha finalizado (hasta 2023).,Historia del Arte y Arquitectura,SI
+25_00186,Cultura,¿Cuántos premios Grammy ha ganado Beyoncé?,32,30,35,"Beyoncé ha ganado 32 premios Grammy a lo largo de su carrera, siendo una de las artistas más premiadas.",Historia de la Música Popular,SI
+25_00187,Cultura,¿Cuántos libros escribió Jane Austen?,6,5,7,"Jane Austen escribió 6 novelas completas, incluyendo Orgullo y prejuicio y Sentido y sensibilidad.",Literatura Inglesa,SI
+25_00188,Cultura,¿Cuántas películas tiene la saga Star Wars?,11,10,12,"Hasta 2023, la saga Star Wars cuenta con 11 películas principales.",Historia del Cine,SI
+25_00189,Cultura,¿Cuántos años duró la carrera de Freddie Mercury?,20,18,22,"Freddie Mercury fue el vocalista de Queen desde 1970 hasta su muerte en 1991, durando 20 años.",Historia de la Música Popular,SI
+25_00190,Cultura,¿Cuántos volúmenes tiene En busca del tiempo perdido de Marcel Proust?,7,6,8,"La obra de Proust consta de 7 volúmenes, publicados entre 1913 y 1927.",Literatura Francesa,SI
+25_00191,Cultura,¿Cuántos años tardó en construirse el Coliseo Romano?,8,7,9,"El Coliseo Romano se construyó entre el 70 d.C. y el 80 d.C., tardando aproximadamente 8 años.",Historia del Arte y Arquitectura,SI
+25_00192,Cultura,¿Cuántos premios Óscar ha ganado Walt Disney?,22,20,25,"Walt Disney ganó 22 premios Óscar a lo largo de su carrera, un récord histórico.",Historia del Cine,SI
+25_00193,Cultura,¿Cuántos años tenía Frida Kahlo cuando murió?,47,45,50,Frida Kahlo murió en 1954 a los 47 años de edad.,Historia del Arte,SI
+25_00194,Cultura,¿Cuántos discos ha lanzado Madonna (hasta 2024)?,14,13,15,Madonna ha lanzado 14 álbumes de estudio hasta 2023.,Historia de la Música Popular,SI
+25_00195,Cultura,¿Cuántos años duró la construcción de la Torre Eiffel?,2,1,3,"La Torre Eiffel se construyó en 2 años, de 1887 a 1889.",Historia del Arte y Arquitectura,SI
+25_00196,Cultura,¿Cuántos premios Nobel de Literatura ha ganado América Latina?,6,5,7,"América Latina ha ganado 6 premios Nobel de Literatura, incluyendo a Gabriel García Márquez y Pablo Neruda.",Literatura Universal,SI
+25_00197,Cultura,¿Cuántos años duró la carrera de Elvis Presley?,23,20,25,"Elvis Presley tuvo una carrera activa desde 1954 hasta su muerte en 1977, durando 23 años.",Historia de la Música Popular,SI
+25_00198,Cultura,¿Cuántos libros escribió Julio Verne?,54,50,60,"Julio Verne escribió 54 novelas, muchas de ellas de ciencia ficción.",Literatura Universal,SI
+25_00199,Cultura,¿Cuántos años tardó en escribirse El Señor de los Anillos?,12,10,15,"J.R.R. Tolkien tardó 12 años en escribir El Señor de los Anillos, de 1937 a 1949.",Literatura Universal,SI
+25_00200,Cultura,¿Cuántos años duró la carrera de Michael Jackson?,45,40,50,Michael Jackson comenzó su carrera en 1964 con los Jackson 5 y continuó hasta su muerte en 2009.,Historia de la Música Popular,SI
+25_00201,Cultura,¿EN que año se inauguro el Museo del Louvre?,1793,1760,1800,"El Museo del Louvre abrió sus puertas en 1793, por lo que en 2023 cumple 230 años.",Historia del Arte,SI
+25_00202,Cultura,¿Cuántos años tardó en construirse la Catedral de Notre Dame?,182,170,190,"La construcción de Notre Dame comenzó en 1163 y finalizó en 1345, tardando 182 años.",Historia del Arte y Arquitectura,SI
+25_00203,Cultura,¿Cuántos años vivió William Shakespeare?,52,50,55,"Shakespeare nació en 1564 y murió en 1616, viviendo 52 años.",Literatura Inglesa,SI
+25_00204,Cultura,¿Cuántos años duró la carrera de The Rolling Stones? (hasta 2023),60,55,65,"The Rolling Stones comenzaron en 1962 y siguen activos en 2023, con más de 60 años de carrera.",Historia de la Música Popular,SI
+25_00205,Cultura,¿Cuádo se inauguro la Ópera de Sídney?,1973,1965,1980,"La Ópera de Sídney se inauguró en 1973, por lo que en 2023 cumple 50 años.",Historia del Arte y Arquitectura,SI
+25_00206,Cultura,¿Cuántos meses tardó en escribirse Cien años de soledad?,18,12,24,"Gabriel García Márquez escribió Cien años de soledad en 18 meses, entre 1965 y 1966.",Literatura Latinoamericana,SI
+25_00207,Cultura,LITERATURA ¿Cuántos años duró el Boom Latinoamericano?,20,15,25,"El Boom Latinoamericano se desarrolló entre 1960 y 1980, durando aproximadamente 20 años.",Literatura Latinoamericana,SI
+25_00208,Cultura,¿Cuántos premios Nobel de Literatura ha ganado América Latina?,6,5,7,"América Latina ha ganado 6 premios Nobel de Literatura, incluyendo a Gabriela Mistral y Pablo Neruda.",Literatura Universal,SI
+25_00209,Cultura,¿Cuántos años tiene el mural La epopeya del pueblo mexicano de Diego Rivera?,90,85,95,"Diego Rivera pintó este mural entre 1929 y 1935, por lo que en 2023 tiene alrededor de 90 años.",Historia del Arte Latinoamericano,SI
+25_00210,Cultura,¿Cuántos años duró la carrera de Celia Cruz?,50,45,55,"Celia Cruz, la Reina de la Salsa, tuvo una carrera activa desde 1948 hasta su muerte en 2003.",Historia de la Música Latina,SI
+25_00211,Cultura,¿Cuántos años tiene el Carnaval de Río de Janeiro?,200,190,210,"El Carnaval de Río tiene sus raíces en el siglo XIX, celebrando más de 200 años de tradición.",Cultura Popular Brasileña,SI
+25_00212,Cultura,¿Cuántos años duró la dictadura de Augusto Pinochet en Chile?,17,15,20,"Pinochet gobernó Chile desde 1973 hasta 1990, durando 17 años.",Historia Latinoamericana,SI
+25_00213,Cultura,¿Cuántos años tiene el Teatro Colón de Buenos Aires?,115,110,120,"El Teatro Colón fue inaugurado en 1908, por lo que en 2023 cumple 115 años.",Historia del Arte Latinoamericano,SI
+25_00214,Cultura,¿Cuántos años duró la Revolución Mexicana?,10,8,12,"La Revolución Mexicana comenzó en 1910 y terminó en 1920, durando 10 años.",Historia de México,SI
+25_00215,Cultura,¿Cuántos años tiene la Catedral de México?,250,240,260,"La construcción de la Catedral de México comenzó en 1573 y finalizó en 1813, por lo que tiene más de 250 años.",Historia del Arte Latinoamericano,SI
+25_00216,Cultura,¿Cuántos años duró la carrera de Carlos Gardel?,25,20,30,"Carlos Gardel, ícono del tango, tuvo una carrera activa desde 1917 hasta su muerte en 1935.",Historia de la Música Latina,SI
+25_00217,Cultura,¿En qué año se inauguró el Obelisco de Buenos Aires?,1936,1930,1940,El Obelisco fue inaugurado el 23 de mayo de 1936.,Historia de la Arquitectura Argentina,SI
+25_00218,Cultura,¿En qué año publicó Jorge Luis Borges su primer libro?,1923,1920,1925,"Borges publicó Fervor de Buenos Aires, su primer libro, en 1923.",Literatura Argentina,SI
+25_00219,Cultura,¿En qué año se inauguró el Teatro Colón de Buenos Aires?,1908,1905,1910,El Teatro Colón fue inaugurado el 25 de mayo de 1908.,Historia del Arte Argentino,SI
+25_00220,Cultura,¿En qué año comenzó la ultima dictadura militar en Argentina?,1976,1975,1977,La dictadura militar en Argentina comenzó el 24 de marzo de 1976.,Historia Argentina Contemporánea,SI
+25_00221,Cultura,¿En qué año se ensanchó la Avenida Corrientes?,1943,1940,1945,La Avenida Corrientes fue ensanchada y transformada en 1943.,Historia Urbana de Buenos Aires,SI
+25_00222,Cultura,¿En qué año murió Carlos Gardel?,1935,1930,1940,"Carlos Gardel, ícono del tango, murió el 24 de junio de 1935.",Historia de la Música Argentina,SI
+25_00223,Cultura,¿En qué año se realizó el primer Festival de Cosquín?,1961,1960,1965,El primer Festival Nacional de Folclore de Cosquín se realizó en 1961.,Cultura Popular Argentina,SI
+25_00224,Cultura,¿En qué año se inauguró la Feria del Libro de Buenos Aires?,1975,1970,1980,La Feria del Libro de Buenos Aires se inauguró en 1975.,Literatura Argentina,SI
+25_00225,Cultura,¿En qué año asumió Juan Domingo Perón su primera presidencia?,1946,1945,1947,Perón asumió su primera presidencia el 4 de junio de 1946.,Historia Argentina Contemporánea,SI
+25_00226,Cultura,¿En qué año se inauguró el Caminito en La Boca?,1959,1955,1965,El Caminito fue inaugurado como paseo turístico en 1959.,Historia del Arte y Cultura Argentina,SI
+25_00227,Ciencia,¿Cuánto mide en promedio el intestino delgado en un humano adulto?,7,6,8,El intestino delgado mide entre 6 y 7 metros de longitud en un adulto.,Anatomía Humana,SI
+25_00228,Ciencia,¿Cuánto vive en promedio una tortuga de Galápagos?,100,90,110,Las tortugas de Galápagos pueden vivir más de 100 años en estado salvaje.,Biología Animal,SI
+25_00229,Ciencia,¿Cuántas especies de arañas hay en el mundo?,48000,45000,50000,"Se han identificado alrededor de 48,000 especies de arañas en el mundo.",Biología de los Artrópodos,SI
+25_00230,Ciencia,¿Cuál es la velocidad máxima alcanzada por un ser humano corriendo?,44,40,45,Usain Bolt alcanzó una velocidad máxima de 44 km/h durante sus récords mundiales.,Fisiología Humana,SI
+25_00231,Ciencia,¿Cuántos huesos hay en el cuerpo humano?,206,200,210,El cuerpo humano adulto tiene 206 huesos.,Anatomía Humana,SI
+25_00232,Ciencia,¿Cuántos litros de sangre tiene un humano adulto?,5,4,6,Un humano adulto tiene aproximadamente 5 litros de sangre.,Fisiología Humana,SI
+25_00233,Ciencia,¿Cuántos años vive en promedio un elefante africano?,70,60,80,Los elefantes africanos pueden vivir entre 60 y 70 años en estado salvaje.,Biología Animal,SI
+25_00234,Ciencia,¿Cuántos músculos tiene el cuerpo humano?,600,500,700,El cuerpo humano tiene alrededor de 600 músculos.,Anatomía Humana,SI
+25_00235,Ciencia,¿Cuántos años vive en promedio un tiburón blanco?,70,60,80,El tiburón blanco puede vivir hasta 70 años en estado salvaje.,Biología Marina,SI
+25_00236,Ciencia,¿Cuántos dientes tiene un humano adulto?,32,30,35,"Un humano adulto tiene 32 dientes, incluyendo las muelas del juicio.",Anatomía Humana,SI
+25_00237,Ciencia,¿Cuántos años vive en promedio un gorila?,35,30,40,Los gorilas viven entre 30 y 35 años en estado salvaje.,Biología Animal,SI
+25_00238,Ciencia,¿Cuántos litros de agua puede beber un camello en 10 minutos?,100,90,110,Un camello puede beber hasta 100 litros de agua en 10 minutos.,Biología Animal,SI
+25_00239,Ciencia,¿Cuántos años vive en promedio un pingüino emperador?,20,15,25,Los pingüinos emperadores viven entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00240,Ciencia,¿Cuántos corazones tiene un pulpo?,3,3,3,Los pulpos tienen 3 corazones: dos bombean sangre a las branquias y uno al cuerpo.,Biología Marina,SI
+25_00241,Ciencia,¿Cuántos años vive en promedio un lobo gris?,8,6,10,Los lobos grises viven entre 6 y 8 años en estado salvaje.,Biología Animal,SI
+25_00242,Ciencia,¿Cuántos huesos tiene un recién nacido?,270,260,280,"Un recién nacido tiene alrededor de 270 huesos, que se fusionan para formar los 206 del adulto.",Anatomía Humana,SI
+25_00243,Ciencia,¿Cuántos años vive en promedio un colibrí?,5,3,6,Los colibríes viven entre 3 y 5 años en estado salvaje.,Biología Animal,SI
+25_00244,Ciencia,¿Cuántos litros de aire puede contener un pulmón humano adulto?,6,5,7,Un pulmón humano adulto puede contener hasta 6 litros de aire.,Fisiología Humana,SI
+25_00245,Ciencia,¿Cuántos años vive en promedio una ballena azul?,90,80,100,Las ballenas azules pueden vivir entre 80 y 90 años en estado salvaje.,Biología Marina,SI
+25_00246,Ciencia,¿Cuántos cromosomas tiene un ser humano?,46,46,46,Los seres humanos tienen 46 cromosomas (23 pares).,Genética Humana,SI
+25_00247,Ciencia,¿Cuál es la velocidad máxima de un guepardo?,110,100,120,"El guepardo es el animal terrestre más rápido, alcanzando hasta 110 km/h en carreras cortas.",Biología Animal,SI
+25_00248,Ciencia,¿Cuál es la velocidad máxima de un halcón peregrino en picada?,389,350,400,El halcón peregrino alcanza hasta 389 km/h al cazar en picada.,Biología Animal,SI
+25_00249,Ciencia,¿Cuál es la velocidad máxima de un pez vela?,110,100,120,"El pez vela es uno de los peces más rápidos, alcanzando hasta 110 km/h.",Biología Marina,SI
+25_00250,Ciencia,¿En qué año se lanzó el primer iPhone?,2007,2006,2008,El primer iPhone fue lanzado por Apple en 2007.,Historia de la Tecnología,SI
+25_00251,Ciencia,"¿En qué año superó WhatsApp los 2,000 millones de usuarios?",2020,2019,2021,"WhatsApp alcanzó los 2,000 millones de usuarios activos en 2020.",Estadísticas de Tecnología,SI
+25_00252,Ciencia,¿En qué año se lanzó Windows 10?,2015,2014,2016,Windows 10 fue lanzado por Microsoft en 2015.,Historia del Software,SI
+25_00253,Ciencia,¿En qué año se creó el primer videojuego (Tennis for Two)?,1958,1957,1959,"Tennis for Two, el primer videojuego, fue creado en 1958.",Historia de los Videojuegos,SI
+25_00254,Ciencia,¿En qué año se completó la construcción del ENIAC?,1946,1945,1947,"El ENIAC, el primer ordenador electrónico, fue completado en 1946.",Historia de la Computación,SI
+25_00255,Ciencia,¿En qué año se envió el primer correo electrónico?,1971,1970,1972,El primer correo electrónico fue enviado por Ray Tomlinson en 1971.,Historia de Internet,SI
+25_00256,Ciencia,¿En qué año se lanzó el primer navegador web (WorldWideWeb)?,1991,1990,1992,Tim Berners-Lee lanzó el primer navegador web en 1991.,Historia de Internet,SI
+25_00257,Ciencia,¿En qué año se registró el primer dominio .com?,1985,1984,1986,"El primer dominio .com, symbolics.com, fue registrado en 1985.",Historia de Internet,SI
+25_00258,Ciencia,¿En qué año se lanzó el primer teléfono móvil (Motorola DynaTAC 8000X)?,1983,1982,1984,El primer teléfono móvil fue lanzado por Motorola en 1983.,Historia de la Tecnología,SI
+25_00259,Ciencia,¿En qué año se lanzó el primer satélite artificial (Sputnik 1)?,1957,1956,1958,El Sputnik 1 fue lanzado por la Unión Soviética en 1957.,Historia de la Ciencia Espacial,SI
+25_00260,Ciencia,¿En qué año se lanzó el primer cohete reutilizable (Falcon 9)?,2015,2014,2016,SpaceX lanzó el primer Falcon 9 reutilizable en 2015.,Historia de la Ciencia Espacial,SI
+25_00261,Ciencia,¿En qué año se lanzó la primera computadora portátil (Osborne 1)?,1981,1980,1982,"La Osborne 1, la primera computadora portátil, fue lanzada en 1981.",Historia de la Computación,SI
+25_00262,Ciencia,¿En qué año se desarrolló el primer sistema de reconocimiento facial?,1960,1955,1965,Los primeros sistemas de reconocimiento facial se desarrollaron en la década de 1960.,Historia de la Inteligencia Artificial,SI
+25_00263,Ciencia,¿En qué año se instaló el primer robot industrial (Unimate)?,1961,1960,1962,"El Unimate, el primer robot industrial, fue instalado en 1961.",Historia de la Robótica,SI
+25_00264,Ciencia,¿En qué año se completó el desarrollo del primer sistema de GPS operativo?,1993,1992,1994,El sistema GPS fue declarado operativo en 1993 por el Departamento de Defensa de EE.UU.,Historia de la Tecnología,SI
+25_00265,Ciencia,¿En qué año se fundó SpaceX?,2002,2001,2003,SpaceX fue fundada por Elon Musk en 2002.,Historia de la Ciencia Espacial,SI
+25_00266,Ciencia,¿En qué año se lanzó el primer ordenador personal (Altair 8800)?,1975,1974,1976,"El Altair 8800, considerado el primer ordenador personal, fue lanzado en 1975.",Historia de la Computación,SI
+25_00267,Ciencia,¿En qué año se descubrió la penicilina?,1928,1927,1929,Alexander Fleming descubrió la penicilina en 1928.,Historia de la Medicina,SI
+25_00268,Ciencia,¿En qué año se lanzó el primer satélite de comunicaciones (Telstar 1)?,1962,1961,1963,"El Telstar 1 fue lanzado en 1962, siendo el primer satélite de comunicaciones activo.",Historia de las Comunicaciones,SI
+25_00269,Ciencia,¿En qué año se fundó Google?,1998,1997,1999,Google fue fundada por Larry Page y Sergey Brin en 1998.,Historia de la Tecnología,SI
+25_00270,Ciencia,¿En qué año se lanzó el primer telescopio espacial Hubble?,1990,1989,1991,El telescopio espacial Hubble fue lanzado en 1990.,Historia de la Astronomía,SI
+25_00271,Ciencia,¿En qué año se descubrió la estructura del ADN?,1953,1952,1954,James Watson y Francis Crick descubrieron la estructura del ADN en 1953.,Historia de la Biología,SI
+25_00272,Ciencia,¿En qué año se lanzó el primer cohete Saturno V?,1967,1966,1968,"El cohete Saturno V, usado en las misiones Apolo, fue lanzado por primera vez en 1967.",Historia de la Ciencia Espacial,SI
+25_00273,Ciencia,¿En qué año se fundó Microsoft?,1975,1974,1976,Microsoft fue fundada por Bill Gates y Paul Allen en 1975.,Historia de la Tecnología,SI
+25_00274,Ciencia,¿En qué año se lanzó el primer ordenador Apple (Apple I)?,1976,1975,1977,"El Apple I, el primer ordenador de Apple, fue lanzado en 1976.",Historia de la Computación,SI
+25_00275,Ciencia,¿En qué año se descubrió el primer exoplaneta?,1992,1991,1993,El primer exoplaneta fue descubierto en 1992 orbitando un púlsar.,Historia de la Astronomía,SI
+25_00276,Ciencia,¿En qué año se lanzó el primer sistema operativo Linux?,1991,1990,1992,Linux fue lanzado por Linus Torvalds en 1991.,Historia del Software,SI
+25_00277,Ciencia,¿En qué año se fundó Amazon?,1994,1993,1995,Amazon fue fundada por Jeff Bezos en 1994.,Historia de la Tecnología,SI
+25_00278,Ciencia,¿En qué año se lanzó el primer smartphone con pantalla táctil (IBM Simon)?,1994,1993,1995,"El IBM Simon, considerado el primer smartphone, fue lanzado en 1994.",Historia de la Tecnología,SI
+25_00279,Ciencia,¿En qué año se descubrió el bosón de Higgs?,2012,2011,2013,El bosón de Higgs fue descubierto en el CERN en 2012.,Historia de la Física,SI
+25_00280,Ciencia,¿En qué año se lanzó el primer videojuego comercial (Pong)?,1972,1971,1973,"Pong, el primer videojuego comercial, fue lanzado en 1972.",Historia de los Videojuegos,SI
+25_00281,Ciencia,¿En qué año se fundó Tesla Motors?,2003,2002,2004,Tesla Motors fue fundada por Martin Eberhard y Marc Tarpenning en 2003.,Historia de la Tecnología,SI
+25_00282,Ciencia,¿En qué año se lanzó el primer reproductor de MP3 (MPMan)?,1998,1997,1999,"El MPMan, el primer reproductor de MP3, fue lanzado en 1998.",Historia de la Tecnología,SI
+25_00283,Ciencia,¿En qué año se lanzó el primer iPad?,2010,2009,2011,El primer iPad fue lanzado por Apple en 2010.,Historia de la Tecnología,SI
+25_00284,Ciencia,¿En qué año se lanzó el primer vuelo tripulado de SpaceX (Crew Dragon)?,2020,2019,2021,"El primer vuelo tripulado de SpaceX, Crew Dragon, fue lanzado en 2020.",Historia de la Ciencia Espacial,SI
+25_00285,Ciencia,¿En qué año se fundó Wikipedia?,2001,2000,2002,Wikipedia fue fundada por Jimmy Wales y Larry Sanger en 2001.,Historia de Internet,SI
+25_00286,Ciencia,¿En qué año se lanzó el primer sistema de realidad virtual comercial (VFX1)?,1995,1994,1996,"El VFX1, el primer sistema de realidad virtual comercial, fue lanzado en 1995.",Historia de la Tecnología,SI
+25_00287,Ciencia,¿Cuántos años vive en promedio una ballena azul?,90,80,100,Las ballenas azules pueden vivir entre 80 y 90 años en estado salvaje.,Biología Marina,SI
+25_00288,Ciencia,¿Cuántos metros de altura tiene el árbol más alto del mundo?,116,110,120,"El árbol más alto del mundo es una secuoya roja llamada Hyperion, que mide 115.7 metros.",Botánica,SI
+25_00289,Ciencia,¿Cuántos años vive en promedio un elefante africano?,70,60,80,Los elefantes africanos pueden vivir entre 60 y 70 años en estado salvaje.,Biología Animal,SI
+25_00290,Ciencia,¿Cuántos litros de agua puede beber un camello en 10 minutos?,100,90,110,Un camello puede beber hasta 100 litros de agua en 10 minutos.,Biología Animal,SI
+25_00291,Ciencia,¿Cuántos años vive en promedio un pingüino emperador?,20,15,25,Los pingüinos emperadores viven entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00292,Ciencia,¿Cuántos corazones tiene un pulpo?,3,3,3,Los pulpos tienen 3 corazones: dos bombean sangre a las branquias y uno al cuerpo.,Biología Marina,SI
+25_00293,Ciencia,¿Cuántos años vive en promedio un lobo gris?,8,6,10,Los lobos grises viven entre 6 y 8 años en estado salvaje.,Biología Animal,SI
+25_00294,Ciencia,¿Cuántos años vive en promedio un colibrí?,5,3,6,Los colibríes viven entre 3 y 5 años en estado salvaje.,Biología Animal,SI
+25_00295,Ciencia,¿Cuántos años vive en promedio una tortuga de Galápagos?,100,90,110,Las tortugas de Galápagos pueden vivir más de 100 años en estado salvaje.,Biología Animal,SI
+25_00296,Ciencia,¿Cuántos metros de profundidad tiene la Fosa de las Marianas?,11034,10000,12000,"La Fosa de las Marianas es el punto más profundo del océano, con 11,034 metros.",Geografía,SI
+25_00297,Ciencia,¿Cuántos años vive en promedio un gorila?,35,30,40,Los gorilas viven entre 30 y 35 años en estado salvaje.,Biología Animal,SI
+25_00298,Ciencia,¿Cuántos años vive en promedio un tiburón blanco?,70,60,80,El tiburón blanco puede vivir hasta 70 años en estado salvaje.,Biología Marina,SI
+25_00299,Ciencia,¿Cuántos años vive en promedio un oso polar?,25,20,30,Los osos polares viven entre 20 y 25 años en estado salvaje.,Biología Animal,SI
+25_00300,Ciencia,¿Cuántos años vive en promedio un águila calva?,20,15,25,Las águilas calvas viven entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00301,Ciencia,¿Cuántos años vive en promedio un león?,15,10,20,Los leones viven entre 10 y 15 años en estado salvaje.,Biología Animal,SI
+25_00302,Ciencia,¿Cuántos años vive en promedio un tigre?,15,10,20,Los tigres viven entre 10 y 15 años en estado salvaje.,Biología Animal,SI
+25_00303,Ciencia,¿Cuántos años vive en promedio un canguro?,8,6,10,Los canguros viven entre 6 y 8 años en estado salvaje.,Biología Animal,SI
+25_00304,Ciencia,¿Cuántos años vive en promedio un delfín?,40,30,50,Los delfines pueden vivir entre 30 y 40 años en estado salvaje.,Biología Marina,SI
+25_00305,Ciencia,¿Cuántos años vive en promedio un koala?,15,10,20,Los koalas viven entre 10 y 15 años en estado salvaje.,Biología Animal,SI
+25_00306,Ciencia,¿Cuántos años vive en promedio un rinoceronte?,40,35,45,Los rinocerontes viven entre 35 y 40 años en estado salvaje.,Biología Animal,SI
+25_00307,Ciencia,¿Cuántos años vive en promedio un hipopótamo?,45,40,50,Los hipopótamos viven entre 40 y 45 años en estado salvaje.,Biología Animal,SI
+25_00308,Ciencia,¿Cuántos años vive en promedio un cocodrilo?,70,60,80,Los cocodrilos pueden vivir entre 60 y 70 años en estado salvaje.,Biología Animal,SI
+25_00309,Ciencia,¿Cuántos años vive en promedio un panda gigante?,20,15,25,Los pandas gigantes viven entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00310,Ciencia,¿Cuántos años vive en promedio un flamenco?,40,30,50,Los flamencos pueden vivir entre 30 y 40 años en estado salvaje.,Biología Animal,SI
+25_00311,Ciencia,¿Cuántos años vive en promedio un búho?,25,20,30,Los búhos pueden vivir entre 20 y 25 años en estado salvaje.,Biología Animal,SI
+25_00312,Ciencia,¿Cuántos años vive en promedio un lobo marino?,20,15,25,Los lobos marinos viven entre 15 y 20 años en estado salvaje.,Biología Marina,SI
+25_00313,Ciencia,¿Cuántos años vive en promedio un murciélago?,20,15,25,Los murciélagos pueden vivir entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00314,Ciencia,¿Cuántos años vive en promedio un cisne?,20,15,25,Los cisnes pueden vivir entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00315,Ciencia,¿Cuántos años vive en promedio un zorro?,5,3,6,Los zorros viven entre 3 y 5 años en estado salvaje.,Biología Animal,SI
+25_00316,Ciencia,¿Cuántos años vive en promedio un mapache?,5,3,6,Los mapaches viven entre 3 y 5 años en estado salvaje.,Biología Animal,SI
+25_00317,Ciencia,¿Cuántos años vive en promedio un erizo?,5,3,6,Los erizos viven entre 3 y 5 años en estado salvaje.,Biología Animal,SI
+25_00318,Ciencia,¿Cuántos años vive en promedio un castor?,20,15,25,Los castores pueden vivir entre 15 y 20 años en estado salvaje.,Biología Animal,SI
+25_00319,Ciencia,¿Cuántos años vive en promedio un armadillo?,15,10,20,Los armadillos viven entre 10 y 15 años en estado salvaje.,Biología Animal,SI
+25_00320,Ciencia,¿Cuántos años vive en promedio un tejón?,10,8,12,Los tejones viven entre 8 y 10 años en estado salvaje.,Biología Animal,SI
+25_00321,Ciencia,¿Cuántos años vive en promedio un puercoespín?,10,8,12,Los puercoespines viven entre 8 y 10 años en estado salvaje.,Biología Animal,SI
+25_00322,Ciencia,¿Cuántos años vive en promedio un topo?,5,3,6,Los topos viven entre 3 y 5 años en estado salvaje.,Biología Animal,SI
+25_00323,Ciencia,¿Cuántos años vive en promedio un conejo?,10,8,12,Los conejos viven entre 8 y 10 años en estado salvaje.,Biología Animal,SI
+25_00324,Ciencia,¿Cuántos años vive en promedio un hurón?,8,6,10,Los hurones viven entre 6 y 8 años en estado salvaje.,Biología Animal,SI
+25_00325,Ciencia,¿Cuántos huesos tiene el cuerpo humano?,206,200,210,El cuerpo humano adulto tiene 206 huesos.,Anatomía Humana,SI
+25_00326,Ciencia,¿Cuántos litros de sangre tiene un humano adulto?,5,4,6,Un humano adulto tiene aproximadamente 5 litros de sangre.,Fisiología Humana,SI
+25_00327,Ciencia,¿Cuántos músculos tiene el cuerpo humano?,600,500,700,El cuerpo humano tiene alrededor de 600 músculos.,Anatomía Humana,SI
+25_00328,Ciencia,¿Cuántos dientes tiene un humano adulto?,32,30,35,"Un humano adulto tiene 32 dientes, incluyendo las muelas del juicio.",Anatomía Humana,SI
+25_00329,Ciencia,¿Cuántos metros mide el intestino delgado en un humano adulto?,7,6,8,El intestino delgado mide entre 6 y 7 metros de longitud en un adulto.,Anatomía Humana,SI
+25_00330,Ciencia,¿Cuántos huesos tiene un recién nacido?,270,260,280,"Un recién nacido tiene alrededor de 270 huesos, que se fusionan para formar los 206 del adulto.",Anatomía Humana,SI
+25_00331,Ciencia,¿Cuántos litros de aire puede contener un pulmón humano adulto?,6,5,7,Un pulmón humano adulto puede contener hasta 6 litros de aire.,Fisiología Humana,SI
+25_00332,Ciencia,¿Cuántos cromosomas tiene un ser humano?,46,40,50,Los seres humanos tienen 46 cromosomas (23 pares).,Genética Humana,SI
+25_00333,Ciencia,¿Cuántos años tiene el huracán más longevo registrado?,31,30,32,"El huracán John duró 31 días en 1994, siendo el más longevo registrado.",Meteorología,SI
+25_00334,Ciencia,¿Cuántos kilómetros por hora alcanzó el viento más rápido en un huracán?,345,340,350,"El huracán Patricia alcanzó vientos de 345 km/h en 2015, el más rápido registrado.",Meteorología,SI
+25_00335,Ciencia,¿Cuántos metros de altura alcanzó el tsunami más alto registrado?,524,500,550,El tsunami de la bahía de Lituya en 1958 alcanzó 524 metros de altura.,Geología,SI
+25_00336,Ciencia,¿Cuántos grados Richter tuvo el terremoto más fuerte registrado?,9,9,10,El terremoto de Valdivia en 1960 tuvo una magnitud de 9.5 grados Richter.,Sismología,SI
+25_00337,Ciencia,¿Cuántos años tiene el volcán más antiguo activo?,2000000,1500000,2500000,El Monte Etna en Italia tiene aproximadamente 2 millones de años y sigue activo.,Vulcanología,SI
+25_00338,Ciencia,¿Cuántos metros de altura tiene el volcán más alto del mundo?,6893,6800,7000,"El volcán Ojos del Salado en Chile y Argentina mide 6,893 metros de altura.",Geografía,SI
+25_00339,Ciencia,¿Cuántos años tiene el Gran Cañón del Colorado?,6000000,5000000,7000000,El Gran Cañón del Colorado se formó hace aproximadamente 6 millones de años.,Geología,SI
+25_00340,Ciencia,¿Cuántos metros de profundidad tiene el lago más profundo del mundo?,1642,1600,1700,"El lago Baikal en Rusia tiene una profundidad de 1,642 metros.",Geografía,SI
+25_00341,Ciencia,¿Cuántos años tiene el árbol más antiguo del mundo?,5000,4800,5200,"El pino bristlecone llamado Matusalén tiene aproximadamente 5,000 años.",Botánica,SI
+25_00342,Ciencia,¿Cuántos metros de altura tiene la cascada más alta del mundo?,979,970,990,El Salto Ángel en Venezuela mide 979 metros de altura.,Geografía,SI
+25_00343,Ciencia,¿Cuántos años tiene el glaciar más antiguo del mundo?,2000000,1500000,2500000,El glaciar más antiguo conocido tiene aproximadamente 2 millones de años.,Glaciología,SI
+25_00344,Ciencia,¿Cuántos metros de altura tiene la montaña más alta del mundo?,8848,8800,8900,"El Monte Everest mide 8,848 metros de altura.",Geografía,SI
+25_00345,Ciencia,¿Cuántos ojos tiene una libélula?,30000,28000,32000,"Una libélula tiene alrededor de 30,000 ojos en sus ojos compuestos.",Entomología,SI
+25_00346,Ciencia,¿Cuántos años puede vivir un árbol de secuoya?,3000,2500,3500,"Las secuoyas pueden vivir más de 3,000 años.",Botánica,SI
+25_00347,Ciencia,¿Cuántos litros de agua puede almacenar un baobab?,120000,100000,140000,"Un baobab puede almacenar hasta 120,000 litros de agua en su tronco.",Botánica,SI
+25_00348,Ciencia,¿Cuántos kilómetros puede migrar una ballena gris?,20000,18000,22000,"Las ballenas grises migran hasta 20,000 km al año, desde México hasta el Ártico.",Biología Marina,SI
+25_00349,Ciencia,¿Cuántos años puede vivir un tiburón ballena?,100,90,110,Los tiburones ballena pueden vivir hasta 100 años.,Biología Marina,SI
+25_00350,Ciencia,¿Cuántos metros puede saltar un canguro?,9,8,10,Un canguro puede saltar hasta 9 metros de distancia en un solo salto.,Biología Animal,SI
+25_00351,Ciencia,¿Cuántos años puede vivir un molusco de la especie Arctica islandica?,500,400,600,"El molusco Arctica islandica puede vivir más de 500 años, siendo uno de los animales más longevos.",Biología Marina,SI
+25_00352,Ciencia,¿Cuántos kilómetros puede recorrer un albatros en un solo vuelo?,16000,15000,17000,"Un albatros puede recorrer hasta 16,000 km en un solo vuelo sin aterrizar.",Ornitología,SI
+25_00353,Ciencia,¿Cuántos años puede vivir un erizo de mar rojo?,200,180,220,El erizo de mar rojo puede vivir más de 200 años.,Biología Marina,SI
+25_00354,Ciencia,¿Cuántos metros de altura puede alcanzar un hongo?,1,1,1,El hongo Phallus indusiatus puede crecer hasta 1 metro de altura.,Micología,SI
+25_00355,Deporte,¿Cuántos jugadores hay en un equipo de rugby?,15,15,15,Un equipo de rugby tiene 15 jugadores en el campo.,Reglamentos de Rugby,SI
+25_00356,Deporte,¿Cuántos metros mide una pista de atletismo estándar?,400,380,420,Una pista de atletismo oficial mide 400 metros de longitud.,Reglamentos de Atletismo,SI
+25_00357,Deporte,¿Cuántos goles anotó Pelé en su carrera?,1283,1200,1300,"Pelé anotó 1,283 goles en partidos oficiales y amistosos.",Historia del Fútbol,SI
+25_00358,Deporte,¿Cuántos jueces de línea hay en un partido de tenis?,9,7,10,"En partidos profesionales de tenis, hay 9 jueces de línea (incluyendo el juez de silla).",Reglamentos de Tenis,SI
+25_00359,Deporte,¿Cuántos metros mide un campo de fútbol reglamentario?,105,90,110,Un campo de fútbol mide entre 100 y 110 metros de longitud.,Reglamentos de Fútbol,SI
+25_00360,Deporte,¿Cuántos puntos vale un touchdown en fútbol americano?,6,5,8,Un touchdown en fútbol americano vale 6 puntos.,Reglamentos de Fútbol Americano,SI
+25_00361,Deporte,¿Cuántos jugadores hay en un equipo de básquet?,5,5,5,Un equipo de básquet tiene 5 jugadores en la cancha.,Reglamentos de Básquet,SI
+25_00362,Deporte,¿Cuántos metros mide una maratón oficial?,42195,39000,43000,"Una maratón oficial mide 42,195 kilómetros (42.195 metros).",Reglamentos de Atletismo,SI
+25_00363,Deporte,¿Cuántos sets se necesitan para ganar un partido de tenis masculino en Grand Slam?,3,3,3,"En torneos de Grand Slam, los hombres juegan al mejor de 5 sets, pero necesitan ganar 3 para ganar el partido.",Reglamentos de Tenis,SI
+25_00364,Deporte,¿Cuántos jugadores hay en un equipo de vóley?,6,6,6,Un equipo de vóley tiene 6 jugadores en la cancha.,Reglamentos de Vóley,SI
+25_00365,Deporte,¿Cuántos hoyos tiene un campo de golf estándar?,18,16,20,Un campo de golf estándar tiene 18 hoyos.,Reglamentos de Golf,SI
+25_00366,Deporte,¿Cuántos jugadores hay en un equipo de polo?,4,4,4,Un equipo de polo tiene 4 jugadores en el campo.,Reglamentos de Polo,SI
+25_00367,Deporte,¿Cuántos metros mide una cancha de pádel?,20,18,22,Una cancha de pádel mide 20 metros de longitud.,Reglamentos de Pádel,SI
+25_00368,Deporte,¿Cuántos kilómetros recorre un ciclista en el Tour de Francia?,3500,3000,4000,"El Tour de Francia tiene una distancia aproximada de 3,500 kilómetros.",Historia del Ciclismo,SI
+25_00369,Deporte,¿Cuántos puntos vale un triple en básquet?,3,3,3,Un lanzamiento desde la línea de tres puntos en básquet vale 3 puntos.,Reglamentos de Básquet,SI
+25_00370,Deporte,¿Cuántos metros mide un salto de longitud récord masculino?,9,8,9,"El récord mundial de salto de longitud masculino es de 8.95 metros, logrado por Mike Powell en 1991.",Récords de Atletismo,SI
+25_00371,Deporte,¿Cuántos jugadores hay en un equipo de waterpolo?,7,7,7,Un equipo de waterpolo tiene 7 jugadores en el agua.,Reglamentos de Waterpolo,SI
+25_00372,Deporte,¿Cuántos metros mide una cancha de balonmano?,40,36,44,Una cancha de balonmano mide 40 metros de longitud.,Reglamentos de Balonmano,SI
+25_00373,Deporte,¿Cuántos goles anotó Lionel Messi en un año natural (2012)?,91,85,95,"Lionel Messi anotó 91 goles en 2012, un récord mundial.",Historia del Fútbol,SI
+25_00374,Deporte,¿Cuántos metros mide un salto con pértiga récord femenino?,5,4,6,"El récord mundial femenino de salto con pértiga es de 5.06 metros, logrado por Yelena Isinbayeva en 2009.",Récords de Atletismo,SI
+25_00375,Deporte,¿Cuántos goles anotó Cristiano Ronaldo en la UEFA Champions League hasta 2023?,140,135,145,"Cristiano Ronaldo anotó 140 goles en la UEFA Champions League, siendo el máximo goleador histórico.",Récords de Fútbol,SI
+25_00376,Deporte,¿Cuántos Grand Slam ha ganado Serena Williams?,23,22,24,Serena Williams ha ganado 23 títulos de Grand Slam en individuales femeninos.,Récords de Tenis,SI
+25_00377,Deporte,¿Cuántos puntos anotó Wilt Chamberlain en un solo partido de la NBA?,100,95,105,Wilt Chamberlain anotó 100 puntos en un partido de la NBA en 1962.,Récords de la NBA,SI
+25_00378,Deporte,¿Cuántos metros mide el salto más largo en esquí?,254,250,260,"El récord mundial de salto en esquí es de 253.5 metros, logrado por Stefan Kraft en 2017.",Récords de Deportes de Invierno,SI
+25_00379,Deporte,¿Cuántos años tenía el ganador más joven de un Grand Slam de tenis?,17,16,18,Michael Chang ganó el Abierto de Francia en 1989 a los 17 años.,Récords de Tenis,SI
+25_00380,Deporte,¿Cuántos metros mide el récord mundial de lanzamiento de jabalina masculino?,98,95,100,"El récord mundial de lanzamiento de jabalina es de 98.48 metros, logrado por Jan Železný en 1996.",Récords de Atletismo,SI
+25_00381,Deporte,¿Cuántos goles anotó Diego Maradona en la Copa del Mundo?,8,7,9,Diego Maradona anotó 8 goles en total en las Copas del Mundo.,Récords de Fútbol,SI
+25_00382,Deporte,¿Cuántos segundos duró el gol más rápido en la historia de la Copa del Mundo?,11,10,12,Hakan ?ükür anotó el gol más rápido en la historia de la Copa del Mundo en 11 segundos (2002).,Récords de Fútbol,SI
+25_00383,Deporte,¿Cuántos metros mide el récord mundial de salto de altura femenino?,2,2,2,"El récord mundial de salto de altura femenino es de 2.09 metros, logrado por Stefka Kostadinova en 1987.",Récords de Atletismo,SI
+25_00384,Deporte,¿Cuántos años tenía el ganador más joven del Tour de Francia?,19,17,22,Henri Cornet ganó el Tour de Francia en 1904 a los 19 años.,Récords de Ciclismo,SI
+25_00385,Deporte,¿Cuántos metros mide el récord mundial de salto triple masculino?,18,16,20,"El récord mundial de salto triple es de 18.29 metros, logrado por Jonathan Edwards en 1995.",Récords de Atletismo,SI
+25_00386,Deporte,¿Cuántos goles anotó Pelé en la Copa del Mundo?,12,10,14,Pelé anotó 12 goles en total en las Copas del Mundo.,Récords de Fútbol,SI
+25_00387,Deporte,¿Cuántos metros mide el récord mundial de natación en 100 metros libres masculino?,47,45,49,"El récord mundial de 100 metros libres es de 46.91 segundos, logrado por César Cielo en 2009.",Récords de Natación,SI
+25_00388,Deporte,¿Cuántos años tenía el ganador más joven de un título de Grand Slam de tenis femenino?,16,15,17,Martina Hingis ganó el Abierto de Australia en 1997 a los 16 años.,Récords de Tenis,SI
+25_00389,Deporte,¿Cuántos metros mide el récord mundial de lanzamiento de peso femenino?,23,20,24,"El récord mundial de lanzamiento de peso femenino es de 22.63 metros, logrado por Natalya Lisovskaya en 1987.",Récords de Atletismo,SI
+25_00390,Deporte,¿Cuántos goles anotó Gerd Müller en la Bundesliga?,365,360,370,"Gerd Müller anotó 365 goles en la Bundesliga, siendo el máximo goleador histórico.",Récords de Fútbol,SI
+25_00391,Deporte,¿Cuántos metros mide el récord mundial de salto con pértiga masculino?,6,6,6,"El récord mundial de salto con pértiga masculino es de 6.23 metros, logrado por Armand Duplantis en 2023.",Récords de Atletismo,SI
+25_00392,Deporte,¿Cuántos años tenía el ganador más joven de un título de Grand Slam de tenis masculino?,17,15,19,Boris Becker ganó Wimbledon en 1985 a los 17 años.,Récords de Tenis,SI
+25_00393,Deporte,¿Cuántos metros mide el récord mundial de salto de longitud femenino?,8,6,9,"El récord mundial de salto de longitud femenino es de 7.52 metros, logrado por Galina Chistyakova en 1988.",Récords de Atletismo,SI
+25_00394,Deporte,¿Cuántos goles anotó Romário en su carrera?,1000,950,1100,"Romário anotó más de 1,000 goles en partidos oficiales y amistosos.",Récords de Fútbol,SI
+25_00395,Deporte,¿Cuántos títulos de Fórmula 1 tiene Lewis Hamilton?,7,7,7,Lewis Hamilton ha ganado 7 títulos mundiales de Fórmula 1 (hasta 2023).,Historia de la Fórmula 1,SI
+25_00396,Deporte,¿Cuántos años tenía Juan Manuel Fangio cuando ganó su último título de Fórmula 1?,46,44,48,Fangio ganó su último título en 1957 a los 46 años.,Historia del Automovilismo,SI
+25_00397,Deporte,¿Cuántos goles anotó Gabriel Batistuta en la Copa del Mundo?,10,8,12,Batistuta anotó 10 goles en total en las Copas del Mundo.,Historia del Fútbol Argentino,SI
+25_00398,Deporte,¿Cuántos metros mide el salto más largo en motocross?,132,130,135,"El récord mundial de salto en motocross es de 132 metros, logrado por Robbie Maddison en 2011.",Récords de Deportes Extremos,SI
+25_00399,Deporte,¿Cuántos títulos de la Copa Libertadores tiene River Plate? (hasta 2024),4,4,4,"River Plate ha ganado 4 Copas Libertadores (1986, 1996, 2015, 2018).",Historia del Fútbol Argentino,SI
+25_00400,Deporte,¿Cuántos años tenía Michael Schumacher cuando ganó su primer título de Fórmula 1?,24,24,26,Schumacher ganó su primer título en 1994 a los 25 años.,Historia de la Fórmula 1,SI
+25_00401,Deporte,¿Cuántos goles anotó Lionel Messi en su etapa en el Barcelona?,672,670,690,Messi anotó 672 goles en total durante su etapa en el Barcelona.,Historia del Fútbol,SI
+25_00402,Deporte,¿Cuántos metros mide el salto más alto en BMX?,9,8,10,"El récord mundial de salto en BMX es de 9.07 metros, logrado por Jed Mildon en 2011.",Récords de Deportes Extremos,SI
+25_00403,Deporte,¿Cuántos títulos de la NBA tiene Michael Jordan?,6,6,6,Michael Jordan ganó 6 títulos de la NBA con los Chicago Bulls en los años 90.,Historia del Básquet,SI
+25_00404,Deporte,¿Cuántos goles anotó Diego Maradona en la selección argentina?,34,32,38,Maradona anotó 34 goles en 91 partidos con la selección argentina.,Historia del Fútbol Argentino,SI
+25_00405,Deporte,¿Cuántos años tenía Usain Bolt cuando batió el récord mundial de 100 metros?,22,21,24,Bolt batió el récord mundial de 100 metros (9.58 segundos) en 2009 a los 22 años.,Récords de Atletismo,SI
+25_00406,Deporte,¿Cuántos metros mide el salto más largo en snowboard?,49,45,50,"El récord mundial de salto en snowboard es de 49 metros, logrado por Max Parrot en 2019.",Récords de Deportes Extremos,SI
+25_00407,Deporte,¿Cuántos goles anotó Sergio Agüero en la Premier League?,184,160,190,"Agüero anotó 184 goles en la Premier League, siendo el máximo goleador extranjero.",Historia del Fútbol,SI
+25_00408,Deporte,¿Cuántos años tenía Ayrton Senna cuando ganó su primer título de Fórmula 1?,28,27,29,Senna ganó su primer título en 1988 a los 28 años.,Historia de la Fórmula 1,SI
+25_00409,Deporte,¿Cuántos goles anotó Alfredo Di Stéfano en su carrera?,514,501,520,Di Stéfano anotó 514 goles en partidos oficiales durante su carrera.,Historia del Fútbol,SI
+25_00410,Deporte,¿Cuántos metros mide el salto más alto en paracaidismo?,39000,35000,45000,"El récord mundial de salto en paracaidismo es de 39,068 metros, logrado por Alan Eustace en 2014.",Récords de Deportes Extremos,SI
+25_00411,Deporte,¿Cuántos goles anotó Lionel Messi en la Copa América 2021?,4,3,5,"Messi anotó 4 goles en la Copa América 2021, ayudando a Argentina a ganar el título.",Historia del Fútbol Argentino,SI
+25_00412,Deporte,¿Cuántos años tenía Simone Biles cuando ganó su primer oro olímpico?,19,18,20,Biles ganó su primer oro olímpico en 2016 a los 19 años.,Historia de los Juegos Olímpicos,SI
+25_00413,Deporte,¿Cuántos goles anotó Juan Román Riquelme en Boca Juniors?,92,90,105,Riquelme anotó 92 goles en total durante su etapa en Boca Juniors.,Historia del Fútbol Argentino,SI
+25_00414,Deporte,¿Cuántos años tenía Nadia Comaneci cuando logró el primer 10 perfecto en gimnasia olímpica?,14,13,15,Nadia Comaneci logró el primer 10 perfecto en los Juegos Olímpicos de 1976 a los 14 años.,Historia de los Juegos Olímpicos,SI
+25_00415,Deporte,¿Cuántos goles anotó Pelé en la Copa del Mundo?,12,10,14,"Pelé anotó 12 goles en total en las Copas del Mundo, consolidándose como uno de los mejores.",FIFA,SI
+25_00416,Deporte,¿Cuántos puntos anotó Michael Jordan en su carrera?,32292,25834,38750,"Michael Jordan anotó 32,292 puntos en su carrera en la NBA.",NBA Records,SI
+25_00417,Deporte,¿Cuántos Grand Slams ganó Serena Williams?,23,18,28,Serena Williams ha ganado 23 Grand Slams en su carrera.,WTA,SI
+25_00418,Deporte,¿Cuántos títulos de la Champions tiene el Real Madrid?,14,11,17,El Real Madrid ha ganado 14 títulos de la Champions League.,UEFA,SI
+25_00419,Deporte,¿Cuántos goles anotó Cristiano Ronaldo en la UEFA?,140,112,168,Cristiano Ronaldo ha anotado 140 goles en competiciones de la UEFA.,UEFA,SI
+25_00420,Deporte,¿Cuántos medallas de oro ganó Usain Bolt en los JJOO?,8,6,10,Usain Bolt ha ganado 8 medallas de oro en los Juegos Olímpicos.,Comité Olímpico,SI
+25_00421,Deporte,¿Cuántos puntos anotó Kobe Bryant en un solo partido?,81,65,97,Kobe Bryant anotó 81 puntos en un solo partido en 2006.,NBA Records,SI
+25_00422,Deporte,¿Cuántos mundiales de F1 ganó Lewis Hamilton?,7,6,8,Lewis Hamilton ha ganado 7 campeonatos mundiales de Fórmula 1.,Fórmula 1,SI
+25_00423,Deporte,¿Cuántos goles anotó Messi en la Champions?,129,103,155,Lionel Messi ha anotado 129 goles en la Champions League.,UEFA,SI
+25_00424,Deporte,¿Cuántos triples anotó Stephen Curry en una temporada?,402,322,482,Stephen Curry anotó 402 triples en la temporada 2015-2016.,NBA Records,SI
+25_00425,Deporte,¿Cuántos partidos consecutivos sin perder logró el equipo de fútbol Steaua Bucarest?,104,83,125,Steaua Bucarest mantuvo una racha de 104 partidos sin perder entre 1984 y 1989.,Récords Guinness,SI
+25_00426,Deporte,¿Cuántos metros recorrió un caballo en la carrera más larga de la historia?,480000,384000,576000,"En 1928, un caballo recorrió 480000 metros en una carrera de resistencia en Australia.",Récords Ecuestres,SI
+25_00427,Deporte,¿Cuántos días duró el partido de tenis más largo de la historia?,3,2,4,El partido entre Isner y Mahut en Wimbledon 2010 duró 3 días.,Wimbledon,SI
+25_00428,Deporte,¿Cuántos puntos anotó un equipo de baloncesto en un solo partido?,186,149,223,El equipo Pistons anotó 186 puntos en un partido de la NBA en 1983.,NBA Records,SI
+25_00429,Deporte,¿Cuántos goles anotó un solo jugador en un partido de fútbol?,16,13,19,Stephan Stanis anotó 16 goles en un partido en 1942.,FIFA,SI
+25_00430,Deporte,¿Cuántos metros medía el salto más largo de un caballo en competencia?,8,6,10,Un caballo saltó 8 metros en una competencia ecuestre en 1975.,Récords Ecuestres,SI
+25_00431,Deporte,¿Cuántos segundos duró el KO más rápido en boxeo?,2,1,3,El KO más rápido ocurrió en 2 segundos en un combate en 1947.,Récords Guinness,SI
+25_00432,Deporte,¿Cuántos metros nadó un perro en una competencia acuática?,1000,800,1200,Un perro nadó 1000 metros en una competencia en California en 2015.,Récords Animales,SI
+25_00433,Deporte,¿Cuántos años tenía el golfista más joven en ganar un torneo profesional?,14,11,17,El golfista más joven en ganar un torneo profesional tenía 14 años.,PGA Tour,SI
+25_00434,Deporte,¿Cuántos minutos duró el partido de hockey más largo?,176,141,211,El partido de hockey más largo duró 176 minutos en 1936.,NHL Records,SI
+25_00435,Deporte,¿Cuántos metros medía el tiro más largo anotado en baloncesto?,28,22,34,Un jugador anotó un tiro desde 28 metros en un partido universitario en 2010.,NCAA Records,SI
+25_00436,Deporte,¿Cuántos años tenía el escalador más joven en subir el Everest?,13,10,16,Un niño de 13 años escaló el Everest en 2010.,Récords Guinness,SI
+25_00437,Deporte,¿Cuántos kilómetros recorrió un ciclista en 24 horas?,890,712,1068,Un ciclista recorrió 890 kilómetros en 24 horas en 2019.,Récords Ciclismo,SI
+25_00438,Deporte,¿Cuántos metros medía el salto más largo en esquí?,253,202,304,El salto más largo en esquí midió 253 metros en 2017.,Récords Esquí,SI
+25_00439,Deporte,¿Cuántos años tenía el jugador más viejo en anotar en un Mundial de Fútbol?,42,34,50,Roger Milla anotó en un Mundial a los 42 años en 1994.,FIFA,SI
+25_00440,Deporte,¿Cuántos metros medía el gol más lejano anotado en fútbol?,91,73,109,El gol más lejano fue anotado desde 91 metros en 1996.,FIFA,SI
+25_00441,Deporte,¿Cuántos años tenía el maratonista más viejo en completar una maratón?,101,81,121,Un corredor de 101 años completó una maratón en 2011.,Récords Guinness,SI
+25_00442,Deporte,¿Cuántos metros medía el penalti más largo anotado en fútbol?,45,36,54,Un jugador anotó un penalti desde 45 metros en 2018.,FIFA,SI
+25_00443,Deporte,¿Cuántos años tenía el jugador más joven en debutar en un Mundial?,15,12,18,Un jugador de 15 años debutó en un Mundial de Fútbol en 1982.,FIFA,SI
+25_00444,Deporte,¿Cuántos metros medía el balón de fútbol más grande del mundo?,15,12,18,El balón de fútbol más grande medía 15 metros de diámetro y fue creado en 2014.,Récords Guinness,SI
+25_00445,Historia,¿En qué año comenzó la Primera Guerra Mundial?,1914,1910,1920,La Primera Guerra Mundial comenzó en 1914 tras el asesinato del archiduque Francisco Fernando.,Enciclopedia Britannica,SI
+25_00446,Historia,¿Cuántos años duró la Guerra de los Cien Años?,116,93,139,"La Guerra de los Cien Años duró en realidad 116 años, de 1337 a 1453.",Historia Universal,SI
+25_00447,Historia,¿En qué año se firmó la Declaración de Independencia de Estados Unidos?,1776,1770,1790,La Declaración de Independencia de Estados Unidos se firmó el 4 de julio de 1776.,Archivos Nacionales EE.UU.,SI
+25_00448,Historia,¿Cuántos años duró el Imperio Romano?,507,406,608,"El Imperio Romano duró aproximadamente 507 años, desde el 27 a.C. hasta el 476 d.C.",Historia Antigua,SI
+25_00449,Historia,¿En qué año cayó el Muro de Berlín?,1989,1980,1990,"El Muro de Berlín cayó el 9 de noviembre de 1989, marcando el fin de la Guerra Fría.",Historia Moderna,SI
+25_00450,Historia,¿Cuántos años duró la construcción de la Gran Muralla China?,2000,1600,2400,La construcción de la Gran Muralla China se extendió por aproximadamente 2000 años.,Historia de China,SI
+25_00451,Historia,¿En qué año se descubrió América?,1492,1490,1495,Cristóbal Colón descubrió América el 12 de octubre de 1492.,Enciclopedia Britannica,SI
+25_00452,Historia,¿Cuántos años duró la Revolución Francesa?,10,8,12,"La Revolución Francesa duró 10 años, desde 1789 hasta 1799.",Historia Moderna,SI
+25_00453,Historia,¿En qué año se fundó la ciudad de Roma?,753,602,904,"Según la tradición, Roma fue fundada en el año 753 a.C. por Rómulo y Remo.",Historia Antigua,SI
+25_00454,Historia,¿Cuántos años duró la dinastía Ming en China?,276,221,331,"La dinastía Ming gobernó China durante 276 años, desde 1368 hasta 1644.",Historia de China,SI
+25_00455,Historia,¿En qué año comenzó la Revolución Industrial?,1760,1700,1780,La Revolución Industrial comenzó en Inglaterra alrededor de 1760.,Historia Moderna,SI
+25_00456,Historia,¿Cuántos años duró la Guerra Fría?,44,35,53,"La Guerra Fría duró 44 años, desde 1947 hasta 1991.",Historia Contemporánea,SI
+25_00457,Historia,¿En qué año se escribió la Ilíada por Homero?,800,640,960,"La Ilíada, atribuida a Homero, se escribió alrededor del año 800 a.C.",Literatura Antigua,SI
+25_00458,Historia,¿Cuántos años duró el reinado de Luis XIV en Francia?,72,58,86,"Luis XIV, el Rey Sol, reinó durante 72 años, de 1643 a 1715.",Historia Moderna,SI
+25_00459,Historia,¿En qué año se fundó la ciudad de Machu Picchu?,1450,1400,1500,Machu Picchu fue construida alrededor del año 1450 por el Imperio Inca.,Historia Inca,SI
+25_00460,Historia,¿Cuántos años duró la Guerra de Vietnam?,19,15,23,"La Guerra de Vietnam duró 19 años, desde 1955 hasta 1975.",Historia Contemporánea,SI
+25_00461,Historia,¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?,1945,1940,1960,"La ONU fue fundada el 24 de octubre de 1945, tras la Segunda Guerra Mundial.",Historia Contemporánea,SI
+25_00462,Historia,¿Cuántos años duró la construcción del Coliseo Romano?,8,6,10,"El Coliseo Romano se construyó en aproximadamente 8 años, del 70 al 80 d.C.",Historia Antigua,SI
+25_00463,Historia,¿En qué año se produjo la Revolución Rusa?,1917,1905,1922,"La Revolución Rusa ocurrió en 1917, liderada por los bolcheviques.",Historia Moderna,SI
+25_00464,Historia,¿Cuántos años duró la dinastía Tudor en Inglaterra?,118,94,142,"La dinastía Tudor gobernó Inglaterra durante 118 años, de 1485 a 1603.",Historia Moderna,SI
+25_00465,Historia,¿En qué año se celebró el torneo de ajedrez más largo de la historia?,1989,1984,1994,"Un torneo de ajedrez en Yugoslavia duró 20 años, desde 1969 hasta 1989.",Récords Guinness,SI
+25_00466,Historia,¿Cuántos días duró la guerra más corta de la historia?,38,30,46,La guerra entre Zanzíbar e Inglaterra en 1896 duró solo 38 minutos.,Récords Guinness,SI
+25_00467,Historia,¿En qué año se envió el primer correo electrónico de la historia?,1971,1966,1976,El primer correo electrónico fue enviado por Ray Tomlinson en 1971.,Historia de la Tecnología,SI
+25_00468,Historia,¿Cuántos años duró el reinado más largo de un monarca en la historia?,82,66,98,"Luis XIV de Francia reinó durante 82 años, de 1643 a 1715.",Historia Moderna,SI
+25_00469,Historia,¿En qué año se construyó la pirámide más antigua conocida?,2630,2625,2635,La pirámide de Djoser en Egipto fue construida alrededor del año 2630 a.C.,Historia Antigua,SI
+25_00470,Historia,¿Cuántos años duró la construcción de la Catedral de Notre Dame?,182,146,218,"La construcción de Notre Dame en París duró 182 años, de 1163 a 1345.",Historia Medieval,SI
+25_00471,Historia,¿En qué año se descubrió la tumba de Tutankamón?,1922,1917,1927,Howard Carter descubrió la tumba de Tutankamón en 1922.,Egiptología,SI
+25_00472,Historia,¿Cuántos años duró la pandemia de la Peste Negra?,7,6,8,"La Peste Negra devastó Europa durante 7 años, de 1347 a 1351.",Historia Medieval,SI
+25_00473,Historia,¿En qué año se firmó el Tratado de Tordesillas?,1494,1489,1499,"El Tratado de Tordesillas se firmó en 1494, dividiendo el mundo entre España y Portugal.",Historia Moderna,SI
+25_00474,Historia,¿Cuántos años duró la Guerra de los Treinta Años?,30,24,36,"La Guerra de los Treinta Años duró exactamente 30 años, de 1618 a 1648.",Historia Moderna,SI
+25_00475,Historia,¿En qué año se inauguró el primer metro del mundo?,1863,1858,1868,El primer metro se inauguró en Londres en 1863.,Historia de la Ingeniería,SI
+25_00476,Historia,¿Cuántos años duró la construcción del Canal de Panamá?,34,27,41,"La construcción del Canal de Panamá duró 34 años, de 1881 a 1914.",Historia Contemporánea,SI
+25_00477,Historia,¿En qué año se produjo el primer vuelo en avión de la historia?,1903,1898,1908,Los hermanos Wright realizaron el primer vuelo en avión en 1903.,Historia de la Aviación,SI
+25_00478,Historia,¿Cuántos años duró la Guerra de los Seis Días?,6,5,7,La Guerra de los Seis Días entre Israel y sus vecinos duró exactamente 6 días en 1967.,Historia Contemporánea,SI
+25_00479,Historia,¿En qué año se fundó la ciudad más antigua del mundo?,11000,10995,11005,"Jericó, en el actual Israel, es considerada la ciudad más antigua, fundada alrededor del 11000 a.C.",Arqueología,SI
+25_00480,Historia,¿Cuántos años duró la construcción del Taj Mahal?,22,18,26,"El Taj Mahal se construyó en 22 años, de 1632 a 1654.",Historia de la Arquitectura,SI
+25_00481,Historia,¿En qué año se escribió el primer libro impreso?,868,863,873,"El primer libro impreso fue el ""Diamante Sutra"" en China, en el año 868.",Historia de la Imprenta,SI
+25_00482,Historia,¿Cuántos años duró la Guerra de los Ochenta Años?,80,64,96,"La Guerra de los Ochenta Años duró exactamente 80 años, de 1568 a 1648.",Historia Moderna,SI
+25_00483,Historia,¿En qué año se descubrió el primer fósil de dinosaurio?,1824,1819,1829,El primer fósil de dinosaurio fue descubierto en 1824 por William Buckland.,Paleontología,SI
+25_00484,Naturaleza,¿Cuántos años puede vivir un árbol de secuoya?,3200,2560,3840,"Las secuoyas son los árboles más longevos, con algunos ejemplares que superan los 3200 años.",National Geographic,SI
+25_00485,Naturaleza,¿Cuántos días duró la erupción más larga de un volcán?,2000,1600,2400,El volcán Stromboli en Italia ha estado en erupción continua durante más de 2000 años.,Smithsonian Institution,SI
+25_00486,Naturaleza,¿Cuántos kilómetros mide el río Amazonas?,6992,5594,8390,"El río Amazonas es el más largo del mundo, con 6992 kilómetros de longitud.",National Geographic,SI
+25_00487,Naturaleza,¿Cuántos kilogramos pesa la flor más grande del mundo?,11,9,13,La flor Rafflesia arnoldii puede pesar hasta 11 kilogramos y mide 1 metro de diámetro.,Royal Botanic Gardens,SI
+25_00488,Naturaleza,¿Cuántos años tiene el árbol más antiguo del mundo?,4850,3880,5820,"El árbol Matusalén, un pino bristlecone, tiene aproximadamente 4850 años.",National Park Service,SI
+25_00489,Naturaleza,¿Cuántos días duró el terremoto más largo registrado?,32,26,38,El terremoto de Sumatra en 2004 tuvo réplicas que duraron 32 días.,US Geological Survey,SI
+25_00490,Naturaleza,¿Cuántos metros de altura tiene la cascada más alta del mundo?,979,783,1175,El Salto Ángel en Venezuela mide 979 metros de altura.,National Geographic,SI
+25_00491,Naturaleza,¿Cuántos años tarda en descomponerse una botella de plástico?,450,360,540,Una botella de plástico puede tardar hasta 450 años en descomponerse.,Environmental Protection Agency,SI
+25_00492,Naturaleza,¿Cuántos kilómetros recorre una mariposa monarca en su migración?,4000,3200,4800,Las mariposas monarca recorren hasta 4000 kilómetros desde Canadá hasta México.,World Wildlife Fund,SI
+25_00493,Naturaleza,¿Cuántos días puede sobrevivir un tardígrado sin agua?,30,24,36,Los tardígrados pueden sobrevivir hasta 30 años en estado de deshidratación.,Scientific American,SI
+25_00494,Naturaleza,¿Cuántos años tiene el glaciar más antiguo conocido?,2000000,1600000,2400000,El glaciar más antiguo tiene aproximadamente 2 millones de años.,Nature Geoscience,SI
+25_00495,Naturaleza,¿Cuántos metros de profundidad tiene el océano en su punto más profundo?,11034,8827,13241,La Fosa de las Marianas tiene una profundidad de 11034 metros.,NOAA,SI
+25_00496,Naturaleza,¿Cuántos kilogramos de CO2 emite un volcán en erupción al día?,300000,240000,360000,Un volcán en erupción puede emitir hasta 300000 kilogramos de CO2 al día.,US Geological Survey,SI
+25_00497,Naturaleza,¿Cuántos años tarda en formarse un diamante natural?,1000000,800000,1200000,Los diamantes naturales tardan aproximadamente 1 millón de años en formarse.,Gemological Institute,SI
+25_00498,Naturaleza,¿Cuántos días duró la sequía más larga registrada?,173,138,208,"La sequía en el desierto de Atacama duró 173 años, de 1570 a 1743.",Nature Geoscience,SI
+25_00499,Naturaleza,¿Cuántos kilómetros cuadrados mide el desierto más grande del mundo?,14000000,11200000,16800000,El desierto del Sahara mide aproximadamente 14 millones de km².,National Geographic,SI
+25_00500,Naturaleza,¿Cuántos años tiene el arrecife de coral más antiguo?,20000,16000,24000,El arrecife de coral más antiguo tiene alrededor de 20000 años.,Coral Reef Alliance,SI
+25_00501,Naturaleza,¿Cuántos metros de altura puede alcanzar un árbol de eucalipto?,100,80,120,Los eucaliptos pueden crecer hasta 100 metros de altura.,Australian National Botanic Gardens,SI
+25_00502,Naturaleza,¿Cuántos días tarda en crecer un bambú en su fase más rápida?,90,72,108,El bambú puede crecer hasta 1 metro por día durante 90 días.,Botanical Society,SI
+25_00503,Naturaleza,¿Cuántos años tarda en formarse un metro de suelo fértil?,1000,800,1200,Se necesitan aproximadamente 1000 años para formar un metro de suelo fértil.,FAO,SI
+25_00504,Naturaleza,¿Cuántos kilogramos de basura genera una persona al año en promedio?,500,400,600,Una persona genera en promedio 500 kilogramos de basura al año.,World Bank,SI
+25_00505,Naturaleza,¿Cuántos años tiene el hielo más antiguo de la Antártida?,800000,640000,960000,El hielo más antiguo de la Antártida tiene aproximadamente 800000 años.,Nature Geoscience,SI
+25_00506,Naturaleza,¿Cuántos kilómetros recorre un salmón en su migración?,4800,3840,5760,Los salmones pueden recorrer hasta 4800 kilómetros para desovar.,National Geographic,SI
+25_00507,Naturaleza,¿Cuántos días puede sobrevivir un camello sin agua?,15,12,18,Un camello puede sobrevivir hasta 15 días sin agua.,Smithsonian Institution,SI
+25_00508,Naturaleza,¿Cuántos años tarda en degradarse una lata de aluminio?,200,160,240,Una lata de aluminio tarda aproximadamente 200 años en degradarse.,Environmental Protection Agency,SI
+25_00509,Naturaleza,¿Cuántos metros de altura tiene el árbol más alto del mundo?,116,93,139,El árbol Hyperion en California mide 116 metros de altura.,National Park Service,SI
+25_00510,Naturaleza,¿Cuántos días duró la erupción del Monte Vesubio que destruyó Pompeya?,2,2,2,La erupción del Monte Vesubio en el año 79 d.C. duró solo 2 días.,Historia Antigua,SI
+25_00511,Naturaleza,¿Cuántos kilogramos de oxígeno produce un árbol adulto al año?,100,80,120,Un árbol adulto puede producir hasta 100 kilogramos de oxígeno al año.,Arbor Day Foundation,SI
+25_00512,Naturaleza,¿Cuántos años tiene el bosque más antiguo del mundo?,385,308,462,El bosque de Daintree en Australia tiene aproximadamente 385 millones de años.,UNESCO,SI
+25_00513,Naturaleza,¿Cuántos kilómetros de costa tiene el país con más costa del mundo?,202080,161664,242496,"Canadá tiene la costa más larga del mundo, con 202080 kilómetros.",CIA World Factbook,SI
+25_00514,Naturaleza,¿Cuántos genes tiene el ser humano?,20000,16000,24000,El genoma humano contiene aproximadamente 20000 genes.,National Human Genome Research Institute,SI
+25_00515,Naturaleza,¿Cuántos litros de sangre tiene un cuerpo humano adulto?,5,4,6,Un adulto promedio tiene alrededor de 5 litros de sangre.,American Red Cross,SI
+25_00516,Naturaleza,¿Cuántos años vive una tortuga gigante de Galápagos?,150,120,180,Las tortugas gigantes de Galápagos pueden vivir hasta 150 años.,National Geographic,SI
+25_00517,Naturaleza,¿Cuántos tipos de células diferentes hay en el cuerpo humano?,200,160,240,El cuerpo humano tiene alrededor de 200 tipos de células diferentes.,Nature Cell Biology,SI
+25_00518,Naturaleza,¿Cuántos kilómetros de raíces puede tener un árbol de maíz?,650,520,780,Un solo árbol de maíz puede tener hasta 650 kilómetros de raíces.,Agricultural Research Service,SI
+25_00519,Naturaleza,¿Cuántos años tarda en degradarse una bolsa de plástico?,1000,800,1200,Una bolsa de plástico puede tardar hasta 1000 años en degradarse.,Environmental Protection Agency,SI
+25_00520,Naturaleza,¿Cuántos litros de agua necesita un árbol de manzana para producir un kilo de manzanas?,700,560,840,Un árbol de manzana necesita aproximadamente 700 litros de agua para producir 1 kg de manzanas.,FAO,SI
+25_00521,Naturaleza,¿Cuántos años puede vivir una ballena boreal?,200,160,240,La ballena boreal puede vivir más de 200 años.,Marine Mammal Science,SI
+25_00522,Naturaleza,¿Cuántos nanómetros mide un virus de la gripe?,120,96,144,Un virus de la gripe mide aproximadamente 120 nanómetros de diámetro.,Nature Microbiology,SI
+25_00523,Naturaleza,¿Cuántos kilogramos de comida consume un elefante al día?,150,120,180,Un elefante adulto puede consumir hasta 150 kg de comida al día.,World Wildlife Fund,SI
+25_00524,Naturaleza,¿Cuántos años tarda en formarse un centímetro de suelo fértil?,500,400,600,Se necesitan aproximadamente 500 años para formar 1 cm de suelo fértil.,FAO,SI
+25_00525,Naturaleza,¿Cuántos litros de agua puede almacenar un cactus gigante?,3000,2400,3600,Un cactus saguaro puede almacenar hasta 3000 litros de agua.,Desert Botanical Garden,SI
+25_00526,Naturaleza,¿Cuántos años tiene el organismo vivo más antiguo conocido?,80000,64000,96000,"Un bosque de álamos en Utah, EE.UU., tiene aproximadamente 80000 años.",Nature Ecology & Evolution,SI
+25_00527,Naturaleza,¿Cuántos metros de ADN hay en una sola célula humana?,2,"1,6","2,4","Si se estirara, el ADN de una sola célula humana mediría aproximadamente 2 metros.",Nature Genetics,SI
+25_00528,Naturaleza,¿Cuántos años tarda en descomponerse una cáscara de plátano?,2,"1,6","2,4",Una cáscara de plátano tarda aproximadamente 2 años en descomponerse.,Environmental Protection Agency,SI
+25_00529,Naturaleza,¿Cuántos kilogramos de miel produce una colmena al año?,30,24,36,Una colmena de abejas puede producir hasta 30 kg de miel al año.,Beekeeping Association,SI
+25_00530,Naturaleza,¿Cuántos años puede vivir una medusa inmortal (Turritopsis dohrnii)?,100,80,120,La medusa Turritopsis dohrnii puede revertir su ciclo de vida y es teóricamente inmortal.,Nature Communications,SI
+25_00531,Naturaleza,¿Cuántos litros de saliva produce una persona en su vida?,38000,30400,45600,Una persona produce aproximadamente 38000 litros de saliva en su vida.,American Dental Association,SI
+25_00532,Naturaleza,¿Cuántos años tarda en formarse una perla natural?,10,8,12,Una perla natural tarda aproximadamente 10 años en formarse.,Gemological Institute,SI
+25_00533,Naturaleza,¿Cuántos kilómetros puede viajar una semilla de diente de león?,150,120,180,Una semilla de diente de león puede viajar hasta 150 km gracias al viento.,Botanical Society,SI
+25_00534,Enfermedades,¿Cuántos casos de COVID-19 se registraron en el pico de la pandemia?,900000,720000,1080000,"En enero de 2021, se registraron 900000 casos diarios de COVID-19 en todo el mundo.",Johns Hopkins University,SI
+25_00535,Enfermedades,¿Cuántos años tardó en erradicarse la viruela?,184,147,221,"La viruela fue erradicada en 1980, después de 184 años de esfuerzos globales.",World Health Organization,SI
+25_00536,Enfermedades,¿Cuántos días tarda en incubarse el virus del Ébola?,21,17,25,El período de incubación del Ébola puede durar hasta 21 días.,Centers for Disease Control,SI
+25_00537,Enfermedades,¿Cuántos millones de personas murieron por la gripe española?,50,40,60,La gripe española de 1918 causó aproximadamente 50 millones de muertes.,History of Medicine,SI
+25_00538,Enfermedades,¿Cuántos días duró la pandemia de COVID-19 hasta ser declarada bajo control?,900,720,1080,"La OMS declaró el COVID-19 bajo control en mayo de 2023, después de aproximadamente 900 días.",World Health Organization,SI
+25_00539,Enfermedades,¿Cuántos tipos de coronavirus pueden infectar a los humanos?,7,6,8,Existen 7 tipos de coronavirus conocidos que pueden infectar a los humanos.,Nature Microbiology,SI
+25_00540,Enfermedades,¿Cuántos años tardó en desarrollarse la vacuna contra el COVID-19?,1,1,1,"La vacuna contra el COVID-19 se desarrolló en aproximadamente 1 año, un récord histórico.",New England Journal of Medicine,SI
+25_00541,Enfermedades,¿Cuántos casos de polio se registraron en 2022?,30,24,36,"En 2022, se registraron 30 casos de polio en todo el mundo.",World Health Organization,SI
+25_00542,Enfermedades,¿Cuántos días puede sobrevivir el virus del COVID-19 en superficies?,28,22,34,El virus del COVID-19 puede sobrevivir hasta 28 días en superficies como el acero.,The Lancet,SI
+25_00543,Enfermedades,¿Cuántos millones de dosis de vacunas contra el COVID-19 se administraron en 2021?,8000,6400,9600,"En 2021, se administraron aproximadamente 8000 millones de dosis de vacunas contra el COVID-19.",Our World in Data,SI
+25_00544,Enfermedades,¿Cuántos años tiene el virus del VIH conocido?,40,32,48,"El virus del VIH fue identificado por primera vez en 1983, hace 40 años.",Nature Medicine,SI
+25_00545,Enfermedades,¿Cuántos días dura el período de contagio de la gripe común?,7,6,8,Una persona con gripe puede ser contagiosa durante 7 días.,Centers for Disease Control,SI
+25_00546,Enfermedades,¿Cuántos casos de dengue se registraron en 2020?,5000000,4000000,6000000,"En 2020, se registraron aproximadamente 5 millones de casos de dengue en el mundo.",World Health Organization,SI
+25_00547,Enfermedades,¿Cuántos años tardó en desarrollarse la vacuna contra la polio?,20,16,24,"La vacuna contra la polio tardó 20 años en desarrollarse, desde 1935 hasta 1955.",History of Vaccines,SI
+25_00548,Tecnología,¿Cuántos años tiene el primer dominio web registrado?,33,26,40,"El primer dominio web, ""symbolics.com"", fue registrado en 1985.",Internet Archive,SI
+25_00549,Tecnología,¿Cuántos exabytes de datos existen en el mundo?,100,80,120,Se estima que existen 100 exabytes de datos en el mundo (1 exabyte = 1 billón de GB).,IDC,SI
+25_00550,Tecnología,¿Cuántos años tardó en desarrollarse el primer cohete reutilizable?,15,12,18,"SpaceX tardó 15 años en desarrollar el Falcon 9, el primer cohete reutilizable.",SpaceX,SI
+25_00551,Tecnología,¿Cuántos kilómetros de fibra óptica hay instalados en el mundo?,5000000,4000000,6000000,Hay aproximadamente 5 millones de kilómetros de fibra óptica instalados en el mundo.,Fiber Broadband Association,SI
+25_00552,Tecnología,¿Cuántos años tiene el primer mensaje de texto enviado?,30,24,36,"El primer SMS fue enviado en 1992 y decía ""Feliz Navidad"".",BBC News,SI
+25_00553,Tecnología,¿Cuántos terabytes de datos puede almacenar el ADN?,215000,172000,258000,Un gramo de ADN puede almacenar hasta 215000 terabytes de datos.,Nature Genetics,SI
+25_00554,Tecnología,¿Cuántos años tardó en desarrollarse el primer ordenador personal?,10,8,12,"El Altair 8800, el primer ordenador personal, tardó 10 años en desarrollarse (1965-1975).",Computer History Museum,SI
+25_00555,Tecnología,¿Cuántos millones de usuarios activos tiene TikTok?,1000,800,1200,TikTok superó los 1000 millones de usuarios activos en 2021.,TikTok Official,SI
+25_00556,Tecnología,¿Cuántos años tiene el primer satélite artificial?,65,52,78,"El Sputnik 1, lanzado en 1957, fue el primer satélite artificial.",NASA,SI
+25_00557,Tecnología,¿Cuántos kilómetros de cables submarinos de internet hay en el mundo?,1200000,960000,1440000,Hay aproximadamente 1.2 millones de kilómetros de cables submarinos de internet.,TeleGeography,SI
+25_00558,Tecnología,¿Cuántos años tardó en desarrollarse el primer iPhone?,3,2,4,Apple tardó 3 años en desarrollar el primer iPhone (2004-2007).,Apple Inc.,SI
+25_00559,Tecnología,¿Cuántos petabytes de datos procesa Google al día?,2500,2000,3000,Google procesa aproximadamente 2500 petabytes de datos al día.,Google Cloud,SI
+25_00560,Tecnología,¿Cuántos años tiene el primer video subido a YouTube?,18,14,22,"El primer video, ""Me at the zoo"", fue subido en 2005.",YouTube,SI
+25_00561,Tecnología,¿Cuántos millones de dispositivos IoT hay en el mundo?,15000,12000,18000,Se estima que hay 15000 millones de dispositivos IoT (Internet de las cosas) en el mundo.,IoT Analytics,SI
+25_00562,Tecnología,¿Cuántos años tardó en desarrollarse el primer ordenador portátil?,10,8,12,"El Osborne 1, el primer portátil, tardó 10 años en desarrollarse (1971-1981).",Computer History Museum,SI
+25_00563,Tecnología,¿Cuántos terabits por segundo es la capacidad de un cable de fibra óptica?,200,160,240,Un cable de fibra óptica moderno puede transmitir hasta 200 terabits por segundo.,Nature Communications,SI
+25_00564,Tecnología,¿Cuántos años tiene el primer correo electrónico enviado?,52,42,62,El primer correo electrónico fue enviado en 1971 por Ray Tomlinson.,History of the Internet,SI
+25_00565,Tecnología,¿Cuántos millones de líneas de código tiene Windows 10?,50,40,60,Windows 10 tiene aproximadamente 50 millones de líneas de código.,Microsoft,SI
+25_00566,Tecnología,¿Cuántos años tardó en desarrollarse el primer GPS funcional?,20,16,24,El primer sistema GPS funcional tardó 20 años en desarrollarse (1973-1993).,U.S. Department of Defense,SI
+25_00567,Tecnología,¿Cuántos millones de usuarios activos tiene WhatsApp?,2000,1600,2400,WhatsApp superó los 2000 millones de usuarios activos en 2020.,WhatsApp Official,SI
+25_00568,Tecnología,¿Cuántos años tiene el primer motor de búsqueda de internet?,30,24,36,"Archie, el primer motor de búsqueda, fue creado en 1990.",Internet History,SI
+25_00569,Tecnología,¿Cuántos petabytes de datos almacena Facebook al año?,4000,3200,4800,Facebook almacena aproximadamente 4000 petabytes de datos al año.,Facebook Engineering,SI
+25_00570,Tecnología,¿Cuántos años tardó en desarrollarse el primer avión no tripulado?,15,12,18,El primer dron funcional tardó 15 años en desarrollarse (1980-1995).,Smithsonian Institution,SI
+25_00571,Tecnología,¿Cuántos millones de transistores tiene un chip moderno?,50000,40000,60000,Un chip moderno como el Apple M1 tiene aproximadamente 50000 millones de transistores.,Apple Inc.,SI
+25_00572,Tecnología,¿Cuántos años tardó en desarrollarse el primer ordenador cuántico comercial?,20,16,24,"El primer ordenador cuántico comercial, D-Wave One, tardó 20 años en desarrollarse.",D-Wave Systems,SI
+25_00573,Tecnología,¿Cuántos terabits por segundo es la velocidad de transmisión de datos en un cable submarino moderno?,250,200,300,Los cables submarinos modernos pueden transmitir hasta 250 terabits por segundo.,Submarine Cable Networks,SI
+25_00574,Tecnología,¿Cuántos años tiene el primer robot autónomo?,60,48,72,"""Shakey"", el primer robot autónomo, fue creado en 1966.",Stanford Research Institute,SI
+25_00575,Tecnología,¿Cuántos millones de dispositivos están conectados a Internet en 2023?,30000,24000,36000,Se estima que hay 30000 millones de dispositivos conectados a Internet en 2023.,Statista,SI
+25_00576,Tecnología,¿Cuántos años tardó en desarrollarse el primer sistema operativo gráfico?,10,8,12,"El primer sistema operativo gráfico, Xerox Alto, tardó 10 años en desarrollarse.",Xerox PARC,SI
+25_00577,Tecnología,¿Cuántos petabytes de datos se almacenan en la nube globalmente?,100000,80000,120000,Se estima que hay 100000 petabytes de datos almacenados en la nube en 2023.,IDC,SI
+25_00578,Tecnología,¿Cuántos años tiene el primer videojuego de realidad virtual?,30,24,36,"""Virtual Boy"", lanzado en 1995, fue el primer intento de realidad virtual en videojuegos.",Nintendo,SI
+25_00579,Tecnología,¿Cuántos millones de transistores tiene el procesador más avanzado?,100000,80000,120000,El procesador Apple M2 Ultra tiene aproximadamente 100000 millones de transistores.,Apple Inc.,SI
+25_00580,Tecnología,¿Cuántos años tardó en desarrollarse el primer vehículo autónomo?,30,24,36,El primer vehículo autónomo funcional tardó 30 años en desarrollarse (1980-2010).,Carnegie Mellon University,SI
+25_00581,Tecnología,¿Cuántos exabytes de datos se generan al año en el mundo?,100,80,120,Se generan aproximadamente 100 exabytes de datos al año en el mundo.,Statista,SI
+25_00582,Tecnología,¿Cuántos años tiene el primer teléfono móvil?,50,40,60,"El primer teléfono móvil, el Motorola DynaTAC 8000X, fue lanzado en 1983.",Motorola,SI
+25_00583,Tecnología,¿Cuántos millones de usuarios activos tiene Instagram?,2000,1600,2400,Instagram superó los 2000 millones de usuarios activos en 2023.,Instagram Official,SI
+25_00584,Tecnología,¿Cuántos años tardó en desarrollarse el primer ordenador portátil moderno?,10,8,12,"El primer portátil moderno, el Grid Compass, tardó 10 años en desarrollarse.",Computer History Museum,SI
+25_00585,Tecnología,¿Cuántos terabits por segundo es la velocidad de internet más rápida en un laboratorio?,1000,800,1200,Científicos lograron una velocidad de 1000 terabits por segundo en un laboratorio.,Nature Photonics,SI
+25_00586,Tecnología,¿Cuántos años tiene el primer sistema de reconocimiento facial?,60,48,72,El primer sistema de reconocimiento facial fue desarrollado en 1964.,MIT Technology Review,SI
+25_00587,Tecnología,¿Cuántos millones de líneas de código tiene el sistema operativo Linux?,30,24,36,El kernel de Linux tiene aproximadamente 30 millones de líneas de código.,Linux Foundation,SI
+25_00588,Tecnología,¿Cuántos años tardó en desarrollarse el primer dron comercial?,20,16,24,"El primer dron comercial, el DJI Phantom, tardó 20 años en desarrollarse.",DJI,SI
+25_00589,Tecnología,¿Cuántos petabytes de datos procesa Amazon Web Services al día?,1000,800,1200,Amazon Web Services procesa aproximadamente 1000 petabytes de datos al día.,Amazon AWS,SI
+25_00590,Tecnología,¿Cuántos años tiene el primer sistema de inteligencia artificial?,70,56,84,"El primer sistema de IA, el Logic Theorist, fue creado en 1956.",Stanford University,SI
+25_00591,Tecnología,¿Cuántos millones de usuarios activos tiene Netflix?,250,200,300,Netflix superó los 250 millones de usuarios activos en 2023.,Netflix Official,SI
+25_00592,Tecnología,¿Cuántos años tardó en desarrollarse el primer ordenador cuántico de IBM?,30,24,36,El primer ordenador cuántico de IBM tardó 30 años en desarrollarse (1990-2020).,IBM Research,SI
+25_00593,Tecnología,¿Cuántos terabits por segundo es la velocidad de transmisión de datos en fibra óptica experimental?,1000,800,1200,Científicos lograron una velocidad de 1000 terabits por segundo en fibra óptica experimental.,Nature Communications,SI
+25_00594,Tecnología,¿Cuántos años tiene el primer sistema de almacenamiento en la nube?,20,16,24,"El primer servicio de almacenamiento en la nube, Dropbox, fue lanzado en 2007.",Dropbox,SI
+25_00595,Tecnología,¿Cuántos millones de transistores tiene el procesador AMD Ryzen 9?,20000,16000,24000,El AMD Ryzen 9 tiene aproximadamente 20000 millones de transistores.,AMD,SI
+25_00596,Tecnología,¿Cuántos años tardó en desarrollarse el primer sistema de realidad aumentada?,20,16,24,El primer sistema de realidad aumentada funcional tardó 20 años en desarrollarse.,MIT Media Lab,SI
+25_00597,Tecnología,¿Cuántos petabytes de datos almacena Google al año?,10000,8000,12000,Google almacena aproximadamente 10000 petabytes de datos al año.,Google Cloud,SI
+25_00598,Tecnología,¿Cuántos años tiene el primer sistema de reconocimiento de voz?,70,56,84,"El primer sistema de reconocimiento de voz, ""Audrey"", fue creado en 1952.",Bell Labs,SI
+25_00599,Tecnología,¿Cuántos millones de usuarios activos tiene Twitter?,400,320,480,Twitter superó los 400 millones de usuarios activos en 2023.,Twitter Official,SI
+25_00600,Tecnología,¿Cuántos años tardó en desarrollarse el primer sistema de blockchain?,10,8,12,"El primer sistema de blockchain, Bitcoin, tardó 10 años en desarrollarse (2008-2018).",Bitcoin Whitepaper,SI
+25_00601,Argentina,¿En qué año se declaró la independencia de Argentina?,1816,1811,1821,Argentina declaró su independencia el 9 de julio de 1816 en Tucumán.,Historia Argentina,SI
+25_00602,Argentina,¿En qué año se fundó la Universidad de Buenos Aires (UBA)?,1821,1816,1826,La UBA es la universidad más antigua de Argentina.,UBA,SI
+25_00603,Argentina,¿En qué año se construyó el Obelisco de Buenos Aires?,1936,1931,1941,El Obelisco fue construido para conmemorar los 400 años de la fundación de Buenos Aires.,Gobierno de Buenos Aires,SI
+25_00604,Argentina,¿En qué año se creó la bandera argentina?,1812,1807,1817,La bandera argentina fue creada por Manuel Belgrano en 1812.,Ministerio de Cultura,SI
+25_00605,Argentina,¿En qué año se fundó la ciudad de Buenos Aires?,1536,1531,1541,Buenos Aires fue fundada por Pedro de Mendoza en 1536.,Gobierno de Buenos Aires,SI
+25_00606,Argentina,¿En qué año se inauguró el Teatro Colón?,1908,1903,1913,El Teatro Colón es uno de los teatros de ópera más importantes del mundo.,Teatro Colón,SI
+25_00607,Argentina,¿En qué año se fundó la Asociación del Fútbol Argentino (AFA)?,1893,1888,1898,La AFA es una de las asociaciones de fútbol más antiguas del mundo.,AFA,SI
+25_00608,Argentina,¿En qué año se creó el mate como bebida tradicional?,1500,1495,1505,El mate se consume en la región desde el siglo XVI.,Instituto Nacional de la Yerba Mate,SI
+25_00609,Argentina,¿En qué año se fundó el Mercado de San Telmo?,1897,1892,1902,El Mercado de San Telmo es un ícono histórico de Buenos Aires.,Gobierno de Buenos Aires,SI
+25_00610,Argentina,¿En qué año comenzó la Guerra de las Malvinas?,1982,1977,1987,La Guerra de las Malvinas comenzó el 2 de abril de 1982.,Ministerio de Defensa,SI
+25_00611,Argentina,¿En qué año se inauguró el Festival de Cosquín?,1961,1956,1966,El Festival Nacional de Folclore de Cosquín es el más importante de Argentina.,Festival de Cosquín,SI
+25_00612,Argentina,¿En qué año se fundó el Parque Nacional Nahuel Huapi?,1934,1929,1939,Fue el primer parque nacional de Argentina.,Parques Nacionales Argentina,SI
+25_00613,Argentina,¿En qué año se creó el Gauchito Gil como figura popular?,1878,1873,1883,El Gauchito Gil es una figura legendaria de la cultura argentina.,Folclore Argentino,SI
+25_00614,Argentina,¿En qué año se fundó la Ruta 40?,1935,1930,1940,"La Ruta 40 es la carretera más larga de Argentina, con 5194 km.",Vialidad Nacional,SI
+25_00615,Argentina,¿En qué año se inauguró el Glaciar Perito Moreno como atracción turística?,1937,1932,1942,El Glaciar Perito Moreno es uno de los destinos turísticos más importantes de Argentina.,Parques Nacionales Argentina,SI
+25_00616,Argentina,¿En qué año se fundó el Instituto Nacional de la Yerba Mate?,1940,1935,1945,El Instituto promueve el consumo y la producción de yerba mate en Argentina.,Instituto Nacional de la Yerba Mate,SI
+25_00617,Argentina,¿En qué año se creó el tango como Patrimonio Cultural de la Humanidad?,2009,2004,2014,El tango fue declarado Patrimonio Cultural de la Humanidad por la UNESCO.,UNESCO,SI
+25_00618,Argentina,¿En qué año se fundó el Club Atlético River Plate?,1901,1896,1906,River Plate es uno de los clubes de fútbol más importantes de Argentina.,River Plate,SI
+25_00619,Argentina,¿En qué año se fundó el Club Atlético Boca Juniors?,1905,1900,1910,Boca Juniors es uno de los clubes de fútbol más populares de Argentina.,Boca Juniors,SI
+25_00620,Argentina,¿En qué año se fundó el Instituto Geográfico Nacional?,1879,1874,1884,El Instituto es responsable de la cartografía y la geografía en Argentina.,Instituto Geográfico Nacional,SI
+25_00621,Argentina,¿En qué año se fundó el Mercado Central de Buenos Aires?,1889,1884,1894,El Mercado Central es un importante centro de distribución de alimentos.,Gobierno de Buenos Aires,SI
+25_00622,Argentina,¿En qué año se fundó el Museo Nacional de Bellas Artes?,1896,1891,1901,Es uno de los museos de arte más importantes de América Latina.,Museo Nacional de Bellas Artes,SI
+25_00623,Argentina,¿En qué año se fundó la Biblioteca Nacional de Argentina?,1810,1805,1815,Es una de las bibliotecas más importantes del país.,Biblioteca Nacional,SI
+25_00624,Argentina,¿En qué año se fundó el Zoológico de Buenos Aires?,1888,1883,1893,"Hoy es el Ecoparque, un espacio de conservación ambiental.",Gobierno de Buenos Aires,SI
+25_00625,Argentina,¿En qué año se fundó el Banco de la Nación Argentina?,1891,1886,1896,Es el banco más grande de Argentina.,Banco de la Nación,SI
+25_00626,Argentina,¿En qué año se fundó el Instituto Nacional de Tecnología Agropecuaria (INTA)?,1956,1951,1961,El INTA promueve la innovación en el sector agropecuario.,INTA,SI
+25_00627,Argentina,¿En qué año se fundó el Teatro Nacional Cervantes?,1921,1916,1926,Es el principal teatro nacional de Argentina.,Teatro Cervantes,SI
+25_00628,Argentina,¿En qué año se fundó el Museo de Ciencias Naturales de La Plata?,1884,1879,1889,Es uno de los museos de ciencias naturales más importantes de América Latina.,Museo de La Plata,SI
+25_00629,Argentina,¿En qué año se fundó el Parque Nacional Iguazú?,1934,1929,1939,"Alberga las famosas Cataratas del Iguazú, una de las maravillas naturales del mundo.",Parques Nacionales Argentina,SI
+25_00630,Argentina,¿En qué año se fundó el Instituto Nacional de Estadística y Censos (INDEC)?,1968,1963,1973,El INDEC es responsable de las estadísticas oficiales de Argentina.,INDEC,SI
+25_00631,Argentina,¿En qué año se fundó la primera estancia en Argentina?,1580,1575,1585,"La Estancia Santa Catalina, en Córdoba, es considerada la primera estancia del país.",Historia Argentina,SI
+25_00632,Argentina,¿En qué año se inauguró el primer ferrocarril en Argentina?,1857,1852,1862,"El Ferrocarril del Oeste fue el primero en operar, conectando Buenos Aires con Flores.",Ferrocarriles Argentinos,SI
+25_00633,Argentina,¿En qué año se fundó el primer parque nacional de Argentina?,1934,1929,1939,El Parque Nacional Nahuel Huapi fue el primero en crearse.,Parques Nacionales Argentina,SI
+25_00634,Argentina,¿En qué año se fundó la primera universidad de Argentina?,1613,1608,1618,La Universidad Nacional de Córdoba es la más antigua del país.,UNC,SI
+25_00635,Argentina,¿En qué año se fundó el primer club de fútbol en Argentina?,1867,1862,1872,El Buenos Aires Cricket Club fue el primero en practicar fútbol en el país.,AFA,SI
+25_00636,Argentina,¿En qué año se fundó la primera biblioteca pública de Argentina?,1810,1805,1815,La Biblioteca Pública de Buenos Aires fue creada por Mariano Moreno.,Biblioteca Nacional,SI
+25_00637,Argentina,¿En qué año se fundó el primer diario de Argentina?,1810,1805,1815,"""La Gazeta de Buenos Ayres"" fue el primer periódico del país, fundado por Mariano Moreno.",Historia Argentina,SI
+25_00638,Argentina,¿En qué año se fundó el primer museo de Argentina?,1823,1818,1828,El Museo de Ciencias Naturales de La Plata fue el primero en el país.,Museo de La Plata,SI
+25_00639,Argentina,¿En qué año se fundó el primer zoológico de Argentina?,1888,1883,1893,El Zoológico de Buenos Aires fue el primero en el país.,Gobierno de Buenos Aires,SI
+25_00640,Argentina,¿En qué año se fundó la primera cervecería de Argentina?,1860,1855,1865,"La Cervecería Quilmes es la más antigua del país, fundada en 1860.",Cervecería Quilmes,SI
+25_00641,Argentina,¿En qué año se fundó el primer teatro de Argentina?,1757,1752,1762,"El Teatro de la Ranchería, en Buenos Aires, fue el primero en el país.",Historia del Teatro,SI
+25_00642,Argentina,¿En qué año se fundó el primer banco de Argentina?,1822,1817,1827,El Banco de la Provincia de Buenos Aires fue el primero en el país.,Banco Provincia,SI
+25_00643,Argentina,¿En qué año se fundó el primer sindicato de Argentina?,1857,1852,1862,La Sociedad Tipográfica Bonaerense fue el primer sindicato del país.,Historia del Trabajo,SI
+25_00644,Argentina,¿En qué año se fundó el primer hospital de Argentina?,1745,1740,1750,"El Hospital de Mujeres, en Córdoba, fue el primero en el país.",Historia de la Medicina,SI
+25_00645,Argentina,¿En qué año se fundó el primer club de ajedrez de Argentina?,1857,1852,1862,El Club de Ajedrez de Buenos Aires fue el primero en el país.,Federación Argentina de Ajedrez,SI
+25_00646,Argentina,¿En qué año se fundó el primer observatorio astronómico de Argentina?,1882,1877,1887,El Observatorio Astronómico de La Plata fue el primero en el país.,Observatorio de La Plata,SI
+25_00647,Argentina,¿En qué año se fundó el primer club de golf de Argentina?,1892,1887,1897,El Buenos Aires Golf Club fue el primero en el país.,Asociación Argentina de Golf,SI
+25_00648,Argentina,¿En qué año se fundó el primer club de rugby de Argentina?,1886,1881,1891,El Buenos Aires Football Club fue el primero en practicar rugby en el país.,Unión Argentina de Rugby,SI
+25_00649,Argentina,¿En qué año se fundó el primer club de tenis de Argentina?,1892,1887,1897,El Buenos Aires Lawn Tennis Club fue el primero en el país.,Asociación Argentina de Tenis,SI
+25_00650,Argentina,¿En qué año se fundó el primer club de natación de Argentina?,1886,1881,1891,El Club de Gimnasia y Esgrima de Buenos Aires fue el primero en tener una piscina.,Historia del Deporte,SI
+25_00651,Argentina,¿En qué año se fundó el primer club de automovilismo de Argentina?,1904,1899,1909,El Automóvil Club Argentino fue el primero en el país.,Automóvil Club Argentino,SI
+25_00652,Argentina,¿En qué año se fundó el primer club de aviación de Argentina?,1908,1903,1913,El Aero Club Argentino fue el primero en el país.,Aero Club Argentino,SI
+25_00653,Argentina,¿En qué año se fundó el primer club de polo de Argentina?,1888,1883,1893,El Hurlingham Club fue el primero en practicar polo en el país.,Asociación Argentina de Polo,SI
+25_00654,Argentina,¿En qué año se fundó el primer club de hockey de Argentina?,1908,1903,1913,El Belgrano Athletic Club fue el primero en practicar hockey en el país.,Confederación Argentina de Hockey,SI
+25_00655,Argentina,¿En qué año se fundó el primer club de básquetbol de Argentina?,1912,1907,1917,El Hindú Club fue el primero en practicar básquetbol en el país.,Confederación Argentina de Básquetbol,SI
+25_00656,Argentina,¿En qué año se fundó el primer club de vóley de Argentina?,1914,1909,1919,El Club Atlético Estudiantes fue el primero en practicar vóley en el país.,Federación Argentina de Vóley,SI
+25_00657,Argentina,¿En qué año se fundó el primer club de boxeo de Argentina?,1903,1898,1908,El Club Atlético River Plate fue el primero en practicar boxeo en el país.,Federación Argentina de Boxeo,SI
+25_00658,Argentina,¿En qué año se fundó el primer club de esgrima de Argentina?,1899,1894,1904,El Club de Gimnasia y Esgrima de Buenos Aires fue el primero en el país.,Federación Argentina de Esgrima,SI
+25_00659,Argentina,¿En qué año se fundó el primer club de atletismo de Argentina?,1902,1897,1907,El Club Atlético River Plate fue el primero en practicar atletismo en el país.,Confederación Argentina de Atletismo,SI
+25_00660,Argentina,¿En qué año se fundó el primer club de ciclismo de Argentina?,1893,1888,1898,El Club Ciclista Buenos Aires fue el primero en el país.,Federación Argentina de Ciclismo,SI
+25_00661,Argentina,¿En qué año se fundó la primera estancia en Argentina?,1580,1575,1585,"La Estancia Santa Catalina, en Córdoba, es considerada la primera estancia del país.",Historia Argentina,SI
+25_00662,Argentina,¿En qué año se inauguró el primer ferrocarril en Argentina?,1857,1852,1862,"El Ferrocarril del Oeste fue el primero en operar, conectando Buenos Aires con Flores.",Ferrocarriles Argentinos,SI
+25_00663,Argentina,¿En qué año se fundó el primer parque nacional de Argentina?,1934,1929,1939,El Parque Nacional Nahuel Huapi fue el primero en crearse.,Parques Nacionales Argentina,SI
+25_00664,Argentina,¿En qué año se fundó la primera universidad de Argentina?,1613,1608,1618,La Universidad Nacional de Córdoba es la más antigua del país.,UNC,SI
+25_00665,Argentina,¿En qué año se fundó el primer club de fútbol en Argentina?,1867,1862,1872,El Buenos Aires Cricket Club fue el primero en practicar fútbol en el país.,AFA,SI
+25_00666,Argentina,¿En qué año se fundó la primera biblioteca pública de Argentina?,1810,1805,1815,La Biblioteca Pública de Buenos Aires fue creada por Mariano Moreno.,Biblioteca Nacional,SI
+25_00667,Argentina,¿En qué año se fundó el primer diario de Argentina?,1810,1805,1815,"""La Gazeta de Buenos Ayres"" fue el primer periódico del país, fundado por Mariano Moreno.",Historia Argentina,SI
+25_00668,Argentina,¿En qué año se fundó el primer museo de Argentina?,1823,1818,1828,El Museo de Ciencias Naturales de La Plata fue el primero en el país.,Museo de La Plata,SI
+25_00669,Argentina,¿En qué año se fundó el primer zoológico de Argentina?,1888,1883,1893,El Zoológico de Buenos Aires fue el primero en el país.,Gobierno de Buenos Aires,SI
+25_00670,Argentina,¿En qué año se fundó la primera cervecería de Argentina?,1860,1855,1865,"La Cervecería Quilmes es la más antigua del país, fundada en 1860.",Cervecería Quilmes,SI
+25_00671,Argentina,¿En qué año se fundó el primer teatro de Argentina?,1757,1752,1762,"El Teatro de la Ranchería, en Buenos Aires, fue el primero en el país.",Historia del Teatro,SI
+25_00672,Argentina,¿En qué año se fundó el primer banco de Argentina?,1822,1817,1827,El Banco de la Provincia de Buenos Aires fue el primero en el país.,Banco Provincia,SI
+25_00673,Argentina,¿En qué año se fundó el primer sindicato de Argentina?,1857,1852,1862,La Sociedad Tipográfica Bonaerense fue el primer sindicato del país.,Historia del Trabajo,SI
+25_00674,Argentina,¿En qué año se fundó el primer hospital de Argentina?,1745,1740,1750,"El Hospital de Mujeres, en Córdoba, fue el primero en el país.",Historia de la Medicina,SI
+25_00675,Argentina,¿En qué año se fundó el primer club de ajedrez de Argentina?,1857,1852,1862,El Club de Ajedrez de Buenos Aires fue el primero en el país.,Federación Argentina de Ajedrez,SI
+25_00676,Argentina,¿En qué año se fundó el primer observatorio astronómico de Argentina?,1882,1877,1887,El Observatorio Astronómico de La Plata fue el primero en el país.,Observatorio de La Plata,SI
+25_00677,Argentina,¿En qué año se fundó el primer club de golf de Argentina?,1892,1887,1897,El Buenos Aires Golf Club fue el primero en el país.,Asociación Argentina de Golf,SI
+25_00678,Argentina,¿En qué año se fundó el primer club de rugby de Argentina?,1886,1881,1891,El Buenos Aires Football Club fue el primero en practicar rugby en el país.,Unión Argentina de Rugby,SI
+25_00679,Argentina,¿En qué año se fundó el primer club de tenis de Argentina?,1892,1887,1897,El Buenos Aires Lawn Tennis Club fue el primero en el país.,Asociación Argentina de Tenis,SI
+25_00680,Argentina,¿En qué año se fundó el primer club de natación de Argentina?,1886,1881,1891,El Club de Gimnasia y Esgrima de Buenos Aires fue el primero en tener una piscina.,Historia del Deporte,SI
+25_00681,Argentina,¿En qué año se fundó el primer club de automovilismo de Argentina?,1904,1899,1909,El Automóvil Club Argentino fue el primero en el país.,Automóvil Club Argentino,SI
+25_00682,Argentina,¿En qué año se fundó el primer club de aviación de Argentina?,1908,1903,1913,El Aero Club Argentino fue el primero en el país.,Aero Club Argentino,SI
+25_00683,Argentina,¿En qué año se fundó el primer club de polo de Argentina?,1888,1883,1893,El Hurlingham Club fue el primero en practicar polo en el país.,Asociación Argentina de Polo,SI
+25_00684,Argentina,¿En qué año se fundó el primer club de hockey de Argentina?,1908,1903,1913,El Belgrano Athletic Club fue el primero en practicar hockey en el país.,Confederación Argentina de Hockey,SI
+25_00685,Argentina,¿En qué año se fundó el primer club de básquetbol de Argentina?,1912,1907,1917,El Hindú Club fue el primero en practicar básquetbol en el país.,Confederación Argentina de Básquetbol,SI
+25_00686,Argentina,¿En qué año se fundó el primer club de vóley de Argentina?,1914,1909,1919,El Club Atlético Estudiantes fue el primero en practicar vóley en el país.,Federación Argentina de Vóley,SI
+25_00687,Argentina,¿En qué año se fundó el primer club de boxeo de Argentina?,1903,1898,1908,El Club Atlético River Plate fue el primero en practicar boxeo en el país.,Federación Argentina de Boxeo,SI
+25_00688,Argentina,¿En qué año se fundó el primer club de esgrima de Argentina?,1899,1894,1904,El Club de Gimnasia y Esgrima de Buenos Aires fue el primero en el país.,Federación Argentina de Esgrima,SI
+25_00689,Argentina,¿En qué año se fundó el primer club de atletismo de Argentina?,1902,1897,1907,El Club Atlético River Plate fue el primero en practicar atletismo en el país.,Confederación Argentina de Atletismo,SI
+25_00690,Argentina,¿En qué año se fundó el primer club de ciclismo de Argentina?,1893,1888,1898,El Club Ciclista Buenos Aires fue el primero en el país.,Federación Argentina de Ciclismo,SI
+25_00691,Argentina,¿En qué año comenzó a funcionar el Mercado de San Telmo?,1897,1892,1902,"El Mercado de San Telmo, en Buenos Aires, fue inaugurado en 1897.",Gobierno de Buenos Aires,SI
+25_00692,Argentina,¿En qué año se fundó el Festival de Cosquín?,1961,1956,1966,El Festival Nacional de Folclore de Cosquín se realiza desde 1961.,Festival de Cosquín,SI
+25_00693,Argentina,¿En qué año se inauguró el Glaciar Perito Moreno como atracción turística?,1937,1932,1942,El Glaciar Perito Moreno es uno de los destinos turísticos más importantes de Argentina.,Parques Nacionales Argentina,SI
+25_00694,Argentina,¿En qué año se fundó la Asociación del Fútbol Argentino (AFA)?,1893,1888,1898,La AFA es una de las asociaciones de fútbol más antiguas del mundo.,AFA,SI
+25_00695,Argentina,¿En qué año se creó el Gauchito Gil como figura popular?,1878,1873,1883,El Gauchito Gil es una figura legendaria de la cultura argentina.,Folclore Argentino,SI
+25_00696,Argentina,¿En qué año se fundó el Instituto Nacional de la Yerba Mate?,1940,1935,1945,El Instituto promueve el consumo y la producción de yerba mate en Argentina.,Instituto Nacional de la Yerba Mate,SI
+25_00697,Argentina,¿En qué año se creó el tango como Patrimonio Cultural de la Humanidad?,2009,2004,2014,El tango fue declarado Patrimonio Cultural de la Humanidad por la UNESCO.,UNESCO,SI
+25_00698,Argentina,¿En qué año se fundó el Club Atlético River Plate?,1901,1896,1906,River Plate es uno de los clubes de fútbol más importantes de Argentina.,River Plate,SI
+25_00699,Argentina,¿En qué año se fundó el Club Atlético Boca Juniors?,1905,1900,1910,Boca Juniors es uno de los clubes de fútbol más populares de Argentina.,Boca Juniors,SI
+25_00700,Argentina,¿En qué año se fundó el Instituto Geográfico Nacional?,1879,1874,1884,El Instituto es responsable de la cartografía y la geografía en Argentina.,Instituto Geográfico Nacional,SI
+25_00701,Argentina,¿En qué año se fundó el Mercado Central de Buenos Aires?,1889,1884,1894,El Mercado Central es un importante centro de distribución de alimentos.,Gobierno de Buenos Aires,SI
+25_00702,Argentina,¿En qué año se fundó el Museo Nacional de Bellas Artes?,1896,1891,1901,Es uno de los museos de arte más importantes de América Latina.,Museo Nacional de Bellas Artes,SI
+25_00703,Argentina,¿En qué año se fundó la Biblioteca Nacional de Argentina?,1810,1805,1815,Es una de las bibliotecas más importantes del país.,Biblioteca Nacional,SI
+25_00704,Argentina,¿En qué año se fundó el Zoológico de Buenos Aires?,1888,1883,1893,"Hoy es el Ecoparque, un espacio de conservación ambiental.",Gobierno de Buenos Aires,SI
+25_00705,Argentina,¿En qué año se fundó el Banco de la Nación Argentina?,1891,1886,1896,Es el banco más grande de Argentina.,Banco de la Nación,SI
+25_00706,Argentina,¿En qué año se fundó el Instituto Nacional de Tecnología Agropecuaria (INTA)?,1956,1951,1961,El INTA promueve la innovación en el sector agropecuario.,INTA,SI
+25_00707,Argentina,¿En qué año se fundó el Teatro Nacional Cervantes?,1921,1916,1926,Es el principal teatro nacional de Argentina.,Teatro Cervantes,SI
+25_00708,Argentina,¿En qué año se fundó el Museo de Ciencias Naturales de La Plata?,1884,1879,1889,Es uno de los museos de ciencias naturales más importantes de América Latina.,Museo de La Plata,SI
+25_00709,Argentina,¿En qué año se fundó el Parque Nacional Iguazú?,1934,1929,1939,"Alberga las famosas Cataratas del Iguazú, una de las maravillas naturales del mundo.",Parques Nacionales Argentina,SI
+25_00710,Argentina,¿En qué año se fundó el Instituto Nacional de Estadística y Censos (INDEC)?,1968,1963,1973,El INDEC es responsable de las estadísticas oficiales de Argentina.,INDEC,SI
+25_00711,Argentina,¿En qué año se fundó la primera estancia en Argentina?,1580,1575,1585,"La Estancia Santa Catalina, en Córdoba, es considerada la primera estancia del país.",Historia Argentina,SI
+25_00712,Argentina,¿En qué año se inauguró el primer ferrocarril en Argentina?,1857,1852,1862,"El Ferrocarril del Oeste fue el primero en operar, conectando Buenos Aires con Flores.",Ferrocarriles Argentinos,SI
+25_00713,Argentina,¿En qué año se fundó el primer parque nacional de Argentina?,1934,1929,1939,El Parque Nacional Nahuel Huapi fue el primero en crearse.,Parques Nacionales Argentina,SI
+25_00714,Argentina,¿En qué año se fundó la primera universidad de Argentina?,1613,1608,1618,La Universidad Nacional de Córdoba es la más antigua del país.,UNC,SI
+25_00715,Argentina,¿En qué año se fundó el primer club de fútbol en Argentina?,1867,1862,1872,El Buenos Aires Cricket Club fue el primero en practicar fútbol en el país.,AFA,SI
+25_00716,Argentina,¿En qué año se fundó la primera biblioteca pública de Argentina?,1810,1805,1815,La Biblioteca Pública de Buenos Aires fue creada por Mariano Moreno.,Biblioteca Nacional,SI
+25_00717,Argentina,¿En qué año se fundó el primer diario de Argentina?,1810,1805,1815,"""La Gazeta de Buenos Ayres"" fue el primer periódico del país, fundado por Mariano Moreno.",Historia Argentina,SI
+25_00718,Argentina,¿En qué año se fundó el primer museo de Argentina?,1823,1818,1828,El Museo de Ciencias Naturales de La Plata fue el primero en el país.,Museo de La Plata,SI
+25_00719,Argentina,¿En qué año se fundó el primer zoológico de Argentina?,1888,1883,1893,El Zoológico de Buenos Aires fue el primero en el país.,Gobierno de Buenos Aires,SI
+25_00720,Argentina,¿En qué año se fundó la primera cervecería de Argentina?,1860,1855,1865,"La Cervecería Quilmes es la más antigua del país, fundada en 1860.",Cervecería Quilmes,SI
+25_00721,Argentina,¿En qué año Lionel Messi ganó su primer Balón de Oro?,2009,2004,2014,"Messi ganó su primer Balón de Oro en 2009, y desde entonces ha ganado 7 en total.",FIFA,SI
+25_00722,Argentina,"¿En qué año Diego Maradona anotó el ""Gol del Siglo""?",1986,1981,1991,"Maradona anotó el ""Gol del Siglo"" en el Mundial de México 1986.",FIFA,SI
+25_00723,Argentina,¿En qué año se fundó el Club Atlético River Plate?,1901,1896,1906,River Plate es uno de los clubes más ganadores de Argentina y el mundo.,River Plate,SI
+25_00724,Argentina,¿En qué año se fundó el Club Atlético Boca Juniors?,1905,1900,1910,Boca Juniors es uno de los clubes más populares y ganadores de América.,Boca Juniors,SI
+25_00725,Argentina,¿En qué año Luis Federico Leloir ganó el Premio Nobel de Química?,1970,1965,1975,Leloir es el único argentino en ganar un Nobel en Ciencias.,Nobel Prize,SI
+25_00726,Argentina,¿En qué año se fundó la Asociación del Fútbol Argentino (AFA)?,1893,1888,1898,La AFA es una de las asociaciones de fútbol más antiguas del mundo.,AFA,SI
+25_00727,Argentina,¿En qué año Juan Manuel Fangio ganó su primer campeonato mundial de F1?,1951,1946,1956,Fangio es considerado uno de los mejores pilotos de la historia.,Fórmula 1,SI
+25_00728,Argentina,¿En qué año se fundó el Teatro Colón?,1908,1903,1913,El Teatro Colón es uno de los teatros de ópera más importantes del mundo.,Teatro Colón,SI
+25_00729,Argentina,¿En qué año se fundó el Parque Nacional Nahuel Huapi?,1934,1929,1939,Fue el primer parque nacional de Argentina.,Parques Nacionales Argentina,SI
+25_00730,Argentina,¿En qué año se fundó la Universidad de Buenos Aires (UBA)?,1821,1816,1826,La UBA es la universidad más prestigiosa de Argentina y una de las mejores de América Latina.,UBA,SI
+25_00731,Argentina,¿En qué año se fundó el Mercado de San Telmo?,1897,1892,1902,El Mercado de San Telmo es un ícono histórico de Buenos Aires.,Gobierno de Buenos Aires,SI
+25_00732,Argentina,¿En qué año se fundó el Festival de Cosquín?,1961,1956,1966,Es el festival de folclore más importante de Argentina.,Festival de Cosquín,SI
+25_00733,Argentina,¿En qué año se fundó el Instituto Nacional de la Yerba Mate?,1940,1935,1945,El Instituto promueve el consumo y la producción de yerba mate en Argentina.,Instituto Nacional de la Yerba Mate,SI
+25_00734,Argentina,¿En qué año se fundó el Banco de la Nación Argentina?,1891,1886,1896,Es el banco más grande de Argentina.,Banco de la Nación,SI
+25_00735,Argentina,¿En qué año se fundó el Museo de Ciencias Naturales de La Plata?,1884,1879,1889,Es uno de los museos de ciencias naturales más importantes de América Latina.,Museo de La Plata,SI
+25_00736,Argentina,¿En qué año se fundó el Parque Nacional Iguazú?,1934,1929,1939,"Alberga las famosas Cataratas del Iguazú, una de las maravillas naturales del mundo.",Parques Nacionales Argentina,SI
+25_00737,Argentina,¿En qué año se fundó el Instituto Nacional de Estadística y Censos (INDEC)?,1968,1963,1973,El INDEC es responsable de las estadísticas oficiales de Argentina.,INDEC,SI
+25_00738,Argentina,¿En qué año se fundó el Club de Gimnasia y Esgrima de Buenos Aires?,1880,1875,1885,Es uno de los clubes más antiguos de Argentina.,Club Gimnasia y Esgrima,SI
+25_00739,Argentina,¿En qué año se fundó el Automóvil Club Argentino?,1904,1899,1909,Es una de las instituciones automovilísticas más antiguas del mundo.,Automóvil Club Argentino,SI
+25_00740,Argentina,¿En qué año se fundó el Aero Club Argentino?,1908,1903,1913,Es una de las instituciones de aviación más antiguas del mundo.,Aero Club Argentino,SI
+25_00741,Argentina,¿En qué año se fundó el Club Atlético Independiente?,1905,1900,1910,"Independiente es conocido como el ""Rey de Copas"" por sus logros internacionales.",Club Atlético Independiente,SI
+25_00742,Argentina,¿En qué año se fundó el Club Atlético San Lorenzo de Almagro?,1908,1903,1913,"San Lorenzo es uno de los ""cinco grandes"" del fútbol argentino.",San Lorenzo,SI
+25_00743,Argentina,¿En qué año se fundó el Club Atlético Racing Club?,1903,1898,1908,Racing fue el primer equipo argentino en ganar la Copa Intercontinental.,Racing Club,SI
+25_00744,Argentina,¿En qué año se fundó el Club Atlético Vélez Sarsfield?,1910,1905,1915,Vélez es uno de los clubes más exitosos de Argentina en las últimas décadas.,Vélez Sarsfield,SI
+25_00745,Argentina,¿En qué año se fundó el Club Atlético Estudiantes de La Plata?,1905,1900,1910,Estudiantes es conocido por su éxito en copas internacionales.,Estudiantes de La Plata,SI
+25_00746,Argentina,¿En qué año se fundó el Club Atlético Newell's Old Boys?,1903,1898,1908,Newell's es uno de los clubes más tradicionales del fútbol argentino.,Newell's Old Boys,SI
+25_00747,Argentina,¿En qué año se fundó el Club Atlético Rosario Central?,1889,1884,1894,Rosario Central es uno de los clubes más populares del interior del país.,Rosario Central,SI
+25_00748,Argentina,¿En qué año se fundó el Club Atlético Talleres de Córdoba?,1913,1908,1918,Talleres es uno de los clubes más importantes del interior de Argentina.,Talleres de Córdoba,SI
+25_00749,Argentina,¿En qué año se fundó el Club Atlético Belgrano de Córdoba?,1905,1900,1910,Belgrano es uno de los clubes más tradicionales de Córdoba.,Belgrano de Córdoba,SI
+25_00750,Argentina,¿En qué año se fundó el Club Atlético Lanús?,1915,1910,1920,Lanús es uno de los clubes más importantes del sur del Gran Buenos Aires.,Lanús,SI
+25_00751,Matemática,¿Cuánto es 150 + 250 + 300 - 100?,600,599,601,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00752,Matemática,¿Cuánto es 25 × 10 + 200?,450,449,451,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00753,Matemática,¿Cuánto es 1000 ÷ 5 + 150?,350,349,351,División seguida de suma.,Matemáticas Básicas,SI
+25_00754,Matemática,¿Cuánto es 500 - 250 + 300?,550,549,551,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00755,Matemática,¿Cuánto es 12 × 25 - 100?,200,199,201,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00756,Matemática,¿Cuánto es 1200 ÷ 6 + 50?,250,249,251,División seguida de suma.,Matemáticas Básicas,SI
+25_00757,Matemática,¿Cuánto es 200 + 300 + 400 - 150?,750,749,751,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00758,Matemática,¿Cuánto es 15 × 20 + 100?,400,399,401,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00759,Matemática,¿Cuánto es 1500 ÷ 10 + 200?,350,349,351,División seguida de suma.,Matemáticas Básicas,SI
+25_00760,Matemática,¿Cuánto es 600 - 300 + 250?,550,549,551,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00761,Matemática,¿Cuánto es 10 × 30 - 50?,250,249,251,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00762,Matemática,¿Cuánto es 1800 ÷ 9 + 100?,300,299,301,División seguida de suma.,Matemáticas Básicas,SI
+25_00763,Matemática,¿Cuánto es 300 + 400 + 500 - 200?,1000,999,1001,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00764,Matemática,¿Cuánto es 20 × 15 + 150?,450,449,451,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00765,Matemática,¿Cuánto es 2400 ÷ 12 + 100?,300,299,301,División seguida de suma.,Matemáticas Básicas,SI
+25_00766,Matemática,¿Cuánto es 700 - 350 + 300?,650,649,651,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00767,Matemática,¿Cuánto es 8 × 50 - 100?,300,299,301,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00768,Matemática,¿Cuánto es 3600 ÷ 12 + 150?,450,449,451,División seguida de suma.,Matemáticas Básicas,SI
+25_00769,Matemática,¿Cuánto es 400 + 500 + 600 - 300?,1200,1199,1201,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00770,Matemática,¿Cuánto es 25 × 12 + 200?,500,499,501,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00771,Matemática,¿Cuánto es 4800 ÷ 16 + 100?,400,399,401,División seguida de suma.,Matemáticas Básicas,SI
+25_00772,Matemática,¿Cuánto es 800 - 400 + 350?,750,749,751,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00773,Matemática,¿Cuánto es 10 × 40 - 100?,300,299,301,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00774,Matemática,¿Cuánto es 5400 ÷ 18 + 150?,450,449,451,División seguida de suma.,Matemáticas Básicas,SI
+25_00775,Matemática,¿Cuánto es 500 + 600 + 700 - 400?,1400,1399,1401,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00776,Matemática,¿Cuánto es 30 × 15 + 200?,650,649,651,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00777,Matemática,¿Cuánto es 6000 ÷ 20 + 150?,450,449,451,División seguida de suma.,Matemáticas Básicas,SI
+25_00778,Matemática,¿Cuánto es 900 - 450 + 400?,850,849,851,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00779,Matemática,¿Cuánto es 12 × 30 - 100?,260,259,261,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00780,Matemática,¿Cuánto es 7200 ÷ 24 + 150?,450,449,451,División seguida de suma.,Matemáticas Básicas,SI
+25_00781,Matemática,¿Cuánto es 15 + 25 + 30 - 10?,60,59,61,Operación básica de suma y resta.,Matemáticas Básicas,SI
+25_00782,Matemática,¿Cuánto es 12 × 5 + 20?,80,79,81,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00783,Matemática,¿Cuánto es 100 ÷ 4 + 15?,40,39,41,División seguida de suma.,Matemáticas Básicas,SI
+25_00784,Matemática,¿Cuánto es 50 - 25 + 30?,55,54,56,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00785,Matemática,¿Cuánto es 8 × 7 - 16?,40,39,41,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00786,Matemática,¿Cuánto es 120 ÷ 6 + 10?,30,29,31,División seguida de suma.,Matemáticas Básicas,SI
+25_00787,Matemática,¿Cuánto es 25 + 35 + 40 - 20?,80,79,81,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00788,Matemática,¿Cuánto es 9 × 6 + 14?,68,67,69,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00789,Matemática,¿Cuánto es 200 ÷ 10 + 25?,45,44,46,División seguida de suma.,Matemáticas Básicas,SI
+25_00790,Matemática,¿Cuánto es 60 - 30 + 45?,75,74,76,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00791,Matemática,¿Cuánto es 7 × 8 - 12?,44,43,45,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00792,Matemática,¿Cuánto es 150 ÷ 5 + 20?,50,49,51,División seguida de suma.,Matemáticas Básicas,SI
+25_00793,Matemática,¿Cuánto es 40 + 50 + 60 - 30?,120,119,121,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00794,Matemática,¿Cuánto es 6 × 9 + 18?,72,71,73,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00795,Matemática,¿Cuánto es 300 ÷ 6 + 25?,75,74,76,División seguida de suma.,Matemáticas Básicas,SI
+25_00796,Matemática,¿Cuánto es 80 - 40 + 60?,100,99,101,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00797,Matemática,¿Cuánto es 5 × 12 - 15?,45,44,46,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00798,Matemática,¿Cuánto es 180 ÷ 9 + 12?,32,31,33,División seguida de suma.,Matemáticas Básicas,SI
+25_00799,Matemática,¿Cuánto es 70 + 80 + 90 - 50?,190,189,191,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00800,Matemática,¿Cuánto es 4 × 15 + 20?,80,79,81,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00801,Matemática,¿Cuánto es 240 ÷ 8 + 30?,60,59,61,División seguida de suma.,Matemáticas Básicas,SI
+25_00802,Matemática,¿Cuánto es 90 - 45 + 55?,100,99,101,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00803,Matemática,¿Cuánto es 3 × 20 - 15?,45,44,46,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00804,Matemática,¿Cuánto es 360 ÷ 12 + 18?,48,47,49,División seguida de suma.,Matemáticas Básicas,SI
+25_00805,Matemática,¿Cuánto es 100 + 200 + 300 - 150?,450,449,451,Suma y resta combinadas.,Matemáticas Básicas,SI
+25_00806,Matemática,¿Cuánto es 8 × 10 + 25?,105,104,106,Multiplicación seguida de suma.,Matemáticas Básicas,SI
+25_00807,Matemática,¿Cuánto es 500 ÷ 10 + 50?,100,99,101,División seguida de suma.,Matemáticas Básicas,SI
+25_00808,Matemática,¿Cuánto es 120 - 60 + 80?,140,139,141,Resta seguida de suma.,Matemáticas Básicas,SI
+25_00809,Matemática,¿Cuánto es 6 × 15 - 20?,70,69,71,Multiplicación seguida de resta.,Matemáticas Básicas,SI
+25_00810,Matemática,¿Cuánto es 720 ÷ 12 + 24?,84,83,85,División seguida de suma.,Matemáticas Básicas,SI
+25_00811,Matemática,¿Cuánto es el 20% de 500?,100,99,101,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00812,Matemática,¿Cuánto es el 15% de 300?,45,44,46,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00813,Matemática,¿Cuánto es el 30% de 200?,60,59,61,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00814,Matemática,¿Cuánto es el 10% de 1500?,150,149,151,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00815,Matemática,¿Cuánto es el 25% de 400?,100,99,101,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00816,Matemática,¿Cuánto es el 50% de 600?,300,299,301,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00817,Matemática,¿Cuánto es el 40% de 250?,100,99,101,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00818,Matemática,¿Cuánto es el 5% de 1000?,50,49,51,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00819,Matemática,¿Cuánto es el 12% de 500?,60,59,61,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00820,Matemática,¿Cuánto es el 75% de 200?,150,149,151,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00821,Matemática,¿Cuánto es el 60% de 300?,180,179,181,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00822,Matemática,¿Cuánto es el 8% de 250?,20,19,21,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00823,Matemática,¿Cuánto es el 35% de 400?,140,139,141,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00824,Matemática,¿Cuánto es el 90% de 500?,450,449,451,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00825,Matemática,¿Cuánto es el 22% de 1000?,220,219,221,Cálculo de porcentaje básico.,Matemáticas Básicas,SI
+25_00826,Matemática,¿Cuánto es 15 + 25 × 2 - 10?,55,54,56,"Combinación de suma, multiplicación y resta.",Matemáticas Básicas,SI
+25_00827,Matemática,¿Cuánto es 100 ÷ 5 + 20 × 3?,80,79,81,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00828,Matemática,¿Cuánto es 50 - 10 × 2 + 30?,60,59,61,"Resta, multiplicación y suma.",Matemáticas Básicas,SI
+25_00829,Matemática,¿Cuánto es 12 × 4 + 18 ÷ 2?,57,56,58,"Multiplicación, suma y división.",Matemáticas Básicas,SI
+25_00830,Matemática,¿Cuánto es 80 ÷ 4 + 15 × 2?,50,49,51,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00831,Matemática,¿Cuánto es 25 × 3 - 40 ÷ 2?,65,64,66,"Multiplicación, resta y división.",Matemáticas Básicas,SI
+25_00832,Matemática,¿Cuánto es 120 ÷ 6 + 10 × 4?,60,59,61,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00833,Matemática,¿Cuánto es 200 - 50 × 2 + 30?,130,129,131,"Resta, multiplicación y suma.",Matemáticas Básicas,SI
+25_00834,Matemática,¿Cuánto es 18 × 2 + 24 ÷ 3?,48,47,49,"Multiplicación, suma y división.",Matemáticas Básicas,SI
+25_00835,Matemática,¿Cuánto es 150 ÷ 5 + 20 × 2?,70,69,71,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00836,Matemática,¿Cuánto es 30 × 3 - 60 ÷ 2?,60,59,61,"Multiplicación, resta y división.",Matemáticas Básicas,SI
+25_00837,Matemática,¿Cuánto es 100 ÷ 4 + 15 × 3?,70,69,71,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00838,Matemática,¿Cuánto es 40 × 2 - 50 ÷ 5?,70,69,71,"Multiplicación, resta y división.",Matemáticas Básicas,SI
+25_00839,Matemática,¿Cuánto es 120 ÷ 4 + 10 × 5?,80,79,81,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00840,Matemática,¿Cuánto es 25 × 4 - 30 ÷ 3?,90,89,91,"Multiplicación, resta y división.",Matemáticas Básicas,SI
+25_00841,Matemática,¿Cuánto es 200 ÷ 10 + 15 × 4?,80,79,81,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00842,Matemática,¿Cuánto es 50 × 2 - 60 ÷ 3?,80,79,81,"Multiplicación, resta y división.",Matemáticas Básicas,SI
+25_00843,Matemática,¿Cuánto es 180 ÷ 6 + 20 × 2?,70,69,71,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00844,Matemática,¿Cuánto es 30 × 3 + 40 ÷ 2?,110,109,111,"Multiplicación, suma y división.",Matemáticas Básicas,SI
+25_00845,Matemática,¿Cuánto es 100 ÷ 2 + 25 × 3?,125,124,126,"División, suma y multiplicación.",Matemáticas Básicas,SI
+25_00846,MIX,¿Cuántos años tiene el árbol más antiguo del mundo?,4850,4840,4860,"""Matusalén"", un pino bristlecone en California, tiene aproximadamente 4850 años.",National Park Service,SI
+25_00847,MIX,¿Cuántos litros de agua puede almacenar un camello en su cuerpo?,200,160,240,Los camellos pueden beber hasta 200 litros de agua en una sola sesión.,National Geographic,SI
+25_00848,MIX,¿Cuántos años tiene el queso más antiguo encontrado?,3200,3100,3300,Se encontró un queso de 3200 años en una tumba egipcia.,Archaeological Science,SI
+25_00849,MIX,¿Cuántos kilómetros de hilo puede producir una araña en su vida?,30,25,35,Una araña puede producir hasta 30 km de hilo en su vida.,Scientific American,SI
+25_00850,MIX,¿Cuántos años tiene el libro más antiguo del mundo?,2300,2200,2400,"El ""Libro de los Muertos"" egipcio tiene aproximadamente 2300 años.",British Museum,SI
+25_00851,MIX,¿Cuántos días puede sobrevivir un tardígrado sin agua?,30,25,35,Los tardígrados pueden sobrevivir hasta 30 años sin agua.,Nature Communications,SI
+25_00852,MIX,¿Cuántos años tiene el árbol de Navidad más antiguo del mundo?,134,130,138,El árbol de Navidad de Rockefeller Center se ilumina desde 1931.,Rockefeller Center,SI
+25_00853,MIX,¿Cuántos miles de litros de saliva produce una persona en su vida?,38,30,46,Una persona produce aproximadamente 38000 litros de saliva en su vida.,American Dental Association,SI
+25_00854,MIX,¿Cuántos años tiene el reloj más antiguo del mundo?,600,590,610,El reloj de la catedral de Salisbury en Inglaterra tiene más de 600 años.,Salisbury Cathedral,SI
+25_00855,MIX,¿Cuántos miles de kilómetros recorre un colibrí en migración?,8,7,9,El colibrí rufo recorre hasta 8000 km en su migración anual.,National Geographic,SI
+25_00856,MIX,¿Cuántos millones de años tiene el fósil más antiguo encontrado?,3500,3400,3600,Los fósiles más antiguos tienen aproximadamente 3500 millones de años.,Nature Geoscience,SI
+25_00857,MIX,¿Cuántos litros de miel produce una colmena al año?,30,25,35,Una colmena de abejas puede producir hasta 30 kg de miel al año.,Beekeeping Association,SI
+25_00858,MIX,¿Cuántos millones de años tiene el diamante más antiguo del mundo?,3300,3200,3400,Los diamantes más antiguos tienen aproximadamente 3300 millones de años.,Nature Geoscience,SI
+25_00859,MIX,¿Cuántos millones de kilómetros de ADN hay en el cuerpo humano?,2000,1900,2100,"Si se estirara, el ADN de una persona mediría aproximadamente 2000 millones de km.",Nature Genetics,SI
+25_00860,MIX,¿Cuántos millones de años tiene el volcán más antiguo del mundo?,200,190,210,El volcán más antiguo conocido tiene aproximadamente 200 millones de años.,US Geological Survey,SI
+25_00861,MIX,¿Cuántos litros de sangre bombea el corazón en un día?,7570,7000,8000,El corazón bombea aproximadamente 7570 litros de sangre al día.,American Heart Association,SI
+25_00862,MIX,¿Cuántos miles de años tiene el glaciar más antiguo del mundo?,800,790,810,El glaciar más antiguo tiene aproximadamente 800000 años.,Nature Geoscience,SI
+25_00863,MIX,¿Cuántos miles de kilómetros de cables submarinos de internet hay en el mundo?,1200,1100,1300,Hay aproximadamente 1.2 millones de km de cables submarinos de internet.,TeleGeography,SI
+25_00864,MIX,¿Cuántos años tiene el árbol de ginkgo más antiguo del mundo?,3500,3400,3600,El árbol de ginkgo más antiguo tiene aproximadamente 3500 años.,Botanical Society,SI
+25_00865,MIX,¿Cuántos litros de agua puede almacenar un cactus gigante?,3000,2500,3500,Un cactus saguaro puede almacenar hasta 3000 litros de agua.,Desert Botanical Garden,SI
+25_00866,MIX,¿Cuántos miles de años tiene el organismo vivo más antiguo conocido?,80,79,81,Un bosque de álamos en Utah tiene aproximadamente 80000 años.,Nature Ecology & Evolution,SI
+25_00867,MIX,¿Cuántos kilómetros de raíces tiene un árbol de maíz?,650,600,700,Un solo árbol de maíz puede tener hasta 650 km de raíces.,Agricultural Research Service,SI
+25_00868,MIX,¿Cuántos millones de años tiene el fósil de dinosaurio más antiguo encontrado?,230,220,240,Los fósiles de dinosaurios más antiguos tienen aproximadamente 230 millones de años.,Nature Communications,SI
+25_00869,MIX,¿Cuántos miles de litros de agua consume una persona en su vida?,75,70,80,Una persona consume aproximadamente 75000 litros de agua en su vida.,World Health Organization,SI
+25_00870,MIX,¿Cuántos años tiene el árbol de olivo más antiguo del mundo?,4000,3900,4100,El árbol de olivo más antiguo tiene aproximadamente 4000 años.,Botanical Society,SI
+25_00871,MIX,¿Cuántos millones de km² de hielo hay en la Antártida?,14,13,15,La Antártida tiene aproximadamente 14 millones de km² de hielo.,NASA,SI
+25_00872,MIX,¿Cuántos miles de años tiene el fósil de humano más antiguo encontrado?,300,290,310,Los fósiles de humanos más antiguos tienen aproximadamente 300000 años.,Nature Communications,SI
+25_00873,MIX,¿Cuántos litros de leche produce una vaca al año?,10000,9000,11000,Una vaca puede producir hasta 10000 litros de leche al año.,FAO,SI
+25_00874,MIX,¿Cuántos años tiene el árbol de secuoya más antiguo del mundo?,3200,3100,3300,Las secuoyas son los árboles más altos y longevos del mundo.,National Park Service,SI
+25_00875,MIX,¿Cuántos kilómetros de túneles hay en el metro de Nueva York?,400,390,410,El metro de Nueva York tiene aproximadamente 400 km de túneles.,MTA,SI
+25_00876,MIX,¿Cuántos millones de litros de agua puede almacenar un iceberg gigante?,1000,900,1100,Un iceberg gigante puede contener hasta 1000 millones de litros de agua.,National Snow and Ice Data Center,SI
+25_00877,MIX,¿Cuántos millones de años tiene el fósil de medusa más antiguo encontrado?,560,550,570,Los fósiles de medusas más antiguos tienen aproximadamente 560 millones de años.,Nature Geoscience,SI
+25_00878,MIX,¿Cuántos millones de años tiene el fósil de coral más antiguo encontrado?,550,540,560,Los fósiles de coral más antiguos tienen aproximadamente 550 millones de años.,Nature Geoscience,SI
+25_00879,MIX,¿Cuántos millones de años tiene el fósil de molusco más antiguo encontrado?,540,530,550,Los fósiles de moluscos más antiguos tienen aproximadamente 540 millones de años.,Nature Geoscience,SI
+25_00880,MIX,¿Cuántos millones de años tiene el fósil de crustáceo más antiguo encontrado?,500,490,510,Los fósiles de crustáceos más antiguos tienen aproximadamente 500 millones de años.,Nature Geoscience,SI
+25_00881,MIX,¿Cuántos millones de años tiene el fósil de anfibio más antiguo encontrado?,370,360,380,Los fósiles de anfibios más antiguos tienen aproximadamente 370 millones de años.,Nature Communications,SI
+25_00882,MIX,¿Cuántos millones de años tiene el fósil de pez más antiguo encontrado?,530,520,540,Los fósiles de peces más antiguos tienen aproximadamente 530 millones de años.,Nature Geoscience,SI
+25_00883,MIX,¿Cuántos millones de años tiene el fósil de mamífero más antiguo encontrado?,160,150,170,Los fósiles de mamíferos más antiguos tienen aproximadamente 160 millones de años.,Nature Communications,SI
+25_00884,MIX,¿Cuántos millones de años tiene el fósil de ave más antiguo encontrado?,150,140,160,Los fósiles de aves más antiguos tienen aproximadamente 150 millones de años.,Nature Communications,SI
+25_00885,MIX,¿Cuántos millones de años tiene el fósil de reptil más antiguo encontrado?,310,300,320,Los fósiles de reptiles más antiguos tienen aproximadamente 310 millones de años.,Nature Communications,SI
+25_00886,MIX,¿Cuántos millones de años tiene el fósil de insecto más antiguo encontrado?,400,390,410,Los fósiles de insectos más antiguos tienen aproximadamente 400 millones de años.,Nature Communications,SI
+25_00887,MIX,¿Cuántos millones de años tiene el fósil de planta más antiguo encontrado?,470,460,480,Los fósiles de plantas más antiguos tienen aproximadamente 470 millones de años.,Nature Geoscience,SI
+25_00888,MIX,¿Cuántos millones de años tiene el fósil de ballena más antiguo encontrado?,36,35,37,Los fósiles de ballenas más antiguos tienen aproximadamente 36 millones de años.,Nature Communications,SI
+25_00889,MIX,¿Cuántos millones de años tiene el fósil de dinosaurio más antiguo encontrado?,230,220,240,Los fósiles de dinosaurios más antiguos tienen aproximadamente 230 millones de años.,Nature Communications,SI
+25_00890,MIX,¿Cuántos millones de km² de hielo hay en la Antártida?,14,13,15,La Antártida tiene aproximadamente 14 millones de km² de hielo.,NASA,SI
+25_00891,MIX,¿Cuántos millones de años tiene el fósil de reptil más antiguo encontrado?,310,300,320,Los fósiles de reptiles más antiguos tienen aproximadamente 310 millones de años.,Nature Communications,SI
+25_00892,MIX,¿Cuántos millones de años tiene el fósil de crustáceo más antiguo encontrado?,500,490,510,Los fósiles de crustáceos más antiguos tienen aproximadamente 500 millones de años.,Nature Geoscience,SI
+25_00893,MIX,¿Cuántos millones de años tiene el fósil de anfibio más antiguo encontrado?,370,360,380,Los fósiles de anfibios más antiguos tienen aproximadamente 370 millones de años.,Nature Communications,SI
+25_00894,MIX,¿Cuántos millones de años tiene el fósil de pez más antiguo encontrado?,530,520,540,Los fósiles de peces más antiguos tienen aproximadamente 530 millones de años.,Nature Geoscience,SI
+25_00895,MIX,¿Cuántos millones de años tiene el fósil de mamífero más antiguo encontrado?,160,150,170,Los fósiles de mamíferos más antiguos tienen aproximadamente 160 millones de años.,Nature Communications,SI
+25_00896,MIX,¿Cuántos millones de años tiene el fósil de ave más antiguo encontrado?,150,140,160,Los fósiles de aves más antiguos tienen aproximadamente 150 millones de años.,Nature Communications,SI
+25_00897,MIX,¿Cuántos millones de años tiene el fósil de reptil más antiguo encontrado?,310,300,320,Los fósiles de reptiles más antiguos tienen aproximadamente 310 millones de años.,Nature Communications,SI
+25_00898,MIX,¿Cuántos millones de años tiene el fósil de insecto más antiguo encontrado?,400,390,410,Los fósiles de insectos más antiguos tienen aproximadamente 400 millones de años.,Nature Communications,SI
+25_00899,MIX,¿Cuántos millones de años tiene el fósil de planta más antiguo encontrado?,470,460,480,Los fósiles de plantas más antiguos tienen aproximadamente 470 millones de años.,Nature Geoscience,SI

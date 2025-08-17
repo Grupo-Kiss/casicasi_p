@@ -1,0 +1,13 @@
+   1. Instala las dependencias:
+      Abre tu terminal en el directorio D:\CasiCasi_p\db\ y ejecuta:
+   1     pip install -r requirements.txt
+
+   2. Asegúrate de que el archivo CSV esté en su lugar:
+      Verifica que el archivo db_25_casicasi - casicasi2.csv esté en el mismo directorio que app.py (es decir, en D:\CasiCasi_p\db\).
+
+   3. Ejecuta la aplicación:
+      En la misma terminal, ejecuta:
+   1     python app.py
+
+   4. Accede a la aplicación:
+      Abre tu navegador web y ve a http://127.0.0.1:5000/.
