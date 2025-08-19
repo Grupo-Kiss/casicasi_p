@@ -17,6 +17,7 @@ interface AnswerResultProps {
 
 const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, scoreAwarded, player, resultType, timeUsed, timeBonus, onContinue }) => {
   const [showConfetti, setShowConfetti] = useState(false);
+  const [isContinuing, setIsContinuing] = useState(false);
   const scoreClass = scoreAwarded >= 0 ? 'positive' : 'negative';
 
   useEffect(() => {
@@ -24,17 +25,25 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
       setShowConfetti(true);
       const timer = setTimeout(() => {
         setShowConfetti(false);
-      }, 5000);
+      }, 3000);
       return () => clearTimeout(timer);
     }
   }, [resultType]);
 
-  useEnterToContinue(onContinue); // Usar el hook para manejar Enter para continuar
+  const handleContinue = () => {
+    if (isContinuing) return;
+    setIsContinuing(true);
+    setTimeout(() => {
+      onContinue();
+    }, 100);
+  };
+
+  useEnterToContinue(handleContinue); // Usar el hook para manejar Enter para continuar
 
   return (
     <div className="answer-result-modal">
       {showConfetti && <Confetti
-        numberOfPieces={1000} // Mucho más confeti
+        numberOfPieces={200} // Mucho más confeti
         recycle={false} // No reciclar, para un flujo continuo
         gravity={0.1} // Caída más lenta
         initialVelocityY={-5} // Impulso inicial hacia arriba
@@ -53,7 +62,7 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
             <img src={player.avatar} alt={player.name} className="player-avatar" />
             <h2>{player.name}</h2>
             <p className={`score-awarded ${scoreClass}`}>{scoreAwarded > 0 ? `+${scoreAwarded}` : scoreAwarded}</p>
-          <button className="continue-btn" onClick={onContinue}>Continuar</button>
+          <button className="continue-btn" onClick={handleContinue} disabled={isContinuing}>Continuar</button>
           </div>
 
           {/* Columna Derecha: Info de la Pregunta y Respuesta */}

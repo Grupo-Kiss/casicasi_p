@@ -63,7 +63,7 @@ export const useClassicRound = (
     }
     const totalPoints = points + timeBonus;
     onRoundEndRef.current(totalPoints, resultType, timeUsed, timeBonus);
-  }, [currentAnswer, currentQuestion, classicTimer, gameScreen]);
+  }, [currentAnswer, currentQuestion, classicTimer]);
 
   const nextQuestion = useCallback(() => {
     const newQuestion = selectNewQuestion();

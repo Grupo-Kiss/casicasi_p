@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Player } from '../types';
 import '../styles/TurnSwitcher.css';
 import { useEnterToContinue } from '../hooks/useEnterToContinue'; // Importar useEnterToContinue

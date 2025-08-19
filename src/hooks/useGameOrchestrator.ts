@@ -5,7 +5,7 @@ import { usePlayers } from './usePlayers';
 import { useGameFlow } from './useGameFlow';
 import { useClassicRound } from './useClassicRound';
 import { usePlusminusRound } from './usePlusminusRound';
-import { AVATARS } from '../constants/avatars';
+
 
 // Hook principal que orquesta todo el estado y la lógica del juego.
 export const useGameOrchestrator = () => {
@@ -33,7 +33,6 @@ export const useGameOrchestrator = () => {
     setLastRoundScore, 
     highScore, 
     updateHighScore,
-    setRoundEnded, // 'roundEnded' no se usa directamente
     lastRoundResultType,
     setLastRoundResultType,
     lastRoundTimeUsed,
@@ -53,8 +52,7 @@ export const useGameOrchestrator = () => {
     setLastRoundTimeUsed(timeUsed);
     setLastRoundTimeBonus(timeBonus);
     updatePlayerStats(points, resultType, timeUsed);
-    setRoundEnded(prev => !prev); // Dispara el useEffect para avanzar el juego.
-  }, [updatePlayerStats, setGameScreen, setLastRoundScore, setRoundEnded, setLastRoundResultType, setLastRoundTimeUsed, setLastRoundTimeBonus]);
+  }, [updatePlayerStats, setGameScreen, setLastRoundScore, setLastRoundResultType, setLastRoundTimeUsed, setLastRoundTimeBonus]);
 
   // Callback que se ejecuta cuando se pierde en el modo plusminus.
   // Ahora simplemente termina la ronda sin penalización explícita aquí, 
@@ -75,8 +73,6 @@ export const useGameOrchestrator = () => {
     currentQuestion,
     currentAnswer,
     setCurrentAnswer,
-    wildcardPlayed,
-    setWildcardPlayed,
     nextQuestion,
   } = currentRound;
 
@@ -120,7 +116,7 @@ export const useGameOrchestrator = () => {
         advanceToNextPlayer();
         setRound(1);
         resetPlayedQuestions();
-        setWildcardPlayed(false);
+        
         setGameScreen('playing');
         nextQuestion();
       }
@@ -132,7 +128,7 @@ export const useGameOrchestrator = () => {
       setGameScreen('playing');
       nextQuestion();
     }
-  }, [round, currentPlayerIndex, players, numberOfRounds, highScore, gameMode, resetPlayedQuestions, advanceToNextPlayer, setPlayers, setRound, setGameScreen, updateHighScore, nextQuestion, setWildcardPlayed]);
+  }, [round, currentPlayerIndex, players, numberOfRounds, highScore, gameMode, resetPlayedQuestions, advanceToNextPlayer, setPlayers, setRound, setGameScreen, updateHighScore, nextQuestion, gameScreen]);
 
   // Eliminar el useEffect que usa setTimeout para avanzar el juego después de showing_answer
   useEffect(() => {
@@ -149,7 +145,7 @@ export const useGameOrchestrator = () => {
   // Función para inicializar el juego.
   const initializeGame = useCallback((newPlayers: Player[], rounds: number, mode: 'classic' | 'plusminus') => {
     console.log('initializeGame: Initializing game');
-    const shuffledAvatars = AVATARS.sort(() => 0.5 - Math.random());
+    
 
     const playersWithAvatars = newPlayers.map((player) => ({
       ...player,
@@ -163,10 +159,10 @@ export const useGameOrchestrator = () => {
     setGameMode(mode);
     setRound(1);
     resetPlayedQuestions();
-    setWildcardPlayed(false);
+    
     setGameScreen('turn_switching');
     // nextQuestion(); // Mover esta llamada a un useEffect para asegurar que se ejecute después del render
-  }, [setInitialPlayers, setNumberOfRounds, setGameMode, setRound, resetPlayedQuestions, setWildcardPlayed, setGameScreen]);
+  }, [setInitialPlayers, setNumberOfRounds, setGameMode, setRound, resetPlayedQuestions, setGameScreen]);
 
   // Efecto para cargar la primera pregunta después de la inicialización
   useEffect(() => {
@@ -182,8 +178,8 @@ export const useGameOrchestrator = () => {
     resetPlayers();
     setRound(0);
     resetPlayedQuestions();
-    setWildcardPlayed(false);
-  }, [setGameScreen, resetPlayers, setRound, resetPlayedQuestions, setWildcardPlayed]);
+    
+  }, [setGameScreen, resetPlayers, setRound, resetPlayedQuestions]);
 
   // Retorna todo el estado y las funciones que necesita la UI.
   return {

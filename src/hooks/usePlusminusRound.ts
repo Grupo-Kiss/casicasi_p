@@ -75,7 +75,7 @@ export const usePlusminusRound = (
         startPlusminusTimer();
       }
     }
-  }, [currentAnswer, currentQuestion, plusminusGuessesLeft, plusminusTimer, onRoundEndRef, onPlusminusLoseRef, startPlusminusTimer, resetPlusminusTimer, gameScreen]);
+  }, [currentAnswer, currentQuestion, plusminusGuessesLeft, plusminusTimer, onRoundEndRef, onPlusminusLoseRef, startPlusminusTimer, resetPlusminusTimer]);
 
   const startPlusminusRound = useCallback(() => {
     const newQuestion = selectNewQuestion();

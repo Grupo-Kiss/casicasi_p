@@ -2,7 +2,8 @@ import React, { useRef, useEffect } from 'react';
 import { Question, Player } from '../types';
 
 import Numpad from './Numpad';
-import { useDebounce } from '../hooks/useDebounce';
+import TimerBar from './TimerBar'; // Import TimerBar
+
 import { useNumpadInput } from '../hooks/useNumpadInput';
 import '../styles/GameScreen.css';
 
@@ -38,13 +39,13 @@ const ClassicGameScreen: React.FC<ClassicGameScreenProps> = ({
     }
   }, [question]);
 
-  const debouncedOnAnswerSubmit = useDebounce(onAnswerSubmit, 300);
+  
 
   const { handleInputChange, handleDigit, handleDelete } = useNumpadInput({ currentAnswer, onAnswerChange });
 
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Enter') {
-      debouncedOnAnswerSubmit();
+      onAnswerSubmit();
     }
   };
 
@@ -77,7 +78,8 @@ const ClassicGameScreen: React.FC<ClassicGameScreenProps> = ({
               onKeyDown={handleKeyDown}
               autoFocus={false}
             />
-            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={debouncedOnAnswerSubmit} timer={classicTimer} maxTime={30} />
+            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={onAnswerSubmit} />
+            <TimerBar timer={classicTimer} maxTime={30} />
           </div>
         </div>
       </div>

@@ -11,8 +11,7 @@ export const useGameFlow = () => {
   const [lastRoundScore, setLastRoundScore] = useState<number | null>(null);
   // Estado para la puntuación más alta.
   const [highScore, setHighScore] = useState<{ score: number; name: string } | null>(null);
-  // Estado para indicar si una ronda ha terminado.
-  const [roundEnded, setRoundEnded] = useState(false);
+  
   // Estado para el tipo de resultado de la última ronda (exactHits, correctHits, wrongHits).
   const [lastRoundResultType, setLastRoundResultType] = useState<keyof Player | null>(null);
   // Estado para el tiempo utilizado en la última ronda.
@@ -45,7 +44,7 @@ export const useGameFlow = () => {
     setLastRoundScore,
     highScore,
     updateHighScore,
-    setRoundEnded, // 'roundEnded' no se usa directamente
+    
     lastRoundResultType,
     setLastRoundResultType,
     lastRoundTimeUsed,

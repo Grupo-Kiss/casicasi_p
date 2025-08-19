@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { Question, Player } from '../types';
 import Numpad from './Numpad';
-import { useDebounce } from '../hooks/useDebounce';
+import TimerBar from './TimerBar'; // Import TimerBar
+
 import '../styles/GameScreen.css';
 
 interface PlusminusGameScreenProps {
@@ -36,7 +37,7 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
     }
   }, [question]);
 
-  const debouncedOnGuessSubmit = useDebounce(onGuessSubmit, 300);
+  
 
   const formatNumber = (num: string) => {
     return num.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -64,7 +65,7 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
 
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Enter') {
-      debouncedOnGuessSubmit();
+      onGuessSubmit();
     }
   };
 
@@ -111,7 +112,8 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
               onKeyDown={handleKeyDown}
               autoFocus={false}
             />
-            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={debouncedOnGuessSubmit} timer={plusminusTimer} maxTime={10} />
+            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={onGuessSubmit} />
+            <TimerBar timer={plusminusTimer} maxTime={10} />
           </div>
         </div> {/* End game-numpad-col */}
       </div> {/* End game-main-content */}

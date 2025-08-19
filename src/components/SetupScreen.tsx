@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Player } from '../types';
 import '../styles/SetupScreen.css';
 import Modal from './Modal';
-import { useQuestionsContext } from '../hooks/QuestionsContext';
+
 import { useEnterToContinue } from '../hooks/useEnterToContinue'; // Importar useEnterToContinue
 
 interface SetupScreenProps {

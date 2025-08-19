@@ -10,7 +10,7 @@ import GameStats from './components/GameStats';
 import TurnSwitcher from './components/TurnSwitcher';
 import ClassicGameScreen from './components/ClassicGameScreen';
 import PlusminusGameScreen from './components/PlusminusGameScreen';
-import Modal from './components/Modal';
+
 import DataUploader from './components/DataUploader';
 import { QuestionsProvider, useQuestionsContext } from './hooks/QuestionsContext';
 
