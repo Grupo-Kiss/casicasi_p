@@ -40,7 +40,19 @@ Necesitas tener instalado Python (versión 3.7 o superior) y `pip` (el gestor de
     ```
     Esto iniciará el servidor web de Flask.
 
-5.  **Accede a la Aplicación:**
+    Si no puedes abrir tu aplicación de Python con el comando python app.py, aquí hay algunas cosas que puedes verificar:
+
+Instalación de Python:
+
+Asegúrate de que Python está instalado en tu sistema. Puedes verificarlo ejecutando python --version o python3 --version en la terminal.
+Ubicación del archivo:
+
+Asegúrate de estar en el directorio correcto donde se encuentra app.py. Usa el comando cd para navegar al directorio correcto.
+Comando correcto:
+
+Dependiendo de tu sistema y la instalación, puede que necesites usar python3 app.py en lugar de python app.py.
+
+6.  **Accede a la Aplicación:**
     Abre tu navegador web y navega a la siguiente dirección:
     ```
     http://127.0.0.1:5000/
