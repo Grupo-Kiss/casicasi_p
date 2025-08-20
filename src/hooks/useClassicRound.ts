@@ -5,7 +5,7 @@ import { useCountdown } from './useCountdown';
 
 export const useClassicRound = (
   onRoundEnd: (points: number, resultType: keyof Player, timeUsed: number, timeBonus: number) => void,
-  gameScreen: 'setup' | 'playing' | 'showing_answer' | 'turn_switching' | 'gameover' | 'plusminus_round',
+  gameScreen: 'setup' | 'playing' | 'showing_answer' | 'turn_switching' | 'gameover' | 'plusminus_round'
 ) => {
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [currentAnswer, setCurrentAnswer] = useState('');

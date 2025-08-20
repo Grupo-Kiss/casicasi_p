@@ -1,5 +1,12 @@
 # Historial de Cambios
 
+## [0.2.1] - 2025-08-19
+
+### Corregido
+- Se ha solucionado un error persistente que requería hacer doble clic en el Numpad para enviar una respuesta cuando la acción resultaba en un cambio de pantalla (ej. en todas las respuestas del modo Clásico y en las respuestas exactas del modo Más/Menos).
+- Se ha asegurado que el envío de respuestas con el Numpad funcione consistentemente con un solo clic en todos los escenarios.
+- Se ha corregido un error por el cual la tecla "Enter" del teclado físico podía causar que la pantalla de resultados se saltara inmediatamente.
+
 ## [0.2.0] - 2025-08-16
 
 ### Agregado
@@ -51,6 +58,9 @@
 - Problemas de centrado y alineación en `TurnSwitcher` y `GameStats`.
 
 ## [Sin Lanzar]
+
+### Pendiente
+- Investigar y aplicar una solución definitiva y más robusta para el manejo de eventos de clic (debouncing) en el Numpad para prevenir futuros problemas de doble clic.
 
 ### Agregado
 - Pruebas unitarias y de integración para el componente principal `App`.

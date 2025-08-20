@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Question, Player } from '../types';
 import Numpad from './Numpad';
 import TimerBar from './TimerBar'; // Import TimerBar
@@ -30,14 +30,13 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
 }) => {
 
   const inputRef = useRef<HTMLInputElement>(null);
+  const [clickCount, setClickCount] = useState(0);
 
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();
     }
   }, [question]);
-
-  
 
   const formatNumber = (num: string) => {
     return num.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -63,8 +62,14 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
     onAnswerChange(currentAnswer.slice(0, -1));
   };
 
+  const handleNumpadSubmit = () => {
+    setClickCount(c => c + 1);
+    onGuessSubmit();
+  }
+
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Enter') {
+      event.stopPropagation();
       onGuessSubmit();
     }
   };
@@ -72,8 +77,8 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
   const guessIndicators = Array.from({ length: initialGuesses }, (_, i) => (
     <div
       key={i}
-      className={`guess-indicator ${i < guessesLeft ? 'filled' : 'empty'}`}
-    ></div>
+      className={`guess-indicator ${i < guessesLeft ? 'filled' : 'empty'}`}>
+    </div>
   ));
 
   return (
@@ -112,7 +117,7 @@ const PlusminusGameScreen: React.FC<PlusminusGameScreenProps> = ({
               onKeyDown={handleKeyDown}
               autoFocus={false}
             />
-            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={onGuessSubmit} />
+            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={handleNumpadSubmit} />
             <TimerBar timer={plusminusTimer} maxTime={10} />
           </div>
         </div> {/* End game-numpad-col */}

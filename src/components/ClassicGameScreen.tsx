@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Question, Player } from '../types';
 
 import Numpad from './Numpad';
@@ -32,6 +32,7 @@ const ClassicGameScreen: React.FC<ClassicGameScreenProps> = ({
 }) => {
 
   const inputRef = useRef<HTMLInputElement>(null);
+  const [clickCount, setClickCount] = useState(0);
 
   useEffect(() => {
     if (inputRef.current) {
@@ -39,12 +40,16 @@ const ClassicGameScreen: React.FC<ClassicGameScreenProps> = ({
     }
   }, [question]);
 
-  
-
   const { handleInputChange, handleDigit, handleDelete } = useNumpadInput({ currentAnswer, onAnswerChange });
+
+  const handleNumpadSubmit = () => {
+    setClickCount(c => c + 1);
+    onAnswerSubmit();
+  }
 
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Enter') {
+      event.stopPropagation();
       onAnswerSubmit();
     }
   };
@@ -78,7 +83,7 @@ const ClassicGameScreen: React.FC<ClassicGameScreenProps> = ({
               onKeyDown={handleKeyDown}
               autoFocus={false}
             />
-            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={onAnswerSubmit} />
+            <Numpad onDigit={handleDigit} onDelete={handleDelete} onSubmit={handleNumpadSubmit} />
             <TimerBar timer={classicTimer} maxTime={30} />
           </div>
         </div>

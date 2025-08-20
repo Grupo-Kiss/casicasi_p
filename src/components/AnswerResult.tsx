@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Question, Player } from '../types';
 import Confetti from 'react-confetti';
-import { useEnterToContinue } from '../hooks/useEnterToContinue'; // Import useEnterToContinue
+import { useEnterToContinue } from '../hooks/useEnterToContinue';
 import '../styles/AnswerResult.css';
 
 interface AnswerResultProps {
@@ -12,7 +12,7 @@ interface AnswerResultProps {
   resultType: keyof Player | null;
   timeUsed: number | null;
   timeBonus: number | null;
-  onContinue: () => void; // Nueva prop para continuar el juego
+  onContinue: () => void;
 }
 
 const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, scoreAwarded, player, resultType, timeUsed, timeBonus, onContinue }) => {
@@ -33,20 +33,22 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
   const handleContinue = () => {
     if (isContinuing) return;
     setIsContinuing(true);
+    // A small delay to allow for any visual feedback before advancing
     setTimeout(() => {
       onContinue();
     }, 100);
   };
 
-  useEnterToContinue(handleContinue); // Usar el hook para manejar Enter para continuar
+  useEnterToContinue(handleContinue);
 
   return (
     <div className="answer-result-modal">
       {showConfetti && <Confetti
-        numberOfPieces={200} // Mucho más confeti
-        recycle={false} // No reciclar, para un flujo continuo
-        gravity={0.1} // Caída más lenta
-        initialVelocityY={-5} // Impulso inicial hacia arriba
+        style={{ pointerEvents: 'none' }}
+        numberOfPieces={200}
+        recycle={false}
+        gravity={0.1}
+        initialVelocityY={-5}
         confettiSource={{
           x: 0,
           y: 0,
@@ -54,18 +56,16 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
           h: window.innerHeight,
         }}
         colors={['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722', '#795548', '#9E9E9E', '#607D8B']}
-      />} 
+      />}
       <div className="answer-result-card">
         <div className="result-main-content">
-          {/* Columna Izquierda: Info del Jugador */}
           <div className="result-player-col">
             <img src={player.avatar} alt={player.name} className="player-avatar" />
             <h2>{player.name}</h2>
             <p className={`score-awarded ${scoreClass}`}>{scoreAwarded > 0 ? `+${scoreAwarded}` : scoreAwarded}</p>
-          <button className="continue-btn" onClick={handleContinue} disabled={isContinuing}>Continuar</button>
+            <button className="continue-btn" onClick={handleContinue} disabled={isContinuing}>Continuar</button>
           </div>
 
-          {/* Columna Derecha: Info de la Pregunta y Respuesta */}
           <div className="result-info-col">
             {resultType === 'exactHits' && <h3 className="result-message exact">¡EXACTA!</h3>}
             {resultType === 'correctHits' && <h3 className="result-message correct">¡CORRECTA!</h3>}
@@ -73,7 +73,7 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
 
             <div className="correct-answer-info">
               <p>Tu respuesta: <strong>{userAnswer || 'No respondido'}</strong></p>
-              <p>Bono por respuesta correcta: <strong>{question.respuesta}</strong></p>
+              <p>Respuesta correcta: <strong>{question.respuesta}</strong></p>
               {timeUsed !== null && timeUsed !== undefined && (
                 <p>Tiempo utilizado: <strong>{timeUsed} segundos</strong></p>
               )}
@@ -88,7 +88,6 @@ const AnswerResult: React.FC<AnswerResultProps> = ({ question, userAnswer, score
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
