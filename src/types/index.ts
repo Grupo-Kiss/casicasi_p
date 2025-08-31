@@ -10,9 +10,11 @@ export interface Question {
 }
 
 export interface Player {
+  id?: string; // Socket ID for online players
   name: string;
   avatar: string;
   score: number;
+  isHost?: boolean; // Flag for online host
   exactHits: number;
   correctHits: number;
   wrongHits: number;
