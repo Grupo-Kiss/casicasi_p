@@ -1,0 +1,643 @@
+{
+  "ismze": {
+    "players": [
+      {
+        "id": "kCewaTf0fpdkahTaAAAF",
+        "name": "j",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "HoTjxlncHph2tM8OAAAH",
+        "name": "j",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Tecnología",
+        "fuente": "Statista",
+        "id": "25_00581",
+        "informacion": "Se generan aproximadamente 100 exabytes de datos al año en el mundo.",
+        "pregunta": "¿Cuántos exabytes de datos se generan al año en el mundo?",
+        "rango_max": "120",
+        "rango_min": "80",
+        "respuesta": 100
+      },
+      "players": [
+        {
+          "id": "kCewaTf0fpdkahTaAAAF",
+          "name": "j",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "HoTjxlncHph2tM8OAAAH",
+          "name": "j",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00581"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "bnhpo": {
+    "players": [
+      {
+        "id": "O0Dbgjy368rHD7onAAAJ",
+        "name": "hg",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "SZTMfytDf62NzO9nAAAL",
+        "name": "hg",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Ciencia",
+        "fuente": "Historia de la Ciencia Espacial",
+        "id": "25_00284",
+        "informacion": "El primer vuelo tripulado de SpaceX, Crew Dragon, fue lanzado en 2020.",
+        "pregunta": "¿En qué año se lanzó el primer vuelo tripulado de SpaceX (Crew Dragon)?",
+        "rango_max": "2021",
+        "rango_min": "2019",
+        "respuesta": 2020
+      },
+      "players": [
+        {
+          "id": "O0Dbgjy368rHD7onAAAJ",
+          "name": "hg",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "SZTMfytDf62NzO9nAAAL",
+          "name": "hg",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00284"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "q95fw": {
+    "players": [
+      {
+        "id": "bmDXkbAT9RwQ1w6TAAAN",
+        "name": "hjg",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "9KIQ9noIim0Q50BOAAAP",
+        "name": "hjg",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Cultura",
+        "fuente": "Historia del Arte y Arquitectura",
+        "id": "25_00185",
+        "informacion": "La construcción de la Sagrada Familia comenzó en 1882 y aún no ha finalizado (hasta 2023).",
+        "pregunta": "¿Cuándo comenzo la construcción de la Sagrada Familia en Barcelona?",
+        "rango_max": "1880",
+        "rango_min": "1850",
+        "respuesta": 1882
+      },
+      "players": [
+        {
+          "id": "bmDXkbAT9RwQ1w6TAAAN",
+          "name": "hjg",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "9KIQ9noIim0Q50BOAAAP",
+          "name": "hjg",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00185"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "5ji0j": {
+    "players": [
+      {
+        "id": "EUG_4P3oZ9v9M5ZDAAAR",
+        "name": "ju",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "CkoDrR8QrBVSlyMOAAAT",
+        "name": "ju",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Ciencia",
+        "fuente": "Biología Animal",
+        "id": "25_00295",
+        "informacion": "Las tortugas de Galápagos pueden vivir más de 100 años en estado salvaje.",
+        "pregunta": "¿Cuántos años vive en promedio una tortuga de Galápagos?",
+        "rango_max": "110",
+        "rango_min": "90",
+        "respuesta": 100
+      },
+      "players": [
+        {
+          "id": "EUG_4P3oZ9v9M5ZDAAAR",
+          "name": "ju",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "CkoDrR8QrBVSlyMOAAAT",
+          "name": "ju",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00295"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "f6mnn": {
+    "players": [
+      {
+        "id": "SZzs2_MLQ5JQNgVDAAAV",
+        "name": "m,n",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "DIsva0ZJuH0NmuzOAAAX",
+        "name": "m,n",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "i33he": {
+    "players": [
+      {
+        "id": "oj3yMru5K5zRn--0AAAB",
+        "name": "kj",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "D5LNqqDoMSHLd-3KAAAD",
+        "name": "kj",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Ciencia",
+        "fuente": "Historia de la Computación",
+        "id": "25_00274",
+        "informacion": "El Apple I, el primer ordenador de Apple, fue lanzado en 1976.",
+        "pregunta": "¿En qué año se lanzó el primer ordenador Apple (Apple I)?",
+        "rango_max": "1977",
+        "rango_min": "1975",
+        "respuesta": 1976
+      },
+      "players": [
+        {
+          "id": "oj3yMru5K5zRn--0AAAB",
+          "name": "kj",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "D5LNqqDoMSHLd-3KAAAD",
+          "name": "kj",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00274"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "azepv": {
+    "players": [
+      {
+        "id": "3Q20DfqsXtEBU2CaAAAF",
+        "name": "j",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "f445g": {
+    "players": [
+      {
+        "id": "4uaw0zFv730ODcypAAAD",
+        "name": "sdfdf",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "oajJgjUSmjPCS6ooAAAF",
+        "name": "sdfdf",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Deporte",
+        "fuente": "Reglamentos de Rugby",
+        "id": "25_00355",
+        "informacion": "Un equipo de rugby tiene 15 jugadores en el campo.",
+        "pregunta": "¿Cuántos jugadores hay en un equipo de rugby?",
+        "rango_max": "15",
+        "rango_min": "15",
+        "respuesta": 15
+      },
+      "players": [
+        {
+          "id": "4uaw0zFv730ODcypAAAD",
+          "name": "sdfdf",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "oajJgjUSmjPCS6ooAAAF",
+          "name": "sdfdf",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00355"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "jj3ku": {
+    "players": [
+      {
+        "id": "vF-VmJReUCj-v14JAAAH",
+        "name": "cxvxcv",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "l28SmHbHNtXF3It3AAAJ",
+        "name": "cxvxcv",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "7d2vy": {
+    "players": [
+      {
+        "id": "yxrvKJCWtfrVdh1iAAAB",
+        "name": "kjh",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "9fMl58p0gCuh7IVJAAAD",
+        "name": "kjh",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": {
+      "screen": "playing",
+      "question": {
+        "activa": "SI",
+        "categoria": "Mix",
+        "fuente": "Urbanismo",
+        "id": "25_00006",
+        "informacion": "La Avenida 9 de Julio mide 140 metros de ancho.",
+        "pregunta": "¿Cuántos metros mide de ancho la Avenida 9 de Julio en Buenos Aires?",
+        "rango_max": "150",
+        "rango_min": "110",
+        "respuesta": 140
+      },
+      "players": [
+        {
+          "id": "yxrvKJCWtfrVdh1iAAAB",
+          "name": "kjh",
+          "isHost": true,
+          "score": 0
+        },
+        {
+          "id": "9fMl58p0gCuh7IVJAAAD",
+          "name": "kjh",
+          "isHost": false,
+          "score": 0
+        }
+      ],
+      "currentPlayerIndex": 0,
+      "round": 1,
+      "numberOfRounds": 5,
+      "gameMode": "classic",
+      "classicTimer": 30,
+      "usedQuestions": [
+        "25_00006"
+      ]
+    },
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "9zcxk": {
+    "players": [
+      {
+        "id": "qGxA-u0MWbri4dckAAAF",
+        "name": "k",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "okbnt": {
+    "players": [
+      {
+        "id": "9Zf783HrdT86yqvwAAAJ",
+        "name": "p",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "wlrs5": {
+    "players": [
+      {
+        "id": "RtI4j1_U_9buLC3LAAAF",
+        "name": "kjh",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "11bqx": {
+    "players": [
+      {
+        "id": "5OBjTyRtFkbNuKG_AAAJ",
+        "name": "gg",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "qwmdiogurkL3gZrIAAAL",
+        "name": "gg",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "ft2w5": {
+    "players": [
+      {
+        "id": "aBcQWLyLBBfqOEYPAAAP",
+        "name": "o",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "6sz65": {
+    "players": [
+      {
+        "id": "BmUjFSly5WAATu-YAAAT",
+        "name": "f",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "cicii": {
+    "players": [
+      {
+        "id": "sYqKf0ayf4n0Ajr9AAAX",
+        "name": "g",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "9b1sz": {
+    "players": [
+      {
+        "id": "4I8tt9pMICjQny4LAAAb",
+        "name": "ñl",
+        "isHost": true,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    }
+  },
+  "09i4y": {
+    "players": [
+      {
+        "id": "HXVzMH17G8jkQLrxAAAD",
+        "name": "f",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "3eU7iyKWrz_S9-QWAAAF",
+        "name": "gsf",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    },
+    "status": "waiting_for_guest_name"
+  },
+  "i6cdv": {
+    "players": [
+      {
+        "id": "yi-mhgpjVE_9bRqzAAAJ",
+        "name": "fgd",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "SCr3EQNE8f4jZAqeAAAL",
+        "name": "fgd",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    },
+    "status": "waiting_for_guest_name"
+  },
+  "zz95l": {
+    "players": [
+      {
+        "id": "m4tm3pgFYAh9AVLcAAAP",
+        "name": "k",
+        "isHost": true,
+        "score": 0
+      },
+      {
+        "id": "1NuF8WmGoCx1toE7AAAR",
+        "name": "k",
+        "isHost": false,
+        "score": 0
+      }
+    ],
+    "gameState": null,
+    "gameConfig": {
+      "mode": "classic",
+      "rounds": 5
+    },
+    "status": "waiting_for_guest_name"
+  }
+}

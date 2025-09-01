@@ -20,3 +20,5 @@ export interface Player {
   wrongHits: number;
   totalTimeUsed: number;
 }
+
+export type GameMode = 'classic' | 'plusminus';

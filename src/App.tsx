@@ -19,11 +19,19 @@ import { Player } from './types';
 
 function Game() {
   // --- STATE MANAGEMENT ---
-  const [gamePhase, setGamePhase] = React.useState<'setup' | 'playing_local' | 'playing_online' | 'gameover_local'>('setup');
+  const [gamePhase, setGamePhase] = React.useState<'main_menu' | 'setup_local' | 'setup_online' | 'playing_local' | 'playing_online' | 'gameover_local'>('main_menu');
   const [onlineSession, setOnlineSession] = React.useState<OnlineSession | null>(null);
 
   // Hook para el juego local
   const localGame = useGameOrchestrator();
+
+  // Detectar si es un invitado uniéndose a través de una URL
+  React.useEffect(() => {
+    const isGuest = window.location.pathname.includes('/game/');
+    if (isGuest) {
+      setGamePhase('setup_online');
+    }
+  }, []); // Se ejecuta solo una vez al cargar el componente
 
   // --- HANDLERS ---
   const handleStartLocalGame = (players: Player[], rounds: number, gameMode: 'classic' | 'plusminus') => {
@@ -32,26 +40,38 @@ function Game() {
   };
 
   const handleStartOnlineGame = (session: OnlineSession) => {
+    console.log('%c[APP] ¡handleStartOnlineGame LLAMADO! Cambiando a vista de juego online.', 'color: blue; font-size: 16px;');
     setOnlineSession(session);
     setGamePhase('playing_online');
   };
 
   const handleReset = () => {
     localGame.handleReset();
-    setGamePhase('setup');
+    setGamePhase('main_menu');
     setOnlineSession(null);
     // Redirigir a la raíz para limpiar la URL de la sala de juego
-    window.location.href = '/';
+    window.history.pushState({}, '', '/');
   };
 
   // --- RENDER LOGIC ---
-  if (gamePhase === 'setup') {
-    // Aquí podrías tener un menú para elegir entre local y online.
-    // Por ahora, derivamos al setup online si la URL tiene un ID de juego.
-    const isOnlineJoin = window.location.pathname.includes('/game/');
-    return isOnlineJoin 
-      ? <OnlineSetupScreen onGameStart={handleStartOnlineGame} />
-      : <SetupScreen onGameStart={handleStartLocalGame} />;
+  if (gamePhase === 'main_menu') {
+    return (
+      <div className="setup-screen">
+        <h1>CASI CASI</h1>
+        <div className="main-menu-buttons">
+          <button onClick={() => setGamePhase('setup_local')}>Jugar Local</button>
+          <button onClick={() => setGamePhase('setup_online')}>Jugar Online</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (gamePhase === 'setup_local') {
+    return <SetupScreen onGameStart={handleStartLocalGame} />;
+  }
+
+  if (gamePhase === 'setup_online') {
+    return <OnlineSetupScreen onGameStart={handleStartOnlineGame} />;
   }
 
   if (gamePhase === 'playing_online' && onlineSession) {

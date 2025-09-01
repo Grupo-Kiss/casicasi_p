@@ -1,3 +1,28 @@
+Flujo Completo para Jugar con un Amigo Online
+
+   1. (Paso único) Compila tu juego de React:
+       * En una terminal: npm run build
+
+   2. Inicia tu servidor "todo en uno":
+       * En una terminal: node server/index.js
+       * (Verás el mensaje Servidor Socket.IO escuchando en el puerto 3002)
+
+   3. Crea el túnel con `ngrok`:
+       * En una segunda terminal: ngrok http 3002
+
+   4. Comparte la URL:
+       * ngrok te dará una URL pública (ej: https://<algo-aleatorio>.ngrok-free.app).
+       * Esa es la única URL que necesitas. Pásasela a tu amigo.
+
+  Cuando tu amigo abra esa URL, ngrok redirigirá su petición a tu localhost:3002. Tu servidor de Node.js le
+  entregará la interfaz del juego (del build) y, cuando el juego intente conectarse al socket, se conectará
+  a ese mismo servidor, que también está manejando los sockets.
+
+
+
+
+
+
 #!/bin/bash
 # Este script instala las dependencias (si es necesario) y ejecuta la aplicación de React.
 
