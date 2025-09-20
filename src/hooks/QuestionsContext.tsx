@@ -15,7 +15,7 @@ export const QuestionsProvider: React.FC<{ children: ReactNode }> = ({ children 
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const questionsUrl = process.env.REACT_APP_QUESTIONS_URL || '/questions.json';
+    const questionsUrl = process.env.REACT_APP_QUESTIONS_URL || `${process.env.PUBLIC_URL}/questions.json`;
     setIsLoading(true);
     fetch(questionsUrl)
       .then(response => response.json())

@@ -83,7 +83,7 @@ const GlobalFooter = () => {
 function App() {
   return (
     <QuestionsProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app-wrapper">
           <main className="content-wrapper">
             <Routes>

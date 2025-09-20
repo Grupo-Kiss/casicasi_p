@@ -2,26 +2,13 @@ import React, { useState } from 'react';
 import { Player } from '../types';
 import '../styles/SetupScreen.css';
 import Modal from './Modal';
+import { AVATARS } from '../constants/avatars';
 
 import { useEnterToContinue } from '../hooks/useEnterToContinue'; // Importar useEnterToContinue
 
 interface SetupScreenProps {
   onGameStart: (players: Player[], rounds: number, gameMode: 'classic' | 'plusminus') => void;
 }
-
-// Lista de avatares disponibles. Asegúrate de que estos archivos existan en /public/avatars/
-const AVATARS = [
-  '/img/Moroarte_OOOhh.jpg',
-  '/img/moroarteCRINGE.jpg',
-  '/img/MoroarteDea2.jpg',
-  '/img/MoroarteNoSe.jpg',
-  '/img/MoroarteParodia.jpg',
-  '/img/MoroartePiedad.jpeg',
-  '/img/MoroarteSabiduria.jpg',
-  '/img/MoroarteSpirit.jpg',
-  '/img/MoroColombres.jpg',
-  '/img/MroarteRockero.jpg',
-];
 
 const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart }) => {
   // const { questions, isLoading } = useQuestionsContext(); // No se utilizan aquí
@@ -101,7 +88,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart }) => {
     <>
       <div className="setup-screen">
         <div className="setup-container">
-          <img src="/img/casi-casi_logo.png" alt="Casi Casi Logo" className="casi-casi-logo" />
+          <img src={`${process.env.PUBLIC_URL}/img/casi-casi_logo.png`} alt="Casi Casi Logo" className="casi-casi-logo" />
           <div className="setup-main-content">
             <div className="player-setup">
               
