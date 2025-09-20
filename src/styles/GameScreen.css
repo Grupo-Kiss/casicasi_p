@@ -1,56 +1,119 @@
 .game-screen {
+  height:90%;
+  width: 90%;
+  max-width: 800px;
+  margin: auto; /* Esto centrará horizontalmente */
+  padding: 1.2em;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 100%;
+  
+  /* Para centrar verticalmente necesitas: */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .game-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* Alinea la ronda a la derecha */
   align-items: center;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.0rem;
 }
 
 .round-info {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #777;
-  padding-right: 1rem;
+  align-items: center;
 }
 
-.game-header .timer-wrapper {
-  flex-grow: 1;
+/* Nuevo layout principal de 2 columnas */
+.game-main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+  flex-grow: 1; /* Permite que el contenido principal ocupe el espacio restante */
 }
 
-.question-section {
-  text-align: center;
-  margin-bottom: 2rem;
+.game-info-col {
+  flex: 2; /* Más espacio para la pregunta y el marcador */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Distribuye los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente el contenido */
+  padding: 1rem; /* Añadir padding para destacar */
+  background-color: #f8f9fa; /* Fondo sutil para destacar */
+  border-radius: 10px;
 }
 
-.category {
-  font-size: 1rem;
+.round-info-left {
+  font-size: 1.0rem;
   font-weight: 600;
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
+  color: #555;
+  margin-bottom: 1rem;
 }
 
-.question-text {
-  font-size: 1.5rem;
-  margin-bottom: 0;
+.player-turn-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.0rem;
+}
+
+.player-turn-info .player-avatar {
+  width: 80px;
+  height: 80px;
+  border: 1px solid var(--primary-color); /* Ajustado el borde */
+  margin-bottom: 0.25rem; /* Ajustado el margen */
+}
+
+.player-turn-info .name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.category-tag {
+  font-size: 1.0rem;
+  font-weight: 400;
+  color: white;
+  background-color: #04a5f0;
+  padding: 10px;
+  border-radius: 0px;
+  margin-bottom: 0; /* Juntar más con la pregunta */
+}
+
+.question-text-highlight {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #353535;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.game-numpad-col {
+  flex: 1; /* Menos espacio para el input y numpad */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra el input y numpad verticalmente */
+  align-items: center; /* Centra el input y numpad horizontalmente */
 }
 
 .input-section {
   width: 100%;
-  max-width: 300px;
-  margin-bottom: 2rem;
+  max-width: 300px; /* Ancho fijo para la sección del input y numpad */
 }
 
 .player-input {
   width: 100%;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   border: 2px solid #ddd;
   border-radius: 10px;
@@ -62,22 +125,23 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
 }
 
 .player-stat {
   text-align: center;
 }
 
-.player-stat .avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #eee;
+.player-stat .player-avatar { /* Usando la clase global y ajustando tamaño */
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--primary-color);
   transition: all 0.3s ease;
 }
 
-.player-stat.active .avatar {
+.player-stat.active .player-avatar {
   border-color: var(--primary-color);
   transform: scale(1.1);
 }
@@ -85,6 +149,7 @@
 .player-stat .name {
   font-weight: 600;
   margin-top: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .player-stat .score {
@@ -93,21 +158,116 @@
   color: var(--primary-color);
 }
 
-@media (max-width: 600px) {
-  .question-text {
-    font-size: 1.2rem;
-  }
-
-  .player-input {
-    font-size: 1.5rem;
-  }
-
-  .scoreboard-section {
+/* Media query para volver a layout de columna en pantallas pequeñas */
+@media (max-width: 768px) {
+  .game-main-content {
     flex-direction: column;
     align-items: center;
   }
-
-  .player-stat {
-    margin-bottom: 1rem;
+  .game-info-col {
+    width: 100%;
+    order: 1;
+    padding: 0.5rem; /* Ajustar padding en móvil */
+    background-color: transparent; /* Quitar fondo en móvil */
   }
+  .game-numpad-col {
+    width: 100%;
+    order: 2;
+  }
+  .scoreboard-section {
+    order: 3;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.guesses-left-standalone {
+  width: 80%;
+  margin: 10px auto; /* Center it and add margin */
+  padding: 15px; /* Increased padding */
+  background-color: #FFD700; /* Gold color for prominence */
+  border-radius: 8px;
+  color: #333; /* Darker text for contrast */
+  font-size: 2em; /* Increased font size */
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
+
+/* New styles for visual guess indicators */
+.guesses-visual-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px; /* Space between indicators */
+  flex-wrap: wrap; /* Allow indicators to wrap to next line */
+}
+
+.guess-indicator {
+  width: 20px; /* Size of each indicator */
+  height: 20px;
+  border-radius: 50%; /* Make them circles */
+  border: 2px solid #4CAF50; /* Border color */
+  transition: background-color 0.3s ease; /* Smooth transition for fill */
+}
+
+.guess-indicator.filled {
+  background-color: #4CAF50; /* Filled color (green) */
+}
+
+.guess-indicator.empty {
+  background-color: transparent; /* Empty color */
+}
+
+.plusminus-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.plusminus-info .guesses-left {
+  font-size: 1.5rem; /* Tamaño base para el texto "Intentos:" */
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Espacio entre el texto y el número */
+}
+
+.plusminus-info .guesses-left .guesses-count {
+  font-size: 2.5rem; /* Mucho más grande para el número */
+  font-weight: bolder; /* Más negrita */
+  color: var(--primary-color); /* Color principal del tema */
+  background-color: #e0f7fa; /* Un fondo suave para destacarlo */
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plusminus-info .hint {
+  font-size: 2rem; /* También más grande para la pista */
+  font-weight: bolder;
+  color: var(--secondary-color); /* Color secundario del tema */
+  background-color: #fff3e0; /* Otro fondo suave */
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plusminus-info .plusminus-timer {
+  font-size: 1.8rem; /* Tamaño visible para el temporizador */
+  font-weight: bold;
+  color: #ef5350; /* Un color de advertencia para el tiempo */
 }

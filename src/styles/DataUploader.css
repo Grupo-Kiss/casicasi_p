@@ -1,0 +1,71 @@
+/* src/styles/DataUploader.css */
+
+.data-uploader-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.data-uploader-header h1 {
+  /* Estilos para el título */
+}
+
+.data-uploader-header p {
+  /* Estilos para la descripción */
+}
+
+.data-uploader-section {
+  margin-top: 2rem;
+}
+
+.data-uploader-section.buttons {
+  margin-top: 1.5rem;
+}
+
+.data-uploader-section.stats {
+  margin-top: 2rem;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.data-uploader-section.stats h2 {
+  /* Estilos para el título de estadísticas */
+}
+
+.data-uploader-section.stats p {
+  /* Estilos para los párrafos de estadísticas */
+}
+
+.data-uploader-section.stats ul {
+  /* Estilos para la lista de categorías */
+}
+
+.data-uploader-section.stats li {
+  /* Estilos para los elementos de la lista de categorías */
+}
+
+.data-uploader-footer {
+  margin-top: 2rem;
+}
+
+.data-uploader-footer .success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.data-uploader-footer .error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.data-uploader-button {
+  /* Estilos generales para los botones */
+}
+
+.data-uploader-button + .data-uploader-button {
+  margin-left: 1rem;
+}
+
+.data-uploader-button.bold {
+  font-weight: bold;
+}

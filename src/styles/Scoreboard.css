@@ -1,0 +1,43 @@
+/* src/styles/Scoreboard.css */
+
+.scoreboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.player-score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+  width: 235px; /* Ajusta el ancho según sea necesario */
+}
+
+.player-score-card.active {
+  background-color: var(--primary-color); /* Asumiendo que --primary-color es blanco o un color claro */
+  color: var(--text-color-dark); /* Color de texto oscuro para contraste */
+}
+
+.player-score-card.inactive {
+  background-color: var(--light-background-color); /* Asumiendo un color claro para inactivos */
+}
+
+.player-score-card .player-avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.player-score-card .player-name {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.player-score-card .player-score {
+  font-size: 1.25rem;
+}

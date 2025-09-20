@@ -1,4 +1,3 @@
-
 import React from 'react';
 import '../styles/Numpad.css';
 
@@ -6,12 +5,10 @@ interface NumpadProps {
   onDigit: (digit: string) => void;
   onDelete: () => void;
   onSubmit: () => void;
-  timer: number;
 }
 
-const Numpad: React.FC<NumpadProps> = ({ onDigit, onDelete, onSubmit, timer }) => {
-  const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
-  const timerPercentage = (timer / 30) * 100;
+const Numpad: React.FC<NumpadProps> = ({ onDigit, onDelete, onSubmit }) => {
+  const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
   return (
     <div className="numpad">
@@ -21,14 +18,12 @@ const Numpad: React.FC<NumpadProps> = ({ onDigit, onDelete, onSubmit, timer }) =
         </button>
       ))}
       <button className="delete-btn" onClick={onDelete}>&larr;</button>
-      <button 
-        className="ok-btn"
+      <button onClick={() => onDigit('0')}>0</button>
+      <button
+        className="submit-btn"
         onClick={onSubmit}
-        style={{ 
-          background: `linear-gradient(to top, var(--primary-color) ${timerPercentage}%, #e0e2e5 ${timerPercentage}%)`
-        }}
       >
-        OK
+        &#10148;
       </button>
     </div>
   );

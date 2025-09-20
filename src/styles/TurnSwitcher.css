@@ -1,0 +1,64 @@
+
+.turn-switcher-modal {
+  width: 90vw;
+  max-width: 800px; /* Igualado al SetupScreen */
+  margin: auto; /* Esto centrará horizontalmente */
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido del modal */
+  text-align: center;
+
+  /* Centrado absoluto */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.player-avatar {
+  width: 50px;
+  height: 50px;
+  background-color: var(--secondary-color);
+  display: block;
+  margin: 0 auto 1.5rem;
+  border: 2px solid var(--primary-color-light);
+}
+
+.turn-switcher-modal h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.turn-switcher-modal .player-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.start-turn-btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem; /* Ajustado para coherencia */
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem; /* Ajustado para coherencia */
+  font-weight: 600;
+  cursor: pointer;
+  width: auto; /* Permitir que el botón se ajuste a su contenido */
+  max-width: 300px; /* Limitar el ancho máximo del botón */
+  margin: 0 auto; /* Centrar el botón */
+  transition: background 0.3s ease;
+}
+
+.start-turn-btn:hover {
+  background: var(--secondary-color);
+}
+
+.start-turn-btn span {
+  /* No se necesita z-index si no hay pseudo-elemento */
+}

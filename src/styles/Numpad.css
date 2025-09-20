@@ -1,7 +1,8 @@
 .numpad {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
+  gap: 1rem;
+  width: 100%; /* Asegura que ocupe el ancho disponible */
 }
 
 .numpad button {
@@ -14,19 +15,11 @@
   padding: 1rem;
   cursor: pointer;
   transition: background 0.3s ease;
+  aspect-ratio: 1 / 1; /* Hace que los botones sean cuadrados */
 }
 
 .numpad button:hover {
   background: #e0e2e5;
-}
-
-.numpad .ok-btn {
-  background: var(--primary-color);
-  color: white;
-}
-
-.numpad .ok-btn:hover {
-  background: var(--secondary-color);
 }
 
 .numpad .delete-btn {
@@ -38,9 +31,32 @@
   background: #ff3333;
 }
 
+.numpad .submit-btn {
+  background: #28a745; /* Green color */
+  color: white;
+  font-size: 2rem; /* Larger arrow */
+}
+
+.numpad .submit-btn:hover {
+  background: #218838; /* Darker green on hover */
+}
+
+/* Estilos específicos para la última fila si es necesario */
+.numpad button:nth-child(10) { /* Botón 0 */
+  grid-column: span 1;
+}
+
+.numpad button:nth-child(11) { /* Botón Delete */
+  grid-column: span 1;
+}
+
+.numpad button:nth-child(12) { /* Botón OK */
+  grid-column: span 1;
+}
+
 @media (max-width: 600px) {
   .numpad button {
     font-size: 1.2rem;
-    padding: 0.75rem;
+    padding: 0.8rem;
   }
 }

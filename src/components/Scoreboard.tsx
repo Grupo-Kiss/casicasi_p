@@ -1,5 +1,6 @@
 import React from 'react';
 import { Player } from '../types';
+import '../styles/Scoreboard.css'; // Importar estilos
 
 interface ScoreboardProps {
   players: Player[];
@@ -8,16 +9,15 @@ interface ScoreboardProps {
 
 const Scoreboard: React.FC<ScoreboardProps> = ({ players, currentPlayerIndex }) => {
   return (
-    <div className="d-flex flex-wrap justify-content-center">
+    <div className="scoreboard-container">
       {players.map((player, index) => (
-        <div 
-          className={`d-flex flex-column align-items-center p-3 rounded m-2 ${index === currentPlayerIndex ? 'bg-white text-primary' : 'bg-light'}`} 
+        <div
+          className={`player-score-card ${index === currentPlayerIndex ? 'active' : 'inactive'}`}
           key={index}
-          style={{ width: '235px' }} // Ajusta el ancho según sea necesario
         >
-          <img src={player.avatar} alt={player.name} className="player-avatar" style={{ width: '75px', height: '75px'}} />
-          <div className={`fw-bold`}>{player.name}</div>
-          <div className="fs-5">{player.score}</div>
+          <img src={player.avatar} alt={player.name} className="player-avatar" />
+          <div className="player-name">{player.name}</div>
+          <div className="player-score">{player.score}</div>
         </div>
       ))}
     </div>

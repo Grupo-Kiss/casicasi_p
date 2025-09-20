@@ -1,135 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-:root {
-  --primary-color: #6a11cb;
-  --secondary-color: #2575fc;
-  --background-color: #f0f2f5;
-  --text-color: #333;
-  --card-background: #ffffff;
-  --shadow: 0 10px 20px rgba(0,0,0,0.1);
-  --border-radius: 15px;
-}
-
+/* Estilos globales */
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+  overflow: hidden; /* Evita el scroll global */
+}
+
+/* Variables CSS */
+:root {
+  --primary-color: #05b3f8; /* CELESTE */
+  --secondary-color: #f77001; /* NARANJA */
+  --primary-color-light: #ecd609; /* AMARILLO MOROARTE*/
+  --text-color: #333;
+  --border-color: #ddd;
+  --background-color: #f4f7f6;
+  --card-background: #ffffff;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --border-radius: 10px;
+}
+
+/* Estilos para el layout principal de la aplicación */
+.app-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   min-height: 100vh;
 }
 
-.app-container {
-  width: 100%;
-  max-width: 500px;
-  background: var(--card-background);
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
-  padding: 2rem;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.turn-switcher {
+.content-wrapper {
+  flex-grow: 1; /* Asegura que el contenido principal ocupe el espacio disponible */
+  padding-bottom: 60px; /* Añade espacio para que el footer no tape el contenido */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 2rem;
+  justify-content: center; /* Centra horizontalmente las rutas */
+  align-items: center; /* Centra verticalmente las rutas */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
 }
 
-.turn-switcher .avatar {
-  width: 150px;
-  height: 150px;
+/* Eliminar el titilado del cursor en todos los inputs */
+input {
+  caret-color: transparent;
+}
+
+/* Estilos genéricos para avatares */
+.player-avatar {
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1.5rem;
-  border: 5px solid var(--primary-color);
-}
-
-.turn-switcher h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin: 0;
-}
-
-.turn-switcher p {
-  font-size: 1.2rem;
-  color: #777;
-}
-
-.question-container {
-  text-align: center;
-}
-
-.question-container .category {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
-}
-
-.question-container .question-text {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.player-input {
-  width: 100%;
-  padding: 1rem;
-  font-size: 2rem;
-  text-align: center;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
-.scoreboard {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.player-stat {
-  text-align: center;
-}
-
-.player-stat .avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #eee;
-}
-
-.player-stat.active .avatar {
-  border-color: var(--primary-color);
-}
-
-.player-stat .name {
-  font-weight: 600;
-  margin-top: 0.5rem;
-}
-
-.player-stat .score {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--primary-color);
-}
-
-@media (max-width: 600px) {
-  .app-container {
-    padding: 1rem;
-    border-radius: 0;
-    min-height: 100vh;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
 }
