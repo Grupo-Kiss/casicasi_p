@@ -1,0 +1,4123 @@
+
+[
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos litros de agua tiene una piscina olímpica?",
+    "respuesta": 2500000,
+    "rango_min": 2400000,
+    "rango_max": 2600000,
+    "informacion": "Una piscina olímpica tiene aproximadamente 2.5 millones de litros de agua.",
+    "fuente": "Arquitectura Deportiva",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántas ventanas tiene el Empire State Building?",
+    "respuesta": 6514,
+    "rango_min": 6500,
+    "rango_max": 6600,
+    "informacion": "El Empire State Building tiene 6,514 ventanas.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos baños hay en la Casa Blanca?",
+    "respuesta": 35,
+    "rango_min": 30,
+    "rango_max": 40,
+    "informacion": "La Casa Blanca tiene 35 baños.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide de largo la Quinta Avenida de Nueva York?",
+    "respuesta": 10000,
+    "rango_min": 9000,
+    "rango_max": 11000,
+    "informacion": "La Quinta Avenida mide aproximadamente 10 kilómetros de largo.",
+    "fuente": "Urbanismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide de ancho la Avenida 9 de Julio en Buenos Aires?",
+    "respuesta": 140,
+    "rango_min": 130,
+    "rango_max": 150,
+    "informacion": "La Avenida 9 de Julio mide 140 metros de ancho.",
+    "fuente": "Urbanismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuál es la altura de la Torre Eiffel?",
+    "respuesta": 330,
+    "rango_min": 320,
+    "rango_max": 340,
+    "informacion": "La Torre Eiffel mide 330 metros de altura (incluyendo antenas).",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto del mundo (Burj Khalifa)?",
+    "respuesta": 828,
+    "rango_min": 820,
+    "rango_max": 830,
+    "informacion": "El Burj Khalifa en Dubái mide 828 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿A cuántos metros se considera que comienza el espacio exterior?",
+    "respuesta": 100000,
+    "rango_min": 90000,
+    "rango_max": 110000,
+    "informacion": "La línea de Kármán, que marca el inicio del espacio exterior, está a 100 km de altura.",
+    "fuente": "Astronomía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos huevos puede poner una abeja reina en su vida?",
+    "respuesta": 1500000,
+    "rango_min": 1400000,
+    "rango_max": 1600000,
+    "informacion": "Una abeja reina puede poner hasta 1.5 millones de huevos en su vida.",
+    "fuente": "Entomología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos modelos de autos tiene Ford (hasta 2023)?",
+    "respuesta": 50,
+    "rango_min": 45,
+    "rango_max": 55,
+    "informacion": "Ford tiene alrededor de 50 modelos de autos en su catálogo hasta 2023.",
+    "fuente": "Industria Automotriz",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el puente Golden Gate?",
+    "respuesta": 2737,
+    "rango_min": 2700,
+    "rango_max": 2800,
+    "informacion": "El puente Golden Gate mide 2,737 metros de largo.",
+    "fuente": "Ingeniería Civil",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos escalones tiene la Torre Eiffel?",
+    "respuesta": 1665,
+    "rango_min": 1600,
+    "rango_max": 1700,
+    "informacion": "La Torre Eiffel tiene 1,665 escalones hasta la cima.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el Canal de Panamá?",
+    "respuesta": 80000,
+    "rango_min": 75000,
+    "rango_max": 85000,
+    "informacion": "El Canal de Panamá mide aproximadamente 80 kilómetros de largo.",
+    "fuente": "Ingeniería Civil",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el río Amazonas?",
+    "respuesta": 6400000,
+    "rango_min": 6300000,
+    "rango_max": 6500000,
+    "informacion": "El río Amazonas mide aproximadamente 6,400 kilómetros de largo.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el Gran Cañón del Colorado?",
+    "respuesta": 446000,
+    "rango_min": 440000,
+    "rango_max": 450000,
+    "informacion": "El Gran Cañón del Colorado mide aproximadamente 446 kilómetros de largo.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el Monte Everest?",
+    "respuesta": 8848,
+    "rango_min": 8800,
+    "rango_max": 8900,
+    "informacion": "El Monte Everest mide 8,848 metros de altura.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide la Gran Muralla China?",
+    "respuesta": 21196000,
+    "rango_min": 21000000,
+    "rango_max": 22000000,
+    "informacion": "La Gran Muralla China mide aproximadamente 21,196 kilómetros de largo.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio Empire State?",
+    "respuesta": 443,
+    "rango_min": 440,
+    "rango_max": 450,
+    "informacion": "El Empire State Building mide 443 metros de altura (incluyendo la antena).",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el puente más largo del mundo (Danyang-Kunshan)?",
+    "respuesta": 164800,
+    "rango_min": 164000,
+    "rango_max": 165000,
+    "informacion": "El puente Danyang-Kunshan en China mide 164.8 kilómetros de largo.",
+    "fuente": "Ingeniería Civil",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el túnel más largo del mundo (Túnel de San Gotardo)?",
+    "respuesta": 57000,
+    "rango_min": 56000,
+    "rango_max": 58000,
+    "informacion": "El Túnel de San Gotardo en Suiza mide 57 kilómetros de largo.",
+    "fuente": "Ingeniería Civil",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de América Latina (Torre Obispado)?",
+    "respuesta": 305,
+    "rango_min": 300,
+    "rango_max": 310,
+    "informacion": "La Torre Obispado en Monterrey, México, mide 305 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilómetros mide el río Nilo?",
+    "respuesta": 6650,
+    "rango_min": 6600,
+    "rango_max": 6700,
+    "informacion": "El río Nilo mide aproximadamente 6,650 kilómetros de largo.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de Europa (Lakhta Center)?",
+    "respuesta": 462,
+    "rango_min": 460,
+    "rango_max": 470,
+    "informacion": "El Lakhta Center en San Petersburgo, Rusia, mide 462 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de África (Torre Mohammed VI)?",
+    "respuesta": 250,
+    "rango_min": 240,
+    "rango_max": 260,
+    "informacion": "La Torre Mohammed VI en Rabat, Marruecos, mide 250 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de Australia (Q1 Tower)?",
+    "respuesta": 323,
+    "rango_min": 320,
+    "rango_max": 330,
+    "informacion": "El Q1 Tower en Gold Coast, Australia, mide 323 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de Asia (Burj Khalifa)?",
+    "respuesta": 828,
+    "rango_min": 820,
+    "rango_max": 830,
+    "informacion": "El Burj Khalifa en Dubái mide 828 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de América del Norte (One World Trade Center)?",
+    "respuesta": 541,
+    "rango_min": 540,
+    "rango_max": 550,
+    "informacion": "El One World Trade Center en Nueva York mide 541 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de Sudamérica (Gran Torre Santiago)?",
+    "respuesta": 300,
+    "rango_min": 290,
+    "rango_max": 310,
+    "informacion": "La Gran Torre Santiago en Chile mide 300 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros mide el edificio más alto de Oceanía (Q1 Tower)?",
+    "respuesta": 323,
+    "rango_min": 320,
+    "rango_max": 330,
+    "informacion": "El Q1 Tower en Gold Coast, Australia, mide 323 metros de altura.",
+    "fuente": "Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede tardar en digerirse un chicle?",
+    "respuesta": 7,
+    "rango_min": 5,
+    "rango_max": 10,
+    "informacion": "Aunque no se digiere completamente, un chicle puede permanecer en el sistema digestivo hasta 7 años.",
+    "fuente": "Medicina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos corazones tiene una lombriz de tierra?",
+    "respuesta": 5,
+    "rango_min": 5,
+    "rango_max": 10,
+    "informacion": "Una lombriz de tierra tiene 5 pares de corazones (10 en total).",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos ojos tiene una estrella de mar?",
+    "respuesta": 0,
+    "rango_min": 0,
+    "rango_max": 0,
+    "informacion": "Las estrellas de mar no tienen ojos, pero tienen manchas sensibles a la luz en los extremos de sus brazos.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilogramos de comida puede comer un hipopótamo en un día?",
+    "respuesta": 36,
+    "rango_min": 30,
+    "rango_max": 40,
+    "informacion": "Un hipopótamo puede comer hasta 36 kg de comida en un solo día.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos litros de saliva produce un humano en su vida?",
+    "respuesta": 37800,
+    "rango_min": 35000,
+    "rango_max": 40000,
+    "informacion": "Un humano produce aproximadamente 37,800 litros de saliva en su vida.",
+    "fuente": "Fisiología Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir una almeja de la especie Ming?",
+    "respuesta": 507,
+    "rango_min": 500,
+    "rango_max": 510,
+    "informacion": "La almeja Ming, encontrada en 2006, tenía 507 años, siendo el animal más longevo conocido.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilómetros puede correr un avestruz en una hora?",
+    "respuesta": 70,
+    "rango_min": 65,
+    "rango_max": 75,
+    "informacion": "Un avestruz puede correr hasta 70 km/h, siendo la ave más rápida en tierra.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un árbol de pino bristlecone?",
+    "respuesta": 5000,
+    "rango_min": 4800,
+    "rango_max": 5200,
+    "informacion": "Los pinos bristlecone pueden vivir más de 5,000 años, siendo los árboles más longevos del mundo.",
+    "fuente": "Botánica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilogramos de seda puede producir un gusano de seda en su vida?",
+    "respuesta": 0,
+    "rango_min": 0,
+    "rango_max": 0,
+    "informacion": "Un gusano de seda puede producir aproximadamente 0.5 kg de seda en su vida.",
+    "fuente": "Entomología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir una tortuga gigante de Galápagos?",
+    "respuesta": 150,
+    "rango_min": 140,
+    "rango_max": 160,
+    "informacion": "Las tortugas gigantes de Galápagos pueden vivir más de 150 años.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilómetros puede volar una abeja en su vida?",
+    "respuesta": 800,
+    "rango_min": 700,
+    "rango_max": 900,
+    "informacion": "Una abeja obrera puede volar hasta 800 km en su vida, recolectando néctar y polen.",
+    "fuente": "Entomología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un tiburón de Groenlandia?",
+    "respuesta": 400,
+    "rango_min": 390,
+    "rango_max": 410,
+    "informacion": "Los tiburones de Groenlandia pueden vivir más de 400 años, siendo los vertebrados más longevos.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilogramos de miel puede producir una colmena en un año?",
+    "respuesta": 30,
+    "rango_min": 25,
+    "rango_max": 35,
+    "informacion": "Una colmena puede producir hasta 30 kg de miel en un año.",
+    "fuente": "Entomología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un loro?",
+    "respuesta": 80,
+    "rango_min": 70,
+    "rango_max": 90,
+    "informacion": "Algunas especies de loros, como los guacamayos, pueden vivir hasta 80 años en cautiverio.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilogramos de comida puede comer un elefante en un día?",
+    "respuesta": 150,
+    "rango_min": 140,
+    "rango_max": 160,
+    "informacion": "Un elefante puede comer hasta 150 kg de comida en un solo día.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir una ballena boreal?",
+    "respuesta": 200,
+    "rango_min": 190,
+    "rango_max": 210,
+    "informacion": "Las ballenas boreales pueden vivir más de 200 años, siendo los mamíferos más longevos.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilómetros puede migrar una mariposa monarca?",
+    "respuesta": 4000,
+    "rango_min": 3800,
+    "rango_max": 4200,
+    "informacion": "Las mariposas monarca pueden migrar hasta 4,000 km desde Canadá hasta México.",
+    "fuente": "Entomología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un erizo de mar rojo?",
+    "respuesta": 200,
+    "rango_min": 180,
+    "rango_max": 220,
+    "informacion": "El erizo de mar rojo puede vivir más de 200 años.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilogramos de hojas puede comer un koala en un día?",
+    "respuesta": 1,
+    "rango_min": 1,
+    "rango_max": 1,
+    "informacion": "Un koala puede comer hasta 1 kg de hojas de eucalipto en un día.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un molusco de la especie Arctica islandica?",
+    "respuesta": 500,
+    "rango_min": 400,
+    "rango_max": 600,
+    "informacion": "El molusco Arctica islandica puede vivir más de 500 años, siendo uno de los animales más longevos.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos kilómetros puede recorrer un albatros en un solo vuelo?",
+    "respuesta": 16000,
+    "rango_min": 15000,
+    "rango_max": 17000,
+    "informacion": "Un albatros puede recorrer hasta 16,000 km en un solo vuelo sin aterrizar.",
+    "fuente": "Ornitología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos metros de altura puede alcanzar un hongo?",
+    "respuesta": 1,
+    "rango_min": 1,
+    "rango_max": 1,
+    "informacion": "El hongo Phallus indusiatus puede crecer hasta 1 metro de altura.",
+    "fuente": "Micología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un elefante africano?",
+    "respuesta": 70,
+    "rango_min": 60,
+    "rango_max": 80,
+    "informacion": "Los elefantes africanos pueden vivir entre 60 y 70 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos litros de agua puede beber un camello en 10 minutos?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Un camello puede beber hasta 100 litros de agua en 10 minutos.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un pingüino emperador?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los pingüinos emperadores viven entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos corazones tiene un pulpo?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "Los pulpos tienen 3 corazones: dos bombean sangre a las branquias y uno al cuerpo.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años puede vivir un lobo gris?",
+    "respuesta": 8,
+    "rango_min": 6,
+    "rango_max": 10,
+    "informacion": "Los lobos grises viven entre 6 y 8 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántas letras tiene la palabra más larga en español?",
+    "respuesta": 23,
+    "rango_min": 20,
+    "rango_max": 25,
+    "informacion": "La palabra más larga en español es electroencefalografista, con 23 letras.",
+    "fuente": "RAE (Real Academia Española)",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿En qué año se publicó la primera edición de Don Quijote de la Mancha?",
+    "respuesta": 1605,
+    "rango_min": 1604,
+    "rango_max": 1606,
+    "informacion": "La primera edición de Don Quijote de la Mancha fue publicada en 1605.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántas Biblias tiene el mayor coleccionista del mundo?",
+    "respuesta": 1000,
+    "rango_min": 900,
+    "rango_max": 1100,
+    "informacion": "El mayor coleccionista de Biblias tiene más de 1,000 ejemplares en su colección.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo del mundo?",
+    "respuesta": 2300,
+    "rango_min": 2200,
+    "rango_max": 2400,
+    "informacion": "El libro más antiguo del mundo es el Libro de los Muertos egipcio, con más de 2,300 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos idiomas se hablan en el mundo?",
+    "respuesta": 7000,
+    "rango_min": 6500,
+    "rango_max": 7500,
+    "informacion": "Se estima que hay alrededor de 7,000 idiomas en el mundo.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene la RAE (Real Academia Española)?",
+    "respuesta": 311,
+    "rango_min": 310,
+    "rango_max": 320,
+    "informacion": "La RAE fue fundada en 1713, por lo que en 2024 cumple 311 años.",
+    "fuente": "RAE (Real Academia Española)",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos volúmenes tiene la Enciclopedia Británica?",
+    "respuesta": 32,
+    "rango_min": 30,
+    "rango_max": 35,
+    "informacion": "La Enciclopedia Británica tiene 32 volúmenes en su edición más reciente.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro impreso más antiguo?",
+    "respuesta": 1150,
+    "rango_min": 1100,
+    "rango_max": 1200,
+    "informacion": "El libro impreso más antiguo es el Sutra del Diamante, impreso en el año 868.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el manuscrito más antiguo de la Biblia?",
+    "respuesta": 1700,
+    "rango_min": 1600,
+    "rango_max": 1800,
+    "informacion": "El Codex Sinaiticus, uno de los manuscritos más antiguos de la Biblia, tiene más de 1,700 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el diccionario más antiguo?",
+    "respuesta": 4000,
+    "rango_min": 3900,
+    "rango_max": 4100,
+    "informacion": "El diccionario más antiguo es una tablilla cuneiforme de Mesopotamia, con más de 4,000 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más pequeño del mundo?",
+    "respuesta": 200,
+    "rango_min": 190,
+    "rango_max": 210,
+    "informacion": "El libro más pequeño del mundo, Old King Cole, mide 1 mm x 1 mm y tiene más de 200 años.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más grande del mundo?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "El libro más grande del mundo, This the Prophet Mohamed, mide 5 m x 8.06 m y fue creado en 2012.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene la colección de libros más antigua del mundo?",
+    "respuesta": 2700,
+    "rango_min": 2600,
+    "rango_max": 2800,
+    "informacion": "La Biblioteca de Asurbanipal en Nínive es la colección de libros más antigua, con más de 2,700 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más vendido del mundo?",
+    "respuesta": 2000,
+    "rango_min": 1900,
+    "rango_max": 2100,
+    "informacion": "La Biblia es el libro más vendido del mundo, con más de 2,000 años de antigüedad.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más robado del mundo?",
+    "respuesta": 1200,
+    "rango_min": 1100,
+    "rango_max": 1300,
+    "informacion": "El Evangelio de Lindisfarne, uno de los libros más robados, tiene más de 1,200 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más caro del mundo?",
+    "respuesta": 550,
+    "rango_min": 500,
+    "rango_max": 600,
+    "informacion": "El Codex Leicester de Leonardo da Vinci, vendido por $30.8 millones, tiene más de 550 años.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más traducido del mundo?",
+    "respuesta": 2000,
+    "rango_min": 1900,
+    "rango_max": 2100,
+    "informacion": "La Biblia es el libro más traducido del mundo, con más de 2,000 años de antigüedad.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de América?",
+    "respuesta": 1000,
+    "rango_min": 900,
+    "rango_max": 1100,
+    "informacion": "El Códice Dresden, un libro maya, tiene más de 1,000 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de Europa?",
+    "respuesta": 1200,
+    "rango_min": 1100,
+    "rango_max": 1300,
+    "informacion": "El Libro de Kells, un manuscrito irlandés, tiene más de 1,200 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de Asia?",
+    "respuesta": 2300,
+    "rango_min": 2200,
+    "rango_max": 2400,
+    "informacion": "El Sutra del Diamante, impreso en China, tiene más de 2,300 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de África?",
+    "respuesta": 1500,
+    "rango_min": 1400,
+    "rango_max": 1600,
+    "informacion": "El Papiro de Ebers, un texto médico egipcio, tiene más de 1,500 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de Oceanía?",
+    "respuesta": 200,
+    "rango_min": 190,
+    "rango_max": 210,
+    "informacion": "Los primeros libros impresos en Oceanía tienen más de 200 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de la Antártida?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Los primeros libros llevados a la Antártida tienen más de 100 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo del espacio?",
+    "respuesta": 50,
+    "rango_min": 40,
+    "rango_max": 60,
+    "informacion": "Los primeros libros llevados al espacio tienen más de 50 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tiene el libro más antiguo de la Luna?",
+    "respuesta": 50,
+    "rango_min": 40,
+    "rango_max": 60,
+    "informacion": "Los primeros libros llevados a la Luna tienen más de 50 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido The Beatles en total?",
+    "respuesta": 600000000,
+    "rango_min": 500000000,
+    "rango_max": 700000000,
+    "informacion": "The Beatles ha vendido más de 600 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Elvis Presley cuando murió?",
+    "respuesta": 42,
+    "rango_min": 40,
+    "rango_max": 45,
+    "informacion": "Elvis Presley murió en 1977 a los 42 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos Óscares ha ganado Walt Disney?",
+    "respuesta": 22,
+    "rango_min": 20,
+    "rango_max": 25,
+    "informacion": "Walt Disney ganó 22 premios Óscar a lo largo de su carrera.",
+    "fuente": "Academia de Artes y Ciencias Cinematográficas",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuándo se pintó la Mona Lisa?",
+    "respuesta": 1503,
+    "rango_min": 1500,
+    "rango_max": 1510,
+    "informacion": "La Mona Lisa fue pintada por Leonardo da Vinci alrededor de 1503-1506.",
+    "fuente": "Museo del Louvre",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido Michael Jackson en total?",
+    "respuesta": 400000000,
+    "rango_min": 350000000,
+    "rango_max": 450000000,
+    "informacion": "Michael Jackson ha vendido más de 400 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Freddie Mercury cuando murió?",
+    "respuesta": 45,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "Freddie Mercury murió en 1991 a los 45 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos episodios tiene la serie Friends?",
+    "respuesta": 236,
+    "rango_min": 230,
+    "rango_max": 240,
+    "informacion": "La serie Friends tiene 236 episodios en total.",
+    "fuente": "IMDb",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido Madonna en total?",
+    "respuesta": 300000000,
+    "rango_min": 250000000,
+    "rango_max": 350000000,
+    "informacion": "Madonna ha vendido más de 300 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Marilyn Monroe cuando murió?",
+    "respuesta": 36,
+    "rango_min": 35,
+    "rango_max": 40,
+    "informacion": "Marilyn Monroe murió en 1962 a los 36 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos Óscares ha ganado Meryl Streep?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "Meryl Streep ha ganado 3 premios Óscar a lo largo de su carrera.",
+    "fuente": "Academia de Artes y Ciencias Cinematográficas",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuándo se pintó el cuadro La noche estrellada de Van Gogh?",
+    "respuesta": 1889,
+    "rango_min": 1885,
+    "rango_max": 1900,
+    "informacion": "La noche estrellada fue pintada por Van Gogh en 1889, por lo que en 2024 cumple 135 años.",
+    "fuente": "Museo de Arte Moderno",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido Queen en total?",
+    "respuesta": 300000000,
+    "rango_min": 250000000,
+    "rango_max": 350000000,
+    "informacion": "Queen ha vendido más de 300 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía John Lennon cuando murió?",
+    "respuesta": 40,
+    "rango_min": 35,
+    "rango_max": 45,
+    "informacion": "John Lennon murió en 1980 a los 40 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos episodios tiene la serie The Simpsons?",
+    "respuesta": 750,
+    "rango_min": 700,
+    "rango_max": 800,
+    "informacion": "The Simpsons tiene más de 750 episodios en total (hasta 2023).",
+    "fuente": "IMDb",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuándo se pintó el cuadro El grito de Edvard Munch?",
+    "respuesta": 1893,
+    "rango_min": 1890,
+    "rango_max": 1899,
+    "informacion": "El grito fue pintado por Edvard Munch en 1893, por lo que en 2024 cumple 130 años.",
+    "fuente": "Museo Munch",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido ABBA en total?",
+    "respuesta": 150000000,
+    "rango_min": 140000000,
+    "rango_max": 160000000,
+    "informacion": "ABBA ha vendido más de 150 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Whitney Houston cuando murió?",
+    "respuesta": 48,
+    "rango_min": 45,
+    "rango_max": 50,
+    "informacion": "Whitney Houston murió en 2012 a los 48 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos Óscares ha ganado Steven Spielberg?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "Steven Spielberg ha ganado 3 premios Óscar a lo largo de su carrera.",
+    "fuente": "Academia de Artes y Ciencias Cinematográficas",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuándo se pintó el cuadro Guernica de Pablo Picasso?",
+    "respuesta": 1937,
+    "rango_min": 1930,
+    "rango_max": 1940,
+    "informacion": "Guernica fue pintado por Pablo Picasso en 1937, por lo que en 2024 cumple 87 años.",
+    "fuente": "Museo Reina Sofía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido Elvis Presley en total?",
+    "respuesta": 600000000,
+    "rango_min": 500000000,
+    "rango_max": 700000000,
+    "informacion": "Elvis Presley ha vendido más de 600 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Michael Jackson cuando lanzó Thriller?",
+    "respuesta": 24,
+    "rango_min": 23,
+    "rango_max": 25,
+    "informacion": "Michael Jackson lanzó Thriller en 1982 a los 24 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos episodios tiene la serie Breaking Bad?",
+    "respuesta": 62,
+    "rango_min": 60,
+    "rango_max": 65,
+    "informacion": "Breaking Bad tiene 62 episodios en total.",
+    "fuente": "IMDb",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuándo se pintó el cuadro Las meninas de Diego Velázquez?",
+    "respuesta": 1656,
+    "rango_min": 1650,
+    "rango_max": 1670,
+    "informacion": "Las meninas fue pintado por Diego Velázquez en 1656, por lo que en 2024 cumple 365 años.",
+    "fuente": "Museo del Prado",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido Pink Floyd en total?",
+    "respuesta": 250000000,
+    "rango_min": 240000000,
+    "rango_max": 260000000,
+    "informacion": "Pink Floyd ha vendido más de 250 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Freddie Mercury cuando lanzó Bohemian Rhapsody?",
+    "respuesta": 29,
+    "rango_min": 28,
+    "rango_max": 30,
+    "informacion": "Freddie Mercury lanzó Bohemian Rhapsody en 1975 a los 29 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos episodios tiene la serie Game of Thrones?",
+    "respuesta": 73,
+    "rango_min": 70,
+    "rango_max": 75,
+    "informacion": "Game of Thrones tiene 73 episodios en total.",
+    "fuente": "IMDb",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuándo se pintó el cuadro La última cena de Leonardo da Vinci?",
+    "respuesta": 1498,
+    "rango_min": 1490,
+    "rango_max": 1499,
+    "informacion": "La última cena fue pintada por Leonardo da Vinci en 1498, por lo que en 2024 cumple 525 años.",
+    "fuente": "Historia del Arte",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos discos ha vendido Led Zeppelin en total?",
+    "respuesta": 300000000,
+    "rango_min": 250000000,
+    "rango_max": 350000000,
+    "informacion": "Led Zeppelin ha vendido más de 300 millones de discos en todo el mundo.",
+    "fuente": "Récords Guinness",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Mix",
+    "pregunta": "¿Cuántos años tenía Jimi Hendrix cuando murió?",
+    "respuesta": 27,
+    "rango_min": 25,
+    "rango_max": 30,
+    "informacion": "Jimi Hendrix murió en 1970 a los 27 años.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Población casi-casi de China en millones?",
+    "respuesta": 1400,
+    "rango_min": 1000,
+    "rango_max": 1800,
+    "informacion": "China es el país más poblado del mundo.",
+    "fuente": "Banco Mundial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos continentes tiene la Tierra?",
+    "respuesta": 7,
+    "rango_min": 6,
+    "rango_max": 8,
+    "informacion": "La Tierra se divide en siete continentes.",
+    "fuente": "National Geographic Society",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Longitud del Canal de Panamá en kilómetros?",
+    "respuesta": 77,
+    "rango_min": 75,
+    "rango_max": 85,
+    "informacion": "El Canal de Panamá conecta el Atlántico y el Pacífico a través de unos 77 km.",
+    "fuente": "Autoridad del Canal de Panamá",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos estados conforman los EE. UU.?",
+    "respuesta": 50,
+    "rango_min": 48,
+    "rango_max": 52,
+    "informacion": "Los Estados Unidos consisten en 50 estados, cada uno con su propio gobierno y leyes.",
+    "fuente": "Gobierno de los Estados Unidos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántas islas conforman Hawái?",
+    "respuesta": 137,
+    "rango_min": 100,
+    "rango_max": 150,
+    "informacion": "Hawái está formado por 137 islas e islotes, aunque solo unas pocas están habitadas.",
+    "fuente": "Servicio de Parques Nacionales de EE. UU.",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos países comparten frontera con Rusia?",
+    "respuesta": 14,
+    "rango_min": 12,
+    "rango_max": 16,
+    "informacion": "Rusia comparte fronteras terrestres con 14 países, siendo el país con más fronteras en el mundo.",
+    "fuente": "CIA World Factbook",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Husos horarios que atraviesa el tren Transiberiano?",
+    "respuesta": 8,
+    "rango_min": 6,
+    "rango_max": 10,
+    "informacion": "El ferrocarril Transiberiano atraviesa 8 husos horarios debido a la extensión geográfica de Rusia.",
+    "fuente": "Ferrocarril Transiberiano",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Altitud promedio de La Paz, Bolivia (m.s.n.m)?",
+    "respuesta": 3640,
+    "rango_min": 3500,
+    "rango_max": 3700,
+    "informacion": "La Paz se encuentra a unos 3,640 metros sobre el nivel del mar, una de las ciudades más altas del mundo.",
+    "fuente": "Gobierno Municipal de La Paz, Bolivia",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Superficie casi-casi del océano Pacífico?",
+    "respuesta": 165000000,
+    "rango_min": 130000000,
+    "rango_max": 180000000,
+    "informacion": "El océano Pacífico es el más grande del mundo, cubriendo casi-casi 165.25 millones de km².",
+    "fuente": "National Oceanic and Atmospheric Administration",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la latitud del Círculo Polar Antártico?",
+    "respuesta": 66,
+    "rango_min": 60,
+    "rango_max": 70,
+    "informacion": "El Círculo Polar Antártico está ubicado a una latitud casi-casi de 66.5 grados al sur del ecuador.",
+    "fuente": "National Geographic Society",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la altitud del Monte Everest en metros?",
+    "respuesta": 8848,
+    "rango_min": 8800,
+    "rango_max": 8900,
+    "informacion": "El Monte Everest es la montaña más alta del mundo, con una altitud de casi-casi 8,848 metros.",
+    "fuente": "National Geographic",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cantidad de países en la Unión Europea (UE)?",
+    "respuesta": 27,
+    "rango_min": 25,
+    "rango_max": 30,
+    "informacion": "En el momento de corte en septiembre de 2021, la Unión Europea estaba compuesta por 27 países miembros.",
+    "fuente": "Unión Europea",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Extensión del desierto del Sahara en km²?",
+    "respuesta": 9200000,
+    "rango_min": 8000000,
+    "rango_max": 10000000,
+    "informacion": "El desierto del Sahara es el desierto cálido más grande del mundo, con una extensión de casi-casi 9.2 millones de km².",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos volcanes tiene Indonesia?",
+    "respuesta": 130,
+    "rango_min": 100,
+    "rango_max": 150,
+    "informacion": "Indonesia es parte del Anillo de Fuego del Pacífico y alberga casi-casi 130 volcanes, muchos de ellos activos.",
+    "fuente": "Centro de Investigación de Vulcanología y Mitigación de Riesgos de Indonesia (PVMBG)",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Longitud casi-casi del río Amazonas en km?",
+    "respuesta": 6400,
+    "rango_min": 6000,
+    "rango_max": 7000,
+    "informacion": "El río Amazonas es uno de los ríos más largos del mundo, con una longitud de casi-casi 6,400 km.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos países conforman América del Sur?",
+    "respuesta": 12,
+    "rango_min": 10,
+    "rango_max": 14,
+    "informacion": "América del Sur está compuesta por 12 países diferentes, cada uno con su propia cultura y geografía.",
+    "fuente": "CIA World Factbook",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la longitud casi-casi de la Ruta 40, una de las carreteras más largas de Argentina, en kilómetros?",
+    "respuesta": 5000,
+    "rango_min": 4500,
+    "rango_max": 5500,
+    "informacion": "La Ruta Nacional 40 se extiende por casi-casi 5,000 kilómetros a lo largo de Argentina, desde la Patagonia hasta el norte del país.",
+    "fuente": "Ministerio de Transporte de Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos parques nacionales tiene Argentina?",
+    "respuesta": 30,
+    "rango_min": 28,
+    "rango_max": 35,
+    "informacion": "Argentina cuenta con casi-casi 30 parques nacionales que protegen la diversa belleza natural y la vida silvestre del país.",
+    "fuente": "Administración de Parques Nacionales de Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Altitud promedio de la ciudad de Salta en metros sobre el nivel del mar?",
+    "respuesta": 1187,
+    "rango_min": 1000,
+    "rango_max": 1200,
+    "informacion": "La ciudad de Salta se encuentra a una altitud promedio de casi-casi 1,187 metros sobre el nivel del mar.",
+    "fuente": "Municipalidad de Salta",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la longitud del Río Paraná, uno de los ríos más importantes de Argentina, en kilómetros?",
+    "respuesta": 4880,
+    "rango_min": 4500,
+    "rango_max": 5000,
+    "informacion": "El Río Paraná tiene una longitud de casi-casi 4,880 kilómetros y es vital para la navegación y la agricultura en Argentina.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos glaciares se encuentran en el Parque Nacional Los Glaciares en la Patagonia argentina?",
+    "respuesta": 45,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "El Parque Nacional Los Glaciares alberga casi-casi 45 glaciares, incluyendo el famoso Glaciar Perito Moreno.",
+    "fuente": "Administración de Parques Nacionales de Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Extensión casi-casi del Lago Argentino en kilómetros cuadrados?",
+    "respuesta": 1467,
+    "rango_min": 1400,
+    "rango_max": 1500,
+    "informacion": "El Lago Argentino, ubicado en la provincia de Santa Cruz, tiene una superficie de casi-casi 1,467 kilómetros cuadrados.",
+    "fuente": "Secretaría de Turismo de Santa Cruz",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántas provincias conforman Argentina?",
+    "respuesta": 23,
+    "rango_min": 20,
+    "rango_max": 24,
+    "informacion": "Argentina está dividida en 23 provincias y la Ciudad Autónoma de Buenos Aires, que es la capital del país.",
+    "fuente": "Gobierno de Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la altitud del Aconcagua, la montaña más alta de Argentina, en metros sobre el nivel del mar?",
+    "respuesta": 6960,
+    "rango_min": 6900,
+    "rango_max": 7000,
+    "informacion": "El Monte Aconcagua, en la provincia de Mendoza, es la montaña más alta de Argentina, con una altitud de 6,960 metros.",
+    "fuente": "Parque Provincial Aconcagua",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos kilómetros de costa tiene Argentina a lo largo del océano Atlántico?",
+    "respuesta": 4900,
+    "rango_min": 4600,
+    "rango_max": 5100,
+    "informacion": "Argentina cuenta con casi-casi 4,900 kilómetros de costa a lo largo del océano Atlántico, incluyendo playas y acantilados.",
+    "fuente": "Ministerio de Turismo y Deportes de Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la población casi-casi de la Ciudad Autónoma de Buenos Aires?",
+    "respuesta": 3000000,
+    "rango_min": 2800000,
+    "rango_max": 3200000,
+    "informacion": "La Ciudad Autónoma de Buenos Aires tiene una población de casi-casi 3 millones de habitantes, lo que la convierte en la ciudad más poblada de Argentina.",
+    "fuente": "Instituto Nacional de Estadística y Censos de Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la longitud casi-casi del río Amazonas en kilómetros, el río más largo de América del Sur?",
+    "respuesta": 6400,
+    "rango_min": 5000,
+    "rango_max": 7000,
+    "informacion": "El río Amazonas es uno de los ríos más largos del mundo y tiene una longitud de casi-casi 6,400 kilómetros.",
+    "fuente": "Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Altitud promedio de la Ciudad de México en metros sobre el nivel del mar?",
+    "respuesta": 2240,
+    "rango_min": 2000,
+    "rango_max": 2500,
+    "informacion": "La Ciudad de México se encuentra a una altitud promedio de casi-casi 2,240 metros sobre el nivel del mar.",
+    "fuente": "Instituto Nacional de Estadística y Geografía de México",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos países forman parte de América del Norte?",
+    "respuesta": 23,
+    "rango_min": 15,
+    "rango_max": 30,
+    "informacion": "América del Norte está compuesta por 23 países, incluyendo Canadá, Estados Unidos y México, entre otros.",
+    "fuente": "Naciones Unidas",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Extensión casi-casi de la Gran Barrera de Coral en Australia, el mayor arrecife de coral del mundo?",
+    "respuesta": 2300,
+    "rango_min": 2000,
+    "rango_max": 3000,
+    "informacion": "La Gran Barrera de Coral en Australia es el arrecife de coral más grande del mundo y se extiende por unos 2,300 kilómetros.",
+    "fuente": "Great Barrier Reef Marine Park Authority",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la altitud promedio de la ciudad de Bogotá, la capital de Colombia, en metros sobre el nivel del mar?",
+    "respuesta": 2640,
+    "rango_min": 2000,
+    "rango_max": 3000,
+    "informacion": "Bogotá se encuentra a una altitud promedio de casi-casi 2,640 metros sobre el nivel del mar, en la región andina de Colombia.",
+    "fuente": "Alcaldía Mayor de Bogotá",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cantidad de estados en los Estados Unidos de América?",
+    "respuesta": 50,
+    "rango_min": 45,
+    "rango_max": 55,
+    "informacion": "Los Estados Unidos de América están compuestos por 50 estados, cada uno con su propio gobierno y leyes.",
+    "fuente": "Gobierno de los Estados Unidos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuántos océanos rodean América?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "América está rodeada por tres océanos: el océano Atlántico, el océano Pacífico y el océano Ártico.",
+    "fuente": "National Oceanic and Atmospheric Administration (NOAA)",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Longitud casi-casi del Canal de Panamá en kilómetros, una importante vía de navegación entre América del Norte y América del Sur?",
+    "respuesta": 77,
+    "rango_min": 70,
+    "rango_max": 85,
+    "informacion": "El Canal de Panamá conecta el océano Atlántico con el océano Pacífico y tiene una longitud de casi-casi 77 kilómetros.",
+    "fuente": "Autoridad del Canal de Panamá",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la población casi-casi de Brasil, el país más grande de América del Sur?",
+    "respuesta": 211000000,
+    "rango_min": 200000000,
+    "rango_max": 250000000,
+    "informacion": "Brasil es el país más grande de América del Sur y tiene una población de casi-casi 211 millones de habitantes.",
+    "fuente": "Instituto Brasileiro de Geografia e Estatística",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cantidad de países en América del Sur?",
+    "respuesta": 12,
+    "rango_min": 10,
+    "rango_max": 15,
+    "informacion": "América del Sur está compuesta por 12 países, cada uno con su propia cultura y geografía.",
+    "fuente": "CIA World Factbook",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Geografia",
+    "pregunta": "¿Cuál es la longitud casi-casi de la Gran Muralla China en kilómetros?",
+    "respuesta": 21000,
+    "rango_min": 15000,
+    "rango_max": 25000,
+    "informacion": "La Gran Muralla China es una impresionante estructura defensiva que se extiende por casi-casi 21,000 kilómetros.",
+    "fuente": "UNESCO",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Revolución Francesa?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "La Revolución Francesa comenzó en 1789 con la Convención Nacional y terminó en 1799 con el golpe de Estado de Napoleón Bonaparte.",
+    "fuente": "Enciclopedia Británica, Historia de Francia",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Segunda Guerra Mundial?",
+    "respuesta": 6,
+    "rango_min": 6,
+    "rango_max": 6,
+    "informacion": "La Segunda Guerra Mundial tuvo lugar desde 1939 hasta 1945.",
+    "fuente": "Museo Memorial del Holocausto, Segunda Guerra Mundial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años gobernó Cleopatra en Egipto?",
+    "respuesta": 21,
+    "rango_min": 20,
+    "rango_max": 25,
+    "informacion": "Cleopatra VII gobernó Egipto desde el año 51 a.C. hasta el año 30 a.C.",
+    "fuente": "Historia de Egipto, Universidad de Cambridge",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿En qué año se fundó la ciudad de Roma?",
+    "respuesta": -753,
+    "rango_min": -800,
+    "rango_max": -700,
+    "informacion": "Según la leyenda, Roma fue fundada en el año 753 a.C. por Rómulo y Remo.",
+    "fuente": "Historia de Roma, Universidad de Oxford",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el Imperio Romano?",
+    "respuesta": 503,
+    "rango_min": 500,
+    "rango_max": 600,
+    "informacion": "El Imperio Romano perduró desde el año 27 a.C. (el Principado de Augusto) hasta el año 476 d.C. (caída del Imperio Romano de Occidente).",
+    "fuente": "Historia del Imperio Romano, Universidad de Stanford",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Guerra de los Cien Años?",
+    "respuesta": 116,
+    "rango_min": 105,
+    "rango_max": 120,
+    "informacion": "La Guerra de los Cien Años se libró entre 1337 y 1453, en realidad duró 116 años.",
+    "fuente": "Enciclopedia Británica, Guerra de los Cien Años",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el Renacimiento italiano?",
+    "respuesta": 300,
+    "rango_min": 250,
+    "rango_max": 350,
+    "informacion": "El Renacimiento italiano se desarrolló casi-casi desde el siglo XIV hasta el siglo XVII.",
+    "fuente": "Historia del Renacimiento, Museo del Louvre",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+    "respuesta": 1776,
+    "rango_min": 1750,
+    "rango_max": 1780,
+    "informacion": "La Declaración de Independencia de los Estados Unidos se firmó el 4 de julio de 1776.",
+    "fuente": "Archivos Nacionales de los Estados Unidos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Revolución Rusa?",
+    "respuesta": 5,
+    "rango_min": 4,
+    "rango_max": 6,
+    "informacion": "La Revolución Rusa comenzó en 1917 y culminó en 1922 con la creación de la Unión Soviética.",
+    "fuente": "Enciclopedia Británica, Revolución Rusa",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el Imperio Mongol?",
+    "respuesta": 162,
+    "rango_min": 150,
+    "rango_max": 180,
+    "informacion": "El Imperio Mongol, fundado por Genghis Khan en 1206, duró hasta 1368 cuando la dinastía Yuan fue derrocada en China.",
+    "fuente": "Historia del Imperio Mongol, Museo Británico",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el Imperio Egipcio Antiguo?",
+    "respuesta": 920,
+    "rango_min": 900,
+    "rango_max": 950,
+    "informacion": "El Imperio Egipcio Antiguo se extendió desde el 3100 a.C. hasta el 2180 a.C. casi-casi.",
+    "fuente": "Historia del Antiguo Egipto, Museo del Louvre",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la construcción de la Gran Muralla China?",
+    "respuesta": 2000,
+    "rango_min": 1900,
+    "rango_max": 2300,
+    "informacion": "La construcción de la Gran Muralla China comenzó en el siglo VII a.C. y se extendió a lo largo de casi-casi dos milenios.",
+    "fuente": "UNESCO, Gran Muralla China",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿En qué año se fundó la Ciudad de México-Tenochtitlán?",
+    "respuesta": 1325,
+    "rango_min": 1200,
+    "rango_max": 1400,
+    "informacion": "La Ciudad de México-Tenochtitlán fue fundada en el año 1325 por los mexicas.",
+    "fuente": "Historia de México, Instituto Nacional de Antropología e Historia",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el Imperio Bizantino?",
+    "respuesta": 1123,
+    "rango_min": 1000,
+    "rango_max": 1200,
+    "informacion": "El Imperio Bizantino perduró desde el año 330 d.C., cuando Constantinopla se convirtió en la capital, hasta 1453, cuando cayó ante los otomanos.",
+    "fuente": "Historia del Imperio Bizantino, Universidad de Harvard",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el Imperio Persa Aqueménida?",
+    "respuesta": 220,
+    "rango_min": 150,
+    "rango_max": 250,
+    "informacion": "El Imperio Persa Aqueménida existió desde el año 550 a.C. hasta el 330 a.C., cuando fue conquistado por Alejandro Magno.",
+    "fuente": "Enciclopedia Británica, Imperio Persa Aqueménida",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el período Tokugawa en Japón?",
+    "respuesta": 265,
+    "rango_min": 200,
+    "rango_max": 300,
+    "informacion": "El período Tokugawa en Japón, también conocido como el período Edo, abarcó desde 1603 hasta 1868.",
+    "fuente": "Historia de Japón, Biblioteca del Congreso de EE. UU.",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Dinastía Tang en China?",
+    "respuesta": 289,
+    "rango_min": 200,
+    "rango_max": 300,
+    "informacion": "La Dinastía Tang gobernó China desde el año 618 hasta el año 907.",
+    "fuente": "Historia de China, Universidad de Columbia",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿En qué año comenzó la Revolución Industrial?",
+    "respuesta": 1760,
+    "rango_min": 1750,
+    "rango_max": 1790,
+    "informacion": "La Revolución Industrial comenzó casi-casi l año 1760 en Inglaterra.",
+    "fuente": "Historia de la Revolución Industrial, Universidad de Stanford",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Guerra de Secesión de Estados Unidos?",
+    "respuesta": 4,
+    "rango_min": 3,
+    "rango_max": 5,
+    "informacion": "La Guerra de Secesión de Estados Unidos tuvo lugar de 1861 a 1865.",
+    "fuente": "Biblioteca del Congreso de EE. UU., Guerra Civil Americana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el gobierno de Fidel Castro en Cuba?",
+    "respuesta": 49,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "Fidel Castro gobernó Cuba desde 1959 hasta 2008, cuando cedió el poder a su hermano Raúl Castro.",
+    "fuente": "Historia de Cuba, BBC News",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el apartheid en Sudáfrica?",
+    "respuesta": 46,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "El apartheid en Sudáfrica se implementó en 1948 y se mantuvo hasta 1994, cuando se celebraron las primeras elecciones multirraciales.",
+    "fuente": "Historia del apartheid, Nelson Mandela Foundation",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Guerra Fría?",
+    "respuesta": 46,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "La Guerra Fría se libró desde el final de la Segunda Guerra Mundial en 1945 hasta la disolución de la Unión Soviética en 1991.",
+    "fuente": "Historia de la Guerra Fría, BBC News",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿En qué año se fundó la Liga de Naciones?",
+    "respuesta": 1920,
+    "rango_min": 1915,
+    "rango_max": 1930,
+    "informacion": "La Liga de Naciones se fundó en el año 1920 con el objetivo de promover la cooperación internacional y prevenir conflictos.",
+    "fuente": "Historia de la Liga de Naciones, Naciones Unidas",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró la Guerra de los Treinta Años en Europa?",
+    "respuesta": 30,
+    "rango_min": 29,
+    "rango_max": 31,
+    "informacion": "La Guerra de los Treinta Años tuvo lugar de 1618 a 1648 en Europa.",
+    "fuente": "Historia de la Guerra de los Treinta Años, Enciclopedia Británica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿En qué año se proclamó la independencia de Haití?",
+    "respuesta": 1804,
+    "rango_min": 1800,
+    "rango_max": 1810,
+    "informacion": "Haití proclamó su independencia de Francia el 1 de enero de 1804.",
+    "fuente": "Historia de Haití, UNESCO",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años duró el gobierno de Nelson Mandela en Sudáfrica?",
+    "respuesta": 5,
+    "rango_min": 5,
+    "rango_max": 5,
+    "informacion": "Nelson Mandela fue presidente de Sudáfrica desde 1994 hasta 1999.",
+    "fuente": "Biografía de Nelson Mandela, Fundación Nelson Mandela",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Historia",
+    "pregunta": "¿Cuántos años estuvo preso Nelson Mandela en Sudáfrica?",
+    "respuesta": 27,
+    "rango_min": 25,
+    "rango_max": 30,
+    "informacion": "Fue encarcelado en 1962 y liberado el 11 de febrero de 1990. Su encarcelamiento fue un período crucial en la lucha contra el apartheid en Sudáfrica.",
+    "fuente": "ChatGPT",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántas sinfonías compuso Ludwig van Beethoven?",
+    "respuesta": 9,
+    "rango_min": 8,
+    "rango_max": 10,
+    "informacion": "Beethoven compuso 9 sinfonías, siendo la Novena Sinfonía una de las más famosas.",
+    "fuente": "Historia de la Música Clásica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos libros tiene la serie Harry Potter?",
+    "respuesta": 7,
+    "rango_min": 6,
+    "rango_max": 8,
+    "informacion": "La serie Harry Potter consta de 7 libros, publicados entre 1997 y 2007.",
+    "fuente": "Literatura Contemporánea",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos Óscares ganó la película Titanic?",
+    "respuesta": 11,
+    "rango_min": 10,
+    "rango_max": 12,
+    "informacion": "Titanic ganó 11 premios Óscar en 1998, incluyendo Mejor Película y Mejor Director.",
+    "fuente": "Historia del Cine",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera musical de The Beatles?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "The Beatles estuvieron activos desde 1960 hasta 1970, durando 10 años como banda.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos cuadros pintó Vincent van Gogh en su vida?",
+    "respuesta": 900,
+    "rango_min": 800,
+    "rango_max": 1000,
+    "informacion": "Van Gogh pintó alrededor de 900 cuadros durante su vida, aunque solo vendió uno en vida.",
+    "fuente": "Historia del Arte",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántas novelas escribió Gabriel García Márquez?",
+    "respuesta": 18,
+    "rango_min": 15,
+    "rango_max": 20,
+    "informacion": "Gabriel García Márquez escribió 18 novelas, incluyendo Cien años de soledad y El amor en los tiempos del cólera.",
+    "fuente": "Literatura Latinoamericana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tenía Mozart cuando compuso su primera sinfonía?",
+    "respuesta": 8,
+    "rango_min": 7,
+    "rango_max": 9,
+    "informacion": "Mozart compuso su primera sinfonía a los 8 años, demostrando su genio desde temprana edad.",
+    "fuente": "Historia de la Música Clásica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos discos ha vendido Michael Jackson en todo el mundo?",
+    "respuesta": 400000000,
+    "rango_min": 350000000,
+    "rango_max": 450000000,
+    "informacion": "Michael Jackson ha vendido aproximadamente 400 millones de discos, siendo uno de los artistas más vendidos de la historia.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la construcción de la Sagrada Familia en Barcelona?",
+    "respuesta": 141,
+    "rango_min": 140,
+    "rango_max": 150,
+    "informacion": "La construcción de la Sagrada Familia comenzó en 1882 y aún no ha finalizado (hasta 2023).",
+    "fuente": "Historia del Arte y Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos premios Grammy ha ganado Beyoncé?",
+    "respuesta": 32,
+    "rango_min": 30,
+    "rango_max": 35,
+    "informacion": "Beyoncé ha ganado 32 premios Grammy a lo largo de su carrera, siendo una de las artistas más premiadas.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos libros escribió Jane Austen?",
+    "respuesta": 6,
+    "rango_min": 5,
+    "rango_max": 7,
+    "informacion": "Jane Austen escribió 6 novelas completas, incluyendo Orgullo y prejuicio y Sentido y sensibilidad.",
+    "fuente": "Literatura Inglesa",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántas películas tiene la saga Star Wars?",
+    "respuesta": 11,
+    "rango_min": 10,
+    "rango_max": 12,
+    "informacion": "Hasta 2023, la saga Star Wars cuenta con 11 películas principales.",
+    "fuente": "Historia del Cine",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera de Freddie Mercury?",
+    "respuesta": 21,
+    "rango_min": 18,
+    "rango_max": 22,
+    "informacion": "Freddie Mercury fue el vocalista de Queen desde 1970 hasta su muerte en 1991, durando 20 años.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos volúmenes tiene En busca del tiempo perdido de Marcel Proust?",
+    "respuesta": 7,
+    "rango_min": 6,
+    "rango_max": 8,
+    "informacion": "La obra de Proust consta de 7 volúmenes, publicados entre 1913 y 1927.",
+    "fuente": "Literatura Francesa",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tardó en construirse el Coliseo Romano?",
+    "respuesta": 10,
+    "rango_min": 7,
+    "rango_max": 9,
+    "informacion": "El Coliseo Romano se construyó entre el 70 d.C. y el 80 d.C., tardando aproximadamente 8 años.",
+    "fuente": "Historia del Arte y Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos premios Óscar ha ganado Walt Disney?",
+    "respuesta": 22,
+    "rango_min": 20,
+    "rango_max": 25,
+    "informacion": "Walt Disney ganó 22 premios Óscar a lo largo de su carrera, un récord histórico.",
+    "fuente": "Historia del Cine",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tenía Frida Kahlo cuando murió?",
+    "respuesta": 47,
+    "rango_min": 45,
+    "rango_max": 50,
+    "informacion": "Frida Kahlo murió en 1954 a los 47 años de edad.",
+    "fuente": "Historia del Arte",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos discos ha lanzado Madonna?",
+    "respuesta": 14,
+    "rango_min": 13,
+    "rango_max": 15,
+    "informacion": "Madonna ha lanzado 14 álbumes de estudio hasta 2023.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la construcción de la Torre Eiffel?",
+    "respuesta": 2,
+    "rango_min": 1,
+    "rango_max": 3,
+    "informacion": "La Torre Eiffel se construyó en 2 años, de 1887 a 1889.",
+    "fuente": "Historia del Arte y Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos premios Nobel de Literatura ha ganado América Latina?",
+    "respuesta": 6,
+    "rango_min": 5,
+    "rango_max": 7,
+    "informacion": "América Latina ha ganado 6 premios Nobel de Literatura, incluyendo a Gabriel García Márquez y Pablo Neruda.",
+    "fuente": "Literatura Universal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera de Elvis Presley?",
+    "respuesta": 23,
+    "rango_min": 20,
+    "rango_max": 25,
+    "informacion": "Elvis Presley tuvo una carrera activa desde 1954 hasta su muerte en 1977, durando 23 años.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos libros escribió Julio Verne?",
+    "respuesta": 54,
+    "rango_min": 50,
+    "rango_max": 60,
+    "informacion": "Julio Verne escribió 54 novelas, muchas de ellas de ciencia ficción.",
+    "fuente": "Literatura Universal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tardó en escribirse El Señor de los Anillos?",
+    "respuesta": 12,
+    "rango_min": 10,
+    "rango_max": 15,
+    "informacion": "J.R.R. Tolkien tardó 12 años en escribir El Señor de los Anillos, de 1937 a 1949.",
+    "fuente": "Literatura Universal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera de Michael Jackson?",
+    "respuesta": 45,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "Michael Jackson comenzó su carrera en 1964 con los Jackson 5 y continuó hasta su muerte en 2009.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tiene el Museo del Louvre?",
+    "respuesta": 230,
+    "rango_min": 220,
+    "rango_max": 240,
+    "informacion": "El Museo del Louvre abrió sus puertas en 1793, por lo que en 2023 cumple 230 años.",
+    "fuente": "Historia del Arte",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tardó en construirse la Catedral de Notre Dame?",
+    "respuesta": 182,
+    "rango_min": 170,
+    "rango_max": 190,
+    "informacion": "La construcción de Notre Dame comenzó en 1163 y finalizó en 1345, tardando 182 años.",
+    "fuente": "Historia del Arte y Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años vivió William Shakespeare?",
+    "respuesta": 52,
+    "rango_min": 50,
+    "rango_max": 55,
+    "informacion": "Shakespeare nació en 1564 y murió en 1616, viviendo 52 años.",
+    "fuente": "Literatura Inglesa",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera de The Rolling Stones?",
+    "respuesta": 61,
+    "rango_min": 55,
+    "rango_max": 65,
+    "informacion": "The Rolling Stones comenzaron en 1962 y siguen activos en 2023, con más de 60 años de carrera.",
+    "fuente": "Historia de la Música Popular",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tiene la Ópera de Sídney?",
+    "respuesta": 50,
+    "rango_min": 45,
+    "rango_max": 55,
+    "informacion": "La Ópera de Sídney se inauguró en 1973, por lo que en 2023 cumple 50 años.",
+    "fuente": "Historia del Arte y Arquitectura",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos meses tardó en escribirse Cien años de soledad?",
+    "respuesta": 18,
+    "rango_min": 12,
+    "rango_max": 24,
+    "informacion": "Gabriel García Márquez escribió Cien años de soledad en 18 meses, entre 1965 y 1966.",
+    "fuente": "Literatura Latinoamericana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró el Boom Latinoamericano?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "El Boom Latinoamericano se desarrolló entre 1960 y 1980, durando aproximadamente 20 años.",
+    "fuente": "Literatura Latinoamericana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos premios Nobel de Literatura ha ganado América Latina?",
+    "respuesta": 6,
+    "rango_min": 5,
+    "rango_max": 7,
+    "informacion": "América Latina ha ganado 6 premios Nobel de Literatura, incluyendo a Gabriela Mistral y Pablo Neruda.",
+    "fuente": "Literatura Universal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tiene el mural La epopeya del pueblo mexicano de Diego Rivera?",
+    "respuesta": 94,
+    "rango_min": 85,
+    "rango_max": 95,
+    "informacion": "Diego Rivera pintó este mural entre 1929 y 1935, por lo que en 2023 tiene alrededor de 90 años.",
+    "fuente": "Historia del Arte Latinoamericano",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera de Celia Cruz?",
+    "respuesta": 55,
+    "rango_min": 45,
+    "rango_max": 55,
+    "informacion": "Celia Cruz, la Reina de la Salsa, tuvo una carrera activa desde 1948 hasta su muerte en 2003.",
+    "fuente": "Historia de la Música Latina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tiene el Carnaval de Río de Janeiro?",
+    "respuesta": 200,
+    "rango_min": 190,
+    "rango_max": 210,
+    "informacion": "El Carnaval de Río tiene sus raíces en el siglo XIX, celebrando más de 200 años de tradición.",
+    "fuente": "Cultura Popular Brasileña",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la dictadura de Augusto Pinochet en Chile?",
+    "respuesta": 17,
+    "rango_min": 15,
+    "rango_max": 20,
+    "informacion": "Pinochet gobernó Chile desde 1973 hasta 1990, durando 17 años.",
+    "fuente": "Historia Latinoamericana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tiene el Teatro Colón de Buenos Aires?",
+    "respuesta": 115,
+    "rango_min": 110,
+    "rango_max": 120,
+    "informacion": "El Teatro Colón fue inaugurado en 1908, por lo que en 2023 cumple 115 años.",
+    "fuente": "Historia del Arte Latinoamericano",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la Revolución Mexicana?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "La Revolución Mexicana comenzó en 1910 y terminó en 1920, durando 10 años.",
+    "fuente": "Historia de México",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años tiene la Catedral de México?",
+    "respuesta": 240,
+    "rango_min": 240,
+    "rango_max": 260,
+    "informacion": "La construcción de la Catedral de México comenzó en 1573 y finalizó en 1813, por lo que tiene más de 250 años.",
+    "fuente": "Historia del Arte Latinoamericano",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿Cuántos años duró la carrera de Carlos Gardel?",
+    "respuesta": 18,
+    "rango_min": 20,
+    "rango_max": 30,
+    "informacion": "Carlos Gardel, ícono del tango, tuvo una carrera activa desde 1917 hasta su muerte en 1935.",
+    "fuente": "Historia de la Música Latina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año se inauguró el Obelisco de Buenos Aires?",
+    "respuesta": 1936,
+    "rango_min": 1930,
+    "rango_max": 1940,
+    "informacion": "El Obelisco fue inaugurado el 23 de mayo de 1936.",
+    "fuente": "Historia de la Arquitectura Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año publicó Jorge Luis Borges su primer libro?",
+    "respuesta": 1923,
+    "rango_min": 1920,
+    "rango_max": 1925,
+    "informacion": "Borges publicó Fervor de Buenos Aires, su primer libro, en 1923.",
+    "fuente": "Literatura Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año se inauguró el Teatro Colón de Buenos Aires?",
+    "respuesta": 1908,
+    "rango_min": 1905,
+    "rango_max": 1910,
+    "informacion": "El Teatro Colón fue inaugurado el 25 de mayo de 1908.",
+    "fuente": "Historia del Arte Argentino",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año comenzó la dictadura militar en Argentina?",
+    "respuesta": 1976,
+    "rango_min": 1975,
+    "rango_max": 1977,
+    "informacion": "La dictadura militar en Argentina comenzó el 24 de marzo de 1976.",
+    "fuente": "Historia Argentina Contemporánea",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año se ensanchó la Avenida Corrientes?",
+    "respuesta": 1936,
+    "rango_min": 1930,
+    "rango_max": 1945,
+    "informacion": "La Avenida Corrientes fue ensanchada y transformada en 1936.",
+    "fuente": "Historia Urbana de Buenos Aires",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año murió Carlos Gardel?",
+    "respuesta": 1935,
+    "rango_min": 1930,
+    "rango_max": 1940,
+    "informacion": "Carlos Gardel, ícono del tango, murió el 24 de junio de 1935.",
+    "fuente": "Historia de la Música Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año se realizó el primer Festival de Cosquín?",
+    "respuesta": 1961,
+    "rango_min": 1960,
+    "rango_max": 1965,
+    "informacion": "El primer Festival Nacional de Folclore de Cosquín se realizó en 1961.",
+    "fuente": "Cultura Popular Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año se inauguró la Feria del Libro de Buenos Aires?",
+    "respuesta": 1975,
+    "rango_min": 1970,
+    "rango_max": 1980,
+    "informacion": "La Feria del Libro de Buenos Aires se inauguró en 1975.",
+    "fuente": "Literatura Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año asumió Juan Domingo Perón su primera presidencia?",
+    "respuesta": 1946,
+    "rango_min": 1945,
+    "rango_max": 1947,
+    "informacion": "Perón asumió su primera presidencia el 4 de junio de 1946.",
+    "fuente": "Historia Argentina Contemporánea",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Cultura",
+    "pregunta": "¿En qué año se inauguró el Caminito en La Boca?",
+    "respuesta": 1959,
+    "rango_min": 1955,
+    "rango_max": 1965,
+    "informacion": "El Caminito fue inaugurado como paseo turístico en 1959.",
+    "fuente": "Historia del Arte y Cultura Argentina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuánto mide en promedio el intestino delgado en un humano adulto?",
+    "respuesta": 7,
+    "rango_min": 6,
+    "rango_max": 8,
+    "informacion": "El intestino delgado mide entre 6 y 7 metros de longitud en un adulto.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuánto vive en promedio una tortuga de Galápagos?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Las tortugas de Galápagos pueden vivir más de 100 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántas especies de arañas hay en el mundo?",
+    "respuesta": 48000,
+    "rango_min": 45000,
+    "rango_max": 50000,
+    "informacion": "Se han identificado alrededor de 48,000 especies de arañas en el mundo.",
+    "fuente": "Biología de los Artrópodos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la velocidad máxima alcanzada por un ser humano corriendo?",
+    "respuesta": 44,
+    "rango_min": 40,
+    "rango_max": 45,
+    "informacion": "Usain Bolt alcanzó una velocidad máxima de 44 km/h durante sus récords mundiales.",
+    "fuente": "Fisiología Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos huesos hay en el cuerpo humano?",
+    "respuesta": 206,
+    "rango_min": 200,
+    "rango_max": 210,
+    "informacion": "El cuerpo humano adulto tiene 206 huesos.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de sangre tiene un humano adulto?",
+    "respuesta": 5,
+    "rango_min": 4,
+    "rango_max": 6,
+    "informacion": "Un humano adulto tiene aproximadamente 5 litros de sangre.",
+    "fuente": "Fisiología Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un elefante africano?",
+    "respuesta": 70,
+    "rango_min": 60,
+    "rango_max": 80,
+    "informacion": "Los elefantes africanos pueden vivir entre 60 y 70 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos músculos tiene el cuerpo humano?",
+    "respuesta": 600,
+    "rango_min": 500,
+    "rango_max": 700,
+    "informacion": "El cuerpo humano tiene alrededor de 600 músculos.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un tiburón blanco?",
+    "respuesta": 70,
+    "rango_min": 60,
+    "rango_max": 80,
+    "informacion": "El tiburón blanco puede vivir hasta 70 años en estado salvaje.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos dientes tiene un humano adulto?",
+    "respuesta": 32,
+    "rango_min": 30,
+    "rango_max": 35,
+    "informacion": "Un humano adulto tiene 32 dientes, incluyendo las muelas del juicio.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un gorila?",
+    "respuesta": 35,
+    "rango_min": 30,
+    "rango_max": 40,
+    "informacion": "Los gorilas viven entre 30 y 35 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de agua puede beber un camello en 10 minutos?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Un camello puede beber hasta 100 litros de agua en 10 minutos.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un pingüino emperador?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los pingüinos emperadores viven entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos corazones tiene un pulpo?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "Los pulpos tienen 3 corazones: dos bombean sangre a las branquias y uno al cuerpo.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un lobo gris?",
+    "respuesta": 8,
+    "rango_min": 6,
+    "rango_max": 10,
+    "informacion": "Los lobos grises viven entre 6 y 8 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos huesos tiene un recién nacido?",
+    "respuesta": 270,
+    "rango_min": 260,
+    "rango_max": 280,
+    "informacion": "Un recién nacido tiene alrededor de 270 huesos, que se fusionan para formar los 206 del adulto.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un colibrí?",
+    "respuesta": 5,
+    "rango_min": 3,
+    "rango_max": 6,
+    "informacion": "Los colibríes viven entre 3 y 5 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de aire puede contener un pulmón humano adulto?",
+    "respuesta": 6,
+    "rango_min": 5,
+    "rango_max": 7,
+    "informacion": "Un pulmón humano adulto puede contener hasta 6 litros de aire.",
+    "fuente": "Fisiología Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio una ballena azul?",
+    "respuesta": 90,
+    "rango_min": 80,
+    "rango_max": 100,
+    "informacion": "Las ballenas azules pueden vivir entre 80 y 90 años en estado salvaje.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos cromosomas tiene un ser humano?",
+    "respuesta": 46,
+    "rango_min": 46,
+    "rango_max": 46,
+    "informacion": "Los seres humanos tienen 46 cromosomas (23 pares).",
+    "fuente": "Genética Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la velocidad máxima de un guepardo?",
+    "respuesta": 110,
+    "rango_min": 100,
+    "rango_max": 120,
+    "informacion": "El guepardo es el animal terrestre más rápido, alcanzando hasta 110 km/h en carreras cortas.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la velocidad máxima de un halcón peregrino en picada?",
+    "respuesta": 389,
+    "rango_min": 350,
+    "rango_max": 400,
+    "informacion": "El halcón peregrino alcanza hasta 389 km/h al cazar en picada.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la velocidad máxima de un pez vela?",
+    "respuesta": 110,
+    "rango_min": 100,
+    "rango_max": 120,
+    "informacion": "El pez vela es uno de los peces más rápidos, alcanzando hasta 110 km/h.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer iPhone?",
+    "respuesta": 2007,
+    "rango_min": 2006,
+    "rango_max": 2008,
+    "informacion": "El primer iPhone fue lanzado por Apple en 2007.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año superó WhatsApp los 2,000 millones de usuarios?",
+    "respuesta": 2020,
+    "rango_min": 2019,
+    "rango_max": 2021,
+    "informacion": "WhatsApp alcanzó los 2,000 millones de usuarios activos en 2020.",
+    "fuente": "Estadísticas de Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó Windows 10?",
+    "respuesta": 2015,
+    "rango_min": 2014,
+    "rango_max": 2016,
+    "informacion": "Windows 10 fue lanzado por Microsoft en 2015.",
+    "fuente": "Historia del Software",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se creó el primer videojuego (Tennis for Two)?",
+    "respuesta": 1958,
+    "rango_min": 1957,
+    "rango_max": 1959,
+    "informacion": "Tennis for Two, el primer videojuego, fue creado en 1958.",
+    "fuente": "Historia de los Videojuegos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se completó la construcción del ENIAC?",
+    "respuesta": 1946,
+    "rango_min": 1945,
+    "rango_max": 1947,
+    "informacion": "El ENIAC, el primer ordenador electrónico, fue completado en 1946.",
+    "fuente": "Historia de la Computación",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se envió el primer correo electrónico?",
+    "respuesta": 1971,
+    "rango_min": 1970,
+    "rango_max": 1972,
+    "informacion": "El primer correo electrónico fue enviado por Ray Tomlinson en 1971.",
+    "fuente": "Historia de Internet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer navegador web (WorldWideWeb)?",
+    "respuesta": 1991,
+    "rango_min": 1990,
+    "rango_max": 1992,
+    "informacion": "Tim Berners-Lee lanzó el primer navegador web en 1991.",
+    "fuente": "Historia de Internet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se registró el primer dominio .com?",
+    "respuesta": 1985,
+    "rango_min": 1984,
+    "rango_max": 1986,
+    "informacion": "El primer dominio .com, symbolics.com, fue registrado en 1985.",
+    "fuente": "Historia de Internet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer teléfono móvil (Motorola DynaTAC 8000X)?",
+    "respuesta": 1983,
+    "rango_min": 1982,
+    "rango_max": 1984,
+    "informacion": "El primer teléfono móvil fue lanzado por Motorola en 1983.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer satélite artificial (Sputnik 1)?",
+    "respuesta": 1957,
+    "rango_min": 1956,
+    "rango_max": 1958,
+    "informacion": "El Sputnik 1 fue lanzado por la Unión Soviética en 1957.",
+    "fuente": "Historia de la Ciencia Espacial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer cohete reutilizable (Falcon 9)?",
+    "respuesta": 2015,
+    "rango_min": 2014,
+    "rango_max": 2016,
+    "informacion": "SpaceX lanzó el primer Falcon 9 reutilizable en 2015.",
+    "fuente": "Historia de la Ciencia Espacial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó la primera computadora portátil (Osborne 1)?",
+    "respuesta": 1981,
+    "rango_min": 1980,
+    "rango_max": 1982,
+    "informacion": "La Osborne 1, la primera computadora portátil, fue lanzada en 1981.",
+    "fuente": "Historia de la Computación",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se desarrolló el primer sistema de reconocimiento facial?",
+    "respuesta": 1960,
+    "rango_min": 1955,
+    "rango_max": 1965,
+    "informacion": "Los primeros sistemas de reconocimiento facial se desarrollaron en la década de 1960.",
+    "fuente": "Historia de la Inteligencia Artificial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se instaló el primer robot industrial (Unimate)?",
+    "respuesta": 1961,
+    "rango_min": 1960,
+    "rango_max": 1962,
+    "informacion": "El Unimate, el primer robot industrial, fue instalado en 1961.",
+    "fuente": "Historia de la Robótica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se completó el desarrollo del primer sistema de GPS operativo?",
+    "respuesta": 1993,
+    "rango_min": 1992,
+    "rango_max": 1994,
+    "informacion": "El sistema GPS fue declarado operativo en 1993 por el Departamento de Defensa de EE.UU.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se fundó SpaceX?",
+    "respuesta": 2002,
+    "rango_min": 2001,
+    "rango_max": 2003,
+    "informacion": "SpaceX fue fundada por Elon Musk en 2002.",
+    "fuente": "Historia de la Ciencia Espacial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer ordenador personal (Altair 8800)?",
+    "respuesta": 1975,
+    "rango_min": 1974,
+    "rango_max": 1976,
+    "informacion": "El Altair 8800, considerado el primer ordenador personal, fue lanzado en 1975.",
+    "fuente": "Historia de la Computación",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se descubrió la penicilina?",
+    "respuesta": 1928,
+    "rango_min": 1927,
+    "rango_max": 1929,
+    "informacion": "Alexander Fleming descubrió la penicilina en 1928.",
+    "fuente": "Historia de la Medicina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer satélite de comunicaciones (Telstar 1)?",
+    "respuesta": 1962,
+    "rango_min": 1961,
+    "rango_max": 1963,
+    "informacion": "El Telstar 1 fue lanzado en 1962, siendo el primer satélite de comunicaciones activo.",
+    "fuente": "Historia de las Comunicaciones",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se fundó Google?",
+    "respuesta": 1998,
+    "rango_min": 1997,
+    "rango_max": 1999,
+    "informacion": "Google fue fundada por Larry Page y Sergey Brin en 1998.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer telescopio espacial Hubble?",
+    "respuesta": 1990,
+    "rango_min": 1989,
+    "rango_max": 1991,
+    "informacion": "El telescopio espacial Hubble fue lanzado en 1990.",
+    "fuente": "Historia de la Astronomía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se descubrió la estructura del ADN?",
+    "respuesta": 1953,
+    "rango_min": 1952,
+    "rango_max": 1954,
+    "informacion": "James Watson y Francis Crick descubrieron la estructura del ADN en 1953.",
+    "fuente": "Historia de la Biología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer cohete Saturno V?",
+    "respuesta": 1967,
+    "rango_min": 1966,
+    "rango_max": 1968,
+    "informacion": "El cohete Saturno V, usado en las misiones Apolo, fue lanzado por primera vez en 1967.",
+    "fuente": "Historia de la Ciencia Espacial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se fundó Microsoft?",
+    "respuesta": 1975,
+    "rango_min": 1974,
+    "rango_max": 1976,
+    "informacion": "Microsoft fue fundada por Bill Gates y Paul Allen en 1975.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer ordenador Apple (Apple I)?",
+    "respuesta": 1976,
+    "rango_min": 1975,
+    "rango_max": 1977,
+    "informacion": "El Apple I, el primer ordenador de Apple, fue lanzado en 1976.",
+    "fuente": "Historia de la Computación",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se descubrió el primer exoplaneta?",
+    "respuesta": 1992,
+    "rango_min": 1991,
+    "rango_max": 1993,
+    "informacion": "El primer exoplaneta fue descubierto en 1992 orbitando un púlsar.",
+    "fuente": "Historia de la Astronomía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer sistema operativo Linux?",
+    "respuesta": 1991,
+    "rango_min": 1990,
+    "rango_max": 1992,
+    "informacion": "Linux fue lanzado por Linus Torvalds en 1991.",
+    "fuente": "Historia del Software",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se fundó Amazon?",
+    "respuesta": 1994,
+    "rango_min": 1993,
+    "rango_max": 1995,
+    "informacion": "Amazon fue fundada por Jeff Bezos en 1994.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer smartphone con pantalla táctil (IBM Simon)?",
+    "respuesta": 1994,
+    "rango_min": 1993,
+    "rango_max": 1995,
+    "informacion": "El IBM Simon, considerado el primer smartphone, fue lanzado en 1994.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se descubrió el bosón de Higgs?",
+    "respuesta": 2012,
+    "rango_min": 2011,
+    "rango_max": 2013,
+    "informacion": "El bosón de Higgs fue descubierto en el CERN en 2012.",
+    "fuente": "Historia de la Física",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer videojuego comercial (Pong)?",
+    "respuesta": 1972,
+    "rango_min": 1971,
+    "rango_max": 1973,
+    "informacion": "Pong, el primer videojuego comercial, fue lanzado en 1972.",
+    "fuente": "Historia de los Videojuegos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se fundó Tesla Motors?",
+    "respuesta": 2003,
+    "rango_min": 2002,
+    "rango_max": 2004,
+    "informacion": "Tesla Motors fue fundada por Martin Eberhard y Marc Tarpenning en 2003.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer reproductor de MP3 (MPMan)?",
+    "respuesta": 1998,
+    "rango_min": 1997,
+    "rango_max": 1999,
+    "informacion": "El MPMan, el primer reproductor de MP3, fue lanzado en 1998.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer iPad?",
+    "respuesta": 2010,
+    "rango_min": 2009,
+    "rango_max": 2011,
+    "informacion": "El primer iPad fue lanzado por Apple en 2010.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer vuelo tripulado de SpaceX (Crew Dragon)?",
+    "respuesta": 2020,
+    "rango_min": 2019,
+    "rango_max": 2021,
+    "informacion": "El primer vuelo tripulado de SpaceX, Crew Dragon, fue lanzado en 2020.",
+    "fuente": "Historia de la Ciencia Espacial",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se fundó Wikipedia?",
+    "respuesta": 2001,
+    "rango_min": 2000,
+    "rango_max": 2002,
+    "informacion": "Wikipedia fue fundada por Jimmy Wales y Larry Sanger en 2001.",
+    "fuente": "Historia de Internet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿En qué año se lanzó el primer sistema de realidad virtual comercial (VFX1)?",
+    "respuesta": 1995,
+    "rango_min": 1994,
+    "rango_max": 1996,
+    "informacion": "El VFX1, el primer sistema de realidad virtual comercial, fue lanzado en 1995.",
+    "fuente": "Historia de la Tecnología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio una ballena azul?",
+    "respuesta": 90,
+    "rango_min": 80,
+    "rango_max": 100,
+    "informacion": "Las ballenas azules pueden vivir entre 80 y 90 años en estado salvaje.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de altura tiene el árbol más alto del mundo?",
+    "respuesta": 116,
+    "rango_min": 110,
+    "rango_max": 120,
+    "informacion": "El árbol más alto del mundo es una secuoya roja llamada Hyperion, que mide 115.7 metros.",
+    "fuente": "Botánica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un elefante africano?",
+    "respuesta": 70,
+    "rango_min": 60,
+    "rango_max": 80,
+    "informacion": "Los elefantes africanos pueden vivir entre 60 y 70 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de agua puede beber un camello en 10 minutos?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Un camello puede beber hasta 100 litros de agua en 10 minutos.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un pingüino emperador?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los pingüinos emperadores viven entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos corazones tiene un pulpo?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "Los pulpos tienen 3 corazones: dos bombean sangre a las branquias y uno al cuerpo.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un lobo gris?",
+    "respuesta": 8,
+    "rango_min": 6,
+    "rango_max": 10,
+    "informacion": "Los lobos grises viven entre 6 y 8 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un colibrí?",
+    "respuesta": 5,
+    "rango_min": 3,
+    "rango_max": 6,
+    "informacion": "Los colibríes viven entre 3 y 5 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio una tortuga de Galápagos?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Las tortugas de Galápagos pueden vivir más de 100 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de profundidad tiene la Fosa de las Marianas?",
+    "respuesta": 11034,
+    "rango_min": 10000,
+    "rango_max": 12000,
+    "informacion": "La Fosa de las Marianas es el punto más profundo del océano, con 11,034 metros.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un gorila?",
+    "respuesta": 35,
+    "rango_min": 30,
+    "rango_max": 40,
+    "informacion": "Los gorilas viven entre 30 y 35 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un tiburón blanco?",
+    "respuesta": 70,
+    "rango_min": 60,
+    "rango_max": 80,
+    "informacion": "El tiburón blanco puede vivir hasta 70 años en estado salvaje.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un oso polar?",
+    "respuesta": 25,
+    "rango_min": 20,
+    "rango_max": 30,
+    "informacion": "Los osos polares viven entre 20 y 25 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un águila calva?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Las águilas calvas viven entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un león?",
+    "respuesta": 15,
+    "rango_min": 10,
+    "rango_max": 20,
+    "informacion": "Los leones viven entre 10 y 15 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un tigre?",
+    "respuesta": 15,
+    "rango_min": 10,
+    "rango_max": 20,
+    "informacion": "Los tigres viven entre 10 y 15 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un canguro?",
+    "respuesta": 8,
+    "rango_min": 6,
+    "rango_max": 10,
+    "informacion": "Los canguros viven entre 6 y 8 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un delfín?",
+    "respuesta": 40,
+    "rango_min": 30,
+    "rango_max": 50,
+    "informacion": "Los delfines pueden vivir entre 30 y 40 años en estado salvaje.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un koala?",
+    "respuesta": 15,
+    "rango_min": 10,
+    "rango_max": 20,
+    "informacion": "Los koalas viven entre 10 y 15 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un rinoceronte?",
+    "respuesta": 40,
+    "rango_min": 35,
+    "rango_max": 45,
+    "informacion": "Los rinocerontes viven entre 35 y 40 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un hipopótamo?",
+    "respuesta": 45,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "Los hipopótamos viven entre 40 y 45 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un cocodrilo?",
+    "respuesta": 70,
+    "rango_min": 60,
+    "rango_max": 80,
+    "informacion": "Los cocodrilos pueden vivir entre 60 y 70 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un panda gigante?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los pandas gigantes viven entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un flamenco?",
+    "respuesta": 40,
+    "rango_min": 30,
+    "rango_max": 50,
+    "informacion": "Los flamencos pueden vivir entre 30 y 40 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un búho?",
+    "respuesta": 25,
+    "rango_min": 20,
+    "rango_max": 30,
+    "informacion": "Los búhos pueden vivir entre 20 y 25 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un lobo marino?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los lobos marinos viven entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un murciélago?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los murciélagos pueden vivir entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un cisne?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los cisnes pueden vivir entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un zorro?",
+    "respuesta": 5,
+    "rango_min": 3,
+    "rango_max": 6,
+    "informacion": "Los zorros viven entre 3 y 5 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un mapache?",
+    "respuesta": 5,
+    "rango_min": 3,
+    "rango_max": 6,
+    "informacion": "Los mapaches viven entre 3 y 5 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un erizo?",
+    "respuesta": 5,
+    "rango_min": 3,
+    "rango_max": 6,
+    "informacion": "Los erizos viven entre 3 y 5 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un castor?",
+    "respuesta": 20,
+    "rango_min": 15,
+    "rango_max": 25,
+    "informacion": "Los castores pueden vivir entre 15 y 20 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un armadillo?",
+    "respuesta": 15,
+    "rango_min": 10,
+    "rango_max": 20,
+    "informacion": "Los armadillos viven entre 10 y 15 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un tejón?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "Los tejones viven entre 8 y 10 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un puercoespín?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "Los puercoespines viven entre 8 y 10 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un topo?",
+    "respuesta": 5,
+    "rango_min": 3,
+    "rango_max": 6,
+    "informacion": "Los topos viven entre 3 y 5 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un conejo?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "Los conejos viven entre 8 y 10 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años vive en promedio un hurón?",
+    "respuesta": 8,
+    "rango_min": 6,
+    "rango_max": 10,
+    "informacion": "Los hurones viven entre 6 y 8 años en estado salvaje.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos huesos tiene el cuerpo humano?",
+    "respuesta": 206,
+    "rango_min": 200,
+    "rango_max": 210,
+    "informacion": "El cuerpo humano adulto tiene 206 huesos.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de sangre tiene un humano adulto?",
+    "respuesta": 5,
+    "rango_min": 4,
+    "rango_max": 6,
+    "informacion": "Un humano adulto tiene aproximadamente 5 litros de sangre.",
+    "fuente": "Fisiología Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos músculos tiene el cuerpo humano?",
+    "respuesta": 600,
+    "rango_min": 500,
+    "rango_max": 700,
+    "informacion": "El cuerpo humano tiene alrededor de 600 músculos.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos dientes tiene un humano adulto?",
+    "respuesta": 32,
+    "rango_min": 30,
+    "rango_max": 35,
+    "informacion": "Un humano adulto tiene 32 dientes, incluyendo las muelas del juicio.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros mide el intestino delgado en un humano adulto?",
+    "respuesta": 7,
+    "rango_min": 6,
+    "rango_max": 8,
+    "informacion": "El intestino delgado mide entre 6 y 7 metros de longitud en un adulto.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos huesos tiene un recién nacido?",
+    "respuesta": 270,
+    "rango_min": 260,
+    "rango_max": 280,
+    "informacion": "Un recién nacido tiene alrededor de 270 huesos, que se fusionan para formar los 206 del adulto.",
+    "fuente": "Anatomía Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de aire puede contener un pulmón humano adulto?",
+    "respuesta": 6,
+    "rango_min": 5,
+    "rango_max": 7,
+    "informacion": "Un pulmón humano adulto puede contener hasta 6 litros de aire.",
+    "fuente": "Fisiología Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos cromosomas tiene un ser humano?",
+    "respuesta": 46,
+    "rango_min": 40,
+    "rango_max": 50,
+    "informacion": "Los seres humanos tienen 46 cromosomas (23 pares).",
+    "fuente": "Genética Humana",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años tiene el huracán más longevo registrado?",
+    "respuesta": 31,
+    "rango_min": 30,
+    "rango_max": 32,
+    "informacion": "El huracán John duró 31 días en 1994, siendo el más longevo registrado.",
+    "fuente": "Meteorología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos kilómetros por hora alcanzó el viento más rápido en un huracán?",
+    "respuesta": 345,
+    "rango_min": 340,
+    "rango_max": 350,
+    "informacion": "El huracán Patricia alcanzó vientos de 345 km/h en 2015, el más rápido registrado.",
+    "fuente": "Meteorología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de altura alcanzó el tsunami más alto registrado?",
+    "respuesta": 524,
+    "rango_min": 500,
+    "rango_max": 550,
+    "informacion": "El tsunami de la bahía de Lituya en 1958 alcanzó 524 metros de altura.",
+    "fuente": "Geología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos grados Richter tuvo el terremoto más fuerte registrado?",
+    "respuesta": 9.5,
+    "rango_min": 9,
+    "rango_max": 10,
+    "informacion": "El terremoto de Valdivia en 1960 tuvo una magnitud de 9.5 grados Richter.",
+    "fuente": "Sismología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años tiene el volcán más antiguo activo?",
+    "respuesta": 2000000,
+    "rango_min": 1500000,
+    "rango_max": 2500000,
+    "informacion": "El Monte Etna en Italia tiene aproximadamente 2 millones de años y sigue activo.",
+    "fuente": "Vulcanología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de altura tiene el volcán más alto del mundo?",
+    "respuesta": 6893,
+    "rango_min": 6800,
+    "rango_max": 7000,
+    "informacion": "El volcán Ojos del Salado en Chile y Argentina mide 6,893 metros de altura.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años tiene el Gran Cañón del Colorado?",
+    "respuesta": 6000000,
+    "rango_min": 5000000,
+    "rango_max": 7000000,
+    "informacion": "El Gran Cañón del Colorado se formó hace aproximadamente 6 millones de años.",
+    "fuente": "Geología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de profundidad tiene el lago más profundo del mundo?",
+    "respuesta": 1642,
+    "rango_min": 1600,
+    "rango_max": 1700,
+    "informacion": "El lago Baikal en Rusia tiene una profundidad de 1,642 metros.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años tiene el árbol más antiguo del mundo?",
+    "respuesta": 5000,
+    "rango_min": 4800,
+    "rango_max": 5200,
+    "informacion": "El pino bristlecone llamado Matusalén tiene aproximadamente 5,000 años.",
+    "fuente": "Botánica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de altura tiene la cascada más alta del mundo?",
+    "respuesta": 979,
+    "rango_min": 970,
+    "rango_max": 990,
+    "informacion": "El Salto Ángel en Venezuela mide 979 metros de altura.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años tiene el glaciar más antiguo del mundo?",
+    "respuesta": 2000000,
+    "rango_min": 1500000,
+    "rango_max": 2500000,
+    "informacion": "El glaciar más antiguo conocido tiene aproximadamente 2 millones de años.",
+    "fuente": "Glaciología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de altura tiene la montaña más alta del mundo?",
+    "respuesta": 8848,
+    "rango_min": 8800,
+    "rango_max": 8900,
+    "informacion": "El Monte Everest mide 8,848 metros de altura.",
+    "fuente": "Geografía",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos ojos tiene una libélula?",
+    "respuesta": 30000,
+    "rango_min": 28000,
+    "rango_max": 32000,
+    "informacion": "Una libélula tiene alrededor de 30,000 ojos en sus ojos compuestos.",
+    "fuente": "Entomología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años puede vivir un árbol de secuoya?",
+    "respuesta": 3000,
+    "rango_min": 2500,
+    "rango_max": 3500,
+    "informacion": "Las secuoyas pueden vivir más de 3,000 años.",
+    "fuente": "Botánica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos litros de agua puede almacenar un baobab?",
+    "respuesta": 120000,
+    "rango_min": 100000,
+    "rango_max": 140000,
+    "informacion": "Un baobab puede almacenar hasta 120,000 litros de agua en su tronco.",
+    "fuente": "Botánica",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos kilómetros puede migrar una ballena gris?",
+    "respuesta": 20000,
+    "rango_min": 18000,
+    "rango_max": 22000,
+    "informacion": "Las ballenas grises migran hasta 20,000 km al año, desde México hasta el Ártico.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años puede vivir un tiburón ballena?",
+    "respuesta": 100,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Los tiburones ballena pueden vivir hasta 100 años.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros puede saltar un canguro?",
+    "respuesta": 9,
+    "rango_min": 8,
+    "rango_max": 10,
+    "informacion": "Un canguro puede saltar hasta 9 metros de distancia en un solo salto.",
+    "fuente": "Biología Animal",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años puede vivir un molusco de la especie Arctica islandica?",
+    "respuesta": 500,
+    "rango_min": 400,
+    "rango_max": 600,
+    "informacion": "El molusco Arctica islandica puede vivir más de 500 años, siendo uno de los animales más longevos.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos kilómetros puede recorrer un albatros en un solo vuelo?",
+    "respuesta": 16000,
+    "rango_min": 15000,
+    "rango_max": 17000,
+    "informacion": "Un albatros puede recorrer hasta 16,000 km en un solo vuelo sin aterrizar.",
+    "fuente": "Ornitología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos años puede vivir un erizo de mar rojo?",
+    "respuesta": 200,
+    "rango_min": 180,
+    "rango_max": 220,
+    "informacion": "El erizo de mar rojo puede vivir más de 200 años.",
+    "fuente": "Biología Marina",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos metros de altura puede alcanzar un hongo?",
+    "respuesta": 1,
+    "rango_min": 1,
+    "rango_max": 1,
+    "informacion": "El hongo Phallus indusiatus puede crecer hasta 1 metro de altura.",
+    "fuente": "Micología",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos jugadores hay en un equipo de rugby?",
+    "respuesta": 15,
+    "rango_min": 15,
+    "rango_max": 15,
+    "informacion": "Un equipo de rugby tiene 15 jugadores en el campo.",
+    "fuente": "Reglamentos de Rugby",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide una pista de atletismo estándar?",
+    "respuesta": 400,
+    "rango_min": 380,
+    "rango_max": 420,
+    "informacion": "Una pista de atletismo oficial mide 400 metros de longitud.",
+    "fuente": "Reglamentos de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Pelé en su carrera?",
+    "respuesta": 1283,
+    "rango_min": 1200,
+    "rango_max": 1300,
+    "informacion": "Pelé anotó 1,283 goles en partidos oficiales y amistosos.",
+    "fuente": "Historia del Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos jueces de línea hay en un partido de tenis?",
+    "respuesta": 9,
+    "rango_min": 7,
+    "rango_max": 10,
+    "informacion": "En partidos profesionales de tenis, hay 9 jueces de línea (incluyendo el juez de silla).",
+    "fuente": "Reglamentos de Tenis",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide un campo de fútbol reglamentario?",
+    "respuesta": 105,
+    "rango_min": 90,
+    "rango_max": 110,
+    "informacion": "Un campo de fútbol mide entre 100 y 110 metros de longitud.",
+    "fuente": "Reglamentos de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos puntos vale un touchdown en fútbol americano?",
+    "respuesta": 6,
+    "rango_min": 5,
+    "rango_max": 8,
+    "informacion": "Un touchdown en fútbol americano vale 6 puntos.",
+    "fuente": "Reglamentos de Fútbol Americano",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos jugadores hay en un equipo de básquet?",
+    "respuesta": 5,
+    "rango_min": 5,
+    "rango_max": 5,
+    "informacion": "Un equipo de básquet tiene 5 jugadores en la cancha.",
+    "fuente": "Reglamentos de Básquet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide una maratón oficial?",
+    "respuesta": 42195,
+    "rango_min": 39000,
+    "rango_max": 43000,
+    "informacion": "Una maratón oficial mide 42,195 kilómetros (42.195 metros).",
+    "fuente": "Reglamentos de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos sets se necesitan para ganar un partido de tenis masculino en Grand Slam?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "En torneos de Grand Slam, los hombres juegan al mejor de 5 sets, pero necesitan ganar 3 para ganar el partido.",
+    "fuente": "Reglamentos de Tenis",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos jugadores hay en un equipo de vóley?",
+    "respuesta": 6,
+    "rango_min": 6,
+    "rango_max": 6,
+    "informacion": "Un equipo de vóley tiene 6 jugadores en la cancha.",
+    "fuente": "Reglamentos de Vóley",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos hoyos tiene un campo de golf estándar?",
+    "respuesta": 18,
+    "rango_min": 16,
+    "rango_max": 20,
+    "informacion": "Un campo de golf estándar tiene 18 hoyos.",
+    "fuente": "Reglamentos de Golf",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos jugadores hay en un equipo de polo?",
+    "respuesta": 4,
+    "rango_min": 4,
+    "rango_max": 4,
+    "informacion": "Un equipo de polo tiene 4 jugadores en el campo.",
+    "fuente": "Reglamentos de Polo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide una cancha de pádel?",
+    "respuesta": 20,
+    "rango_min": 18,
+    "rango_max": 22,
+    "informacion": "Una cancha de pádel mide 20 metros de longitud.",
+    "fuente": "Reglamentos de Pádel",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos kilómetros recorre un ciclista en el Tour de Francia?",
+    "respuesta": 3500,
+    "rango_min": 3000,
+    "rango_max": 4000,
+    "informacion": "El Tour de Francia tiene una distancia aproximada de 3,500 kilómetros.",
+    "fuente": "Historia del Ciclismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos puntos vale un triple en básquet?",
+    "respuesta": 3,
+    "rango_min": 3,
+    "rango_max": 3,
+    "informacion": "Un lanzamiento desde la línea de tres puntos en básquet vale 3 puntos.",
+    "fuente": "Reglamentos de Básquet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide un salto de longitud récord masculino?",
+    "respuesta": 8.95,
+    "rango_min": 8,
+    "rango_max": 9,
+    "informacion": "El récord mundial de salto de longitud masculino es de 8.95 metros, logrado por Mike Powell en 1991.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos jugadores hay en un equipo de waterpolo?",
+    "respuesta": 7,
+    "rango_min": 7,
+    "rango_max": 7,
+    "informacion": "Un equipo de waterpolo tiene 7 jugadores en el agua.",
+    "fuente": "Reglamentos de Waterpolo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide una cancha de balonmano?",
+    "respuesta": 40,
+    "rango_min": 36,
+    "rango_max": 44,
+    "informacion": "Una cancha de balonmano mide 40 metros de longitud.",
+    "fuente": "Reglamentos de Balonmano",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Lionel Messi en un año natural (2012)?",
+    "respuesta": 91,
+    "rango_min": 85,
+    "rango_max": 95,
+    "informacion": "Lionel Messi anotó 91 goles en 2012, un récord mundial.",
+    "fuente": "Historia del Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide un salto con pértiga récord femenino?",
+    "respuesta": 5.06,
+    "rango_min": 4,
+    "rango_max": 6,
+    "informacion": "El récord mundial femenino de salto con pértiga es de 5.06 metros, logrado por Yelena Isinbayeva en 2009.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Cristiano Ronaldo en la UEFA Champions League hasta 2023?",
+    "respuesta": 140,
+    "rango_min": 135,
+    "rango_max": 145,
+    "informacion": "Cristiano Ronaldo anotó 140 goles en la UEFA Champions League, siendo el máximo goleador histórico.",
+    "fuente": "Récords de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos Grand Slam ha ganado Serena Williams?",
+    "respuesta": 23,
+    "rango_min": 22,
+    "rango_max": 24,
+    "informacion": "Serena Williams ha ganado 23 títulos de Grand Slam en individuales femeninos.",
+    "fuente": "Récords de Tenis",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos puntos anotó Wilt Chamberlain en un solo partido de la NBA?",
+    "respuesta": 100,
+    "rango_min": 95,
+    "rango_max": 105,
+    "informacion": "Wilt Chamberlain anotó 100 puntos en un partido de la NBA en 1962.",
+    "fuente": "Récords de la NBA",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el salto más largo en esquí?",
+    "respuesta": 253.5,
+    "rango_min": 250,
+    "rango_max": 260,
+    "informacion": "El récord mundial de salto en esquí es de 253.5 metros, logrado por Stefan Kraft en 2017.",
+    "fuente": "Récords de Deportes de Invierno",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía el ganador más joven de un Grand Slam de tenis?",
+    "respuesta": 17,
+    "rango_min": 16,
+    "rango_max": 18,
+    "informacion": "Michael Chang ganó el Abierto de Francia en 1989 a los 17 años.",
+    "fuente": "Récords de Tenis",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de lanzamiento de jabalina masculino?",
+    "respuesta": 98.48,
+    "rango_min": 95,
+    "rango_max": 100,
+    "informacion": "El récord mundial de lanzamiento de jabalina es de 98.48 metros, logrado por Jan Železný en 1996.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Diego Maradona en la Copa del Mundo?",
+    "respuesta": 8,
+    "rango_min": 7,
+    "rango_max": 9,
+    "informacion": "Diego Maradona anotó 8 goles en total en las Copas del Mundo.",
+    "fuente": "Récords de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos segundos duró el gol más rápido en la historia de la Copa del Mundo?",
+    "respuesta": 11,
+    "rango_min": 10,
+    "rango_max": 12,
+    "informacion": "Hakan ?ükür anotó el gol más rápido en la historia de la Copa del Mundo en 11 segundos (2002).",
+    "fuente": "Récords de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de salto de altura femenino?",
+    "respuesta": 2.09,
+    "rango_min": 2,
+    "rango_max": 2.1,
+    "informacion": "El récord mundial de salto de altura femenino es de 2.09 metros, logrado por Stefka Kostadinova en 1987.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía el ganador más joven del Tour de Francia?",
+    "respuesta": 19,
+    "rango_min": 17,
+    "rango_max": 22,
+    "informacion": "Henri Cornet ganó el Tour de Francia en 1904 a los 19 años.",
+    "fuente": "Récords de Ciclismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de salto triple masculino?",
+    "respuesta": 18.29,
+    "rango_min": 16,
+    "rango_max": 20,
+    "informacion": "El récord mundial de salto triple es de 18.29 metros, logrado por Jonathan Edwards en 1995.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Pelé en la Copa del Mundo?",
+    "respuesta": 12,
+    "rango_min": 10,
+    "rango_max": 14,
+    "informacion": "Pelé anotó 12 goles en total en las Copas del Mundo.",
+    "fuente": "Récords de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de natación en 100 metros libres masculino?",
+    "respuesta": 46.91,
+    "rango_min": 45,
+    "rango_max": 49,
+    "informacion": "El récord mundial de 100 metros libres es de 46.91 segundos, logrado por César Cielo en 2009.",
+    "fuente": "Récords de Natación",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía el ganador más joven de un título de Grand Slam de tenis femenino?",
+    "respuesta": 16,
+    "rango_min": 15,
+    "rango_max": 17,
+    "informacion": "Martina Hingis ganó el Abierto de Australia en 1997 a los 16 años.",
+    "fuente": "Récords de Tenis",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de lanzamiento de peso femenino?",
+    "respuesta": 22.63,
+    "rango_min": 20,
+    "rango_max": 24,
+    "informacion": "El récord mundial de lanzamiento de peso femenino es de 22.63 metros, logrado por Natalya Lisovskaya en 1987.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Gerd Müller en la Bundesliga?",
+    "respuesta": 365,
+    "rango_min": 360,
+    "rango_max": 370,
+    "informacion": "Gerd Müller anotó 365 goles en la Bundesliga, siendo el máximo goleador histórico.",
+    "fuente": "Récords de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de salto con pértiga masculino?",
+    "respuesta": 6.23,
+    "rango_min": 6,
+    "rango_max": 6.5,
+    "informacion": "El récord mundial de salto con pértiga masculino es de 6.23 metros, logrado por Armand Duplantis en 2023.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía el ganador más joven de un título de Grand Slam de tenis masculino?",
+    "respuesta": 17,
+    "rango_min": 15,
+    "rango_max": 19,
+    "informacion": "Boris Becker ganó Wimbledon en 1985 a los 17 años.",
+    "fuente": "Récords de Tenis",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el récord mundial de salto de longitud femenino?",
+    "respuesta": 7.52,
+    "rango_min": 6,
+    "rango_max": 9,
+    "informacion": "El récord mundial de salto de longitud femenino es de 7.52 metros, logrado por Galina Chistyakova en 1988.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Romário en su carrera?",
+    "respuesta": 1000,
+    "rango_min": 950,
+    "rango_max": 1100,
+    "informacion": "Romário anotó más de 1,000 goles en partidos oficiales y amistosos.",
+    "fuente": "Récords de Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos títulos de Fórmula 1 tiene Lewis Hamilton?",
+    "respuesta": 7,
+    "rango_min": 7,
+    "rango_max": 7,
+    "informacion": "Lewis Hamilton ha ganado 7 títulos mundiales de Fórmula 1 (hasta 2023).",
+    "fuente": "Historia de la Fórmula 1",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía Juan Manuel Fangio cuando ganó su último título de Fórmula 1?",
+    "respuesta": 46,
+    "rango_min": 44,
+    "rango_max": 48,
+    "informacion": "Fangio ganó su último título en 1957 a los 46 años.",
+    "fuente": "Historia del Automovilismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Gabriel Batistuta en la Copa del Mundo?",
+    "respuesta": 10,
+    "rango_min": 8,
+    "rango_max": 12,
+    "informacion": "Batistuta anotó 10 goles en total en las Copas del Mundo.",
+    "fuente": "Historia del Fútbol Argentino",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el salto más largo en motocross?",
+    "respuesta": 132,
+    "rango_min": 130,
+    "rango_max": 135,
+    "informacion": "El récord mundial de salto en motocross es de 132 metros, logrado por Robbie Maddison en 2011.",
+    "fuente": "Récords de Deportes Extremos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos títulos de la Copa Libertadores tiene River Plate? (hasta 2024)",
+    "respuesta": 4,
+    "rango_min": 4,
+    "rango_max": 4,
+    "informacion": "River Plate ha ganado 4 Copas Libertadores (1986, 1996, 2015, 2018).",
+    "fuente": "Historia del Fútbol Argentino",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía Michael Schumacher cuando ganó su primer título de Fórmula 1?",
+    "respuesta": 25,
+    "rango_min": 24,
+    "rango_max": 26,
+    "informacion": "Schumacher ganó su primer título en 1994 a los 25 años.",
+    "fuente": "Historia de la Fórmula 1",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Lionel Messi en su etapa en el Barcelona?",
+    "respuesta": 672,
+    "rango_min": 670,
+    "rango_max": 690,
+    "informacion": "Messi anotó 672 goles en total durante su etapa en el Barcelona.",
+    "fuente": "Historia del Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el salto más alto en BMX?",
+    "respuesta": 9.07,
+    "rango_min": 8,
+    "rango_max": 10,
+    "informacion": "El récord mundial de salto en BMX es de 9.07 metros, logrado por Jed Mildon en 2011.",
+    "fuente": "Récords de Deportes Extremos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos títulos de la NBA tiene Michael Jordan?",
+    "respuesta": 6,
+    "rango_min": 6,
+    "rango_max": 6,
+    "informacion": "Michael Jordan ganó 6 títulos de la NBA con los Chicago Bulls en los años 90.",
+    "fuente": "Historia del Básquet",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Diego Maradona en la selección argentina?",
+    "respuesta": 34,
+    "rango_min": 32,
+    "rango_max": 38,
+    "informacion": "Maradona anotó 34 goles en 91 partidos con la selección argentina.",
+    "fuente": "Historia del Fútbol Argentino",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía Usain Bolt cuando batió el récord mundial de 100 metros?",
+    "respuesta": 22,
+    "rango_min": 21,
+    "rango_max": 24,
+    "informacion": "Bolt batió el récord mundial de 100 metros (9.58 segundos) en 2009 a los 22 años.",
+    "fuente": "Récords de Atletismo",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el salto más largo en snowboard?",
+    "respuesta": 49,
+    "rango_min": 45,
+    "rango_max": 50,
+    "informacion": "El récord mundial de salto en snowboard es de 49 metros, logrado por Max Parrot en 2019.",
+    "fuente": "Récords de Deportes Extremos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Sergio Agüero en la Premier League?",
+    "respuesta": 184,
+    "rango_min": 160,
+    "rango_max": 190,
+    "informacion": "Agüero anotó 184 goles en la Premier League, siendo el máximo goleador extranjero.",
+    "fuente": "Historia del Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía Ayrton Senna cuando ganó su primer título de Fórmula 1?",
+    "respuesta": 28,
+    "rango_min": 27,
+    "rango_max": 29,
+    "informacion": "Senna ganó su primer título en 1988 a los 28 años.",
+    "fuente": "Historia de la Fórmula 1",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Alfredo Di Stéfano en su carrera?",
+    "respuesta": 514,
+    "rango_min": 501,
+    "rango_max": 520,
+    "informacion": "Di Stéfano anotó 514 goles en partidos oficiales durante su carrera.",
+    "fuente": "Historia del Fútbol",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos metros mide el salto más alto en paracaidismo?",
+    "respuesta": 39068,
+    "rango_min": 35000,
+    "rango_max": 45000,
+    "informacion": "El récord mundial de salto en paracaidismo es de 39,068 metros, logrado por Alan Eustace en 2014.",
+    "fuente": "Récords de Deportes Extremos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Lionel Messi en la Copa América 2021?",
+    "respuesta": 4,
+    "rango_min": 3,
+    "rango_max": 5,
+    "informacion": "Messi anotó 4 goles en la Copa América 2021, ayudando a Argentina a ganar el título.",
+    "fuente": "Historia del Fútbol Argentino",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía Simone Biles cuando ganó su primer oro olímpico?",
+    "respuesta": 19,
+    "rango_min": 18,
+    "rango_max": 20,
+    "informacion": "Biles ganó su primer oro olímpico en 2016 a los 19 años.",
+    "fuente": "Historia de los Juegos Olímpicos",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos goles anotó Juan Román Riquelme en Boca Juniors?",
+    "respuesta": 92,
+    "rango_min": 90,
+    "rango_max": 105,
+    "informacion": "Riquelme anotó 92 goles en total durante su etapa en Boca Juniors.",
+    "fuente": "Historia del Fútbol Argentino",
+    "activa": "SI"
+  },
+  {
+    "categoria": "Deporte",
+    "pregunta": "¿Cuántos años tenía Nadia Comaneci cuando logró el primer 10 perfecto en gimnasia olímpica?",
+    "respuesta": 14,
+    "rango_min": 13,
+    "rango_max": 15,
+    "informacion": "Nadia Comaneci logró el primer 10 perfecto en los Juegos Olímpicos de 1976 a los 14 años.",
+    "fuente": "Historia de los Juegos Olímpicos",
+    "activa": "SI"
+  }
+]
